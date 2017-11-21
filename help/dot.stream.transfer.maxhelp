@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 62.0, 113.0, 534.0, 453.0 ],
+		"rect" : [ 414.0, 118.0, 534.0, 453.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -171,9 +171,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 255.0, 210.0, 131.0, 22.0 ],
+					"patching_rect" : [ 255.0, 210.0, 205.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.stream.transfer foo"
+					"text" : "dot.stream.transfer exponential.table"
 				}
 
 			}

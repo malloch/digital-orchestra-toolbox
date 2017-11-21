@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -233,7 +233,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.360784, 0.682353, 1.0 ],
+					"color" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
@@ -246,7 +246,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -524,7 +524,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.360784, 0.682353, 1.0 ],
+					"color" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-21",
@@ -534,7 +534,7 @@
 					"outlettype" : [ "", "", "bang" ],
 					"patching_rect" : [ 45.0, 210.0, 199.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.log.play slider_demo2.txt"
+					"text" : "dot.log.play slider_demo.txt"
 				}
 
 			}

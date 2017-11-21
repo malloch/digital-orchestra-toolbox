@@ -491,7 +491,7 @@
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 32.0, 192.0, 399.5, 22.0 ],
 					"style" : "",
-					"text" : "dot.route.type"
+					"text" : "dot.routeType"
 				}
 
 			}
@@ -524,7 +524,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 45.0, 491.0, 22.0 ],
 					"style" : "",
-					"text" : "The dot.typecheck object routes input according to data type"
+					"text" : "Route input according to data type."
 				}
 
 			}
@@ -539,7 +539,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 15.0, 485.0, 30.0 ],
 					"style" : "",
-					"text" : "dot.route.type",
+					"text" : "dot.routeType",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -632,7 +632,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"midpoints" : [ 313.285706, 220.0, 333.5, 220.0 ],
+					"midpoints" : [ 313.285706, 226.0, 333.5, 226.0 ],
 					"source" : [ "obj-11", 5 ]
 				}
 
@@ -640,7 +640,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
-					"midpoints" : [ 367.642853, 214.0, 393.0, 214.0 ],
+					"midpoints" : [ 367.642853, 226.0, 393.0, 226.0 ],
 					"source" : [ "obj-11", 6 ]
 				}
 
@@ -747,7 +747,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.route.type.maxpat",
+				"name" : "dot.routeType.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

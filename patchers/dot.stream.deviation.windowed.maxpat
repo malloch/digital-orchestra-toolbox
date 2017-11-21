@@ -45,8 +45,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 435.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 150.0, 431.0, 0.0, 0.0 ],
+					"patching_rect" : [ 117.0, 435.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -423,6 +422,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"midpoints" : [ 129.5, 282.5, 239.5, 282.5 ],
+					"order" : 0,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -430,7 +430,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-23", 1 ]
+					"order" : 1,
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}

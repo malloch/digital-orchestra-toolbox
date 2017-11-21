@@ -40,21 +40,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-18",
-					"linecount" : 6,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 420.0, 290.0, 87.0 ],
-					"style" : "",
-					"text" : "Unlike the dot.timedsmooth object, which weights input samples based on timing between samples, this object weights all samples equally if they arrive within the window length. This makes the object appropraiate for mixing signals from diffent sources, regardless of their sampling rates."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
