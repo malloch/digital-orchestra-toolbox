@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -97,7 +97,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -527,7 +527,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -718,9 +718,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 510.0, 105.0, 47.0 ],
+					"patching_rect" : [ 615.0, 510.0, 175.0, 47.0 ],
 					"style" : "",
-					"text" : "Joseph Malloch\nIDMIL 2011\nwww.idmil.org"
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2011\nwww.idmil.org/software/dot"
 				}
 
 			}
@@ -875,7 +875,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,

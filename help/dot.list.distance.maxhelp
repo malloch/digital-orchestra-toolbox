@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 172.0, 215.0, 536.0, 336.0 ],
+		"rect" : [ 654.0, 431.0, 510.0, 336.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,37 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
+					"style" : "",
+					"text" : "Finds maximum or minimum distance between a scalar and a list.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontsize" : 24.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
+					"style" : "",
+					"text" : "dot.list.distance",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "autohelp_top_title[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -97,54 +128,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 315.0, 180.0, 211.0, 145.0 ],
+					"patching_rect" : [ 299.0, 180.0, 211.0, 145.0 ],
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 45.0, 484.0, 22.0 ],
-					"style" : "",
-					"text" : "Finds maximum or minimum distance between a scalar and a list"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 485.0, 30.0 ],
-					"style" : "",
-					"text" : "dot.list.distance",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-60",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 501.0, 15.0, 4.0, 221.0 ],
-					"proportion" : 0.39,
-					"style" : ""
 				}
 
 			}
@@ -253,19 +238,19 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 180.0,
+					"angle" : 270.0,
 					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-18",
+					"bgcolor" : [ 0.745098, 0.0, 0.0, 1.0 ],
+					"id" : "obj-4",
 					"maxclass" : "panel",
-					"mode" : 1,
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 490.0, 31.0 ],
+					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
 					"proportion" : 0.39,
+					"rounded" : 0,
 					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
+					"varname" : "autohelp_top_panel[2]"
 				}
 
 			}
@@ -315,8 +300,8 @@
 			}
 , 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

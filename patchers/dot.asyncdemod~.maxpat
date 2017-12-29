@@ -227,9 +227,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 72.0, 76.0, 19.0 ],
+					"patching_rect" : [ 14.0, 72.0, 77.0, 19.0 ],
 					"style" : "",
-					"text" : "dot.routeSignal~"
+					"text" : "dot.route.signal~"
 				}
 
 			}
@@ -1620,7 +1620,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1628,7 +1628,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1854,7 +1854,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.routeSignal~.maxpat",
+				"name" : "dot.route.signal~.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

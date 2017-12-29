@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 531.0, 359.0 ],
+		"rect" : [ 755.0, 250.0, 510.0, 359.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,43 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 32.0, 510.0, 22.0 ],
+					"style" : "",
+					"text" : "Encodes data using SLIP-coding with user-defined start, end and escape chars.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontsize" : 24.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
+					"style" : "",
+					"text" : "dot.slip.encode",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "autohelp_top_title[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 195.0, 108.0, 22.0 ],
+					"patching_rect" : [ 195.0, 180.0, 108.0, 22.0 ],
 					"style" : "",
 					"text" : "print \"Single SLIP\""
 				}
@@ -61,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 150.0, 149.0, 35.0 ],
+					"patching_rect" : [ 195.0, 135.0, 149.0, 35.0 ],
 					"style" : "",
 					"text" : "dot.slip.encode @end 11 @escape 92"
 				}
@@ -76,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 138.0, 135.0, 47.0 ],
+					"patching_rect" : [ 353.0, 123.0, 135.0, 47.0 ],
 					"style" : "",
 					"text" : "For single-ended slip just omit the \"start\" property"
 				}
@@ -189,55 +220,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 315.0, 195.0, 211.0, 145.0 ],
+					"patching_rect" : [ 299.0, 195.0, 211.0, 145.0 ],
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-16",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 45.0, 491.0, 38.0 ],
-					"style" : "",
-					"text" : "Encodes data using SLIP-coding with user-defined start, delimiter (end) and escape character."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 485.0, 30.0 ],
-					"style" : "",
-					"text" : "dot.slip.encode",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-60",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 501.0, 15.0, 4.0, 220.0 ],
-					"proportion" : 0.39,
-					"style" : ""
 				}
 
 			}
@@ -295,7 +279,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 195.0, 113.0, 22.0 ],
+					"patching_rect" : [ 30.0, 180.0, 113.0, 22.0 ],
 					"style" : "",
 					"text" : "print \"Double SLIP\""
 				}
@@ -310,7 +294,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 105.0, 97.0, 22.0 ],
+					"patching_rect" : [ 30.0, 90.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "1 2 3 4 92 34 10"
 				}
@@ -324,7 +308,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 105.0, 158.0, 20.0 ],
+					"patching_rect" : [ 135.0, 90.0, 158.0, 20.0 ],
 					"style" : "",
 					"text" : "Input: int or list of ints"
 				}
@@ -341,7 +325,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 150.0, 161.0, 35.0 ],
+					"patching_rect" : [ 30.0, 135.0, 161.0, 35.0 ],
 					"style" : "",
 					"text" : "dot.slip.encode @start 10 @end 11 @escape 92"
 				}
@@ -349,19 +333,19 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 180.0,
+					"angle" : 270.0,
 					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-15",
+					"bgcolor" : [ 0.745098, 0.0, 0.0, 1.0 ],
+					"id" : "obj-18",
 					"maxclass" : "panel",
-					"mode" : 1,
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 490.0, 31.0 ],
+					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
 					"proportion" : 0.39,
+					"rounded" : 0,
 					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
+					"varname" : "autohelp_top_panel[2]"
 				}
 
 			}
@@ -385,7 +369,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 39.5, 138.0, 204.5, 138.0 ],
+					"midpoints" : [ 39.5, 123.0, 204.5, 123.0 ],
 					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
@@ -423,8 +407,8 @@
 			}
 , 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

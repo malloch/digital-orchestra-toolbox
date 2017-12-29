@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 864.0, 221.0, 535.0, 445.0 ],
+		"rect" : [ 864.0, 221.0, 510.0, 437.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,43 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
+					"style" : "",
+					"text" : "Like the swap object, but for symbols and lists too!",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontsize" : 24.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
+					"style" : "",
+					"text" : "dot.list.swap",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "autohelp_top_title[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 75.0, 344.0, 20.0 ],
+					"patching_rect" : [ 45.0, 75.0, 344.0, 20.0 ],
 					"style" : "",
 					"text" : "swaps the values of the inlets, preserving right-to-left ordering"
 				}
@@ -120,7 +151,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 120.0, 74.0, 22.0 ],
+					"patching_rect" : [ 300.0, 120.0, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "use lists too"
 				}
@@ -135,7 +166,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 120.0, 32.5, 22.0 ],
+					"patching_rect" : [ 240.0, 120.0, 32.5, 22.0 ],
 					"style" : "",
 					"text" : "test"
 				}
@@ -152,7 +183,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 345.0, 150.0, 50.0, 22.0 ],
+					"patching_rect" : [ 315.0, 150.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -167,7 +198,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 285.0, 150.0, 50.0, 22.0 ],
+					"patching_rect" : [ 255.0, 150.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -181,7 +212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 120.0, 74.0, 22.0 ],
+					"patching_rect" : [ 105.0, 120.0, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "use lists too"
 				}
@@ -213,7 +244,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 150.0, 150.0, 50.0, 22.0 ],
+					"patching_rect" : [ 120.0, 150.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -228,7 +259,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 90.0, 150.0, 50.0, 22.0 ],
+					"patching_rect" : [ 60.0, 150.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -242,7 +273,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 240.0, 154.0, 22.0 ],
+					"patching_rect" : [ 240.0, 240.0, 154.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -256,7 +287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 240.0, 154.0, 22.0 ],
+					"patching_rect" : [ 45.0, 240.0, 154.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -271,7 +302,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 195.0, 97.0, 22.0 ],
+					"patching_rect" : [ 180.0, 195.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.list.swap foo"
 				}
@@ -291,72 +322,26 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 315.0, 285.0, 211.0, 145.0 ],
+					"patching_rect" : [ 299.0, 285.0, 211.0, 145.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-16",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 45.0, 484.0, 22.0 ],
-					"style" : "",
-					"text" : "Like the swap object, but for symbols and lists too!"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 485.0, 30.0 ],
-					"style" : "",
-					"text" : "dot.list.swap",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-60",
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.745098, 0.0, 0.0, 1.0 ],
+					"id" : "obj-18",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 501.0, 15.0, 4.0, 304.0 ],
+					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
 					"proportion" : 0.39,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-2",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 490.0, 31.0 ],
-					"proportion" : 0.39,
+					"rounded" : 0,
 					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
+					"varname" : "autohelp_top_panel[2]"
 				}
 
 			}
@@ -371,7 +356,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 297.5, 227.0, 414.5, 227.0 ],
+					"midpoints" : [ 267.5, 227.0, 384.5, 227.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -379,7 +364,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 159.5, 182.0, 219.5, 182.0 ],
+					"midpoints" : [ 129.5, 182.0, 189.5, 182.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -387,7 +372,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 84.5, 182.0, 219.5, 182.0 ],
+					"midpoints" : [ 84.5, 182.0, 189.5, 182.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -395,7 +380,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 144.5, 182.0, 219.5, 182.0 ],
+					"midpoints" : [ 114.5, 182.0, 189.5, 182.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -403,7 +388,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 339.5, 182.0, 297.5, 182.0 ],
+					"midpoints" : [ 309.5, 182.0, 267.5, 182.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -411,7 +396,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 279.5, 181.0, 297.5, 181.0 ],
+					"midpoints" : [ 249.5, 181.0, 267.5, 181.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -419,7 +404,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 354.5, 182.0, 297.5, 182.0 ],
+					"midpoints" : [ 324.5, 182.0, 267.5, 182.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -427,7 +412,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 294.5, 182.0, 297.5, 182.0 ],
+					"midpoints" : [ 264.5, 182.0, 267.5, 182.0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -451,7 +436,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 99.5, 182.0, 219.5, 182.0 ],
+					"midpoints" : [ 69.5, 182.0, 189.5, 182.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -459,8 +444,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

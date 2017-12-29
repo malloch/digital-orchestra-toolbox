@@ -727,9 +727,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 76.0, 19.0 ],
+									"patching_rect" : [ 50.0, 100.0, 77.0, 19.0 ],
 									"style" : "",
-									"text" : "dot.routeSignal~"
+									"text" : "dot.route.signal~"
 								}
 
 							}
@@ -876,9 +876,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 76.0, 19.0 ],
+									"patching_rect" : [ 50.0, 100.0, 77.0, 19.0 ],
 									"style" : "",
-									"text" : "dot.routeSignal~"
+									"text" : "dot.route.signal~"
 								}
 
 							}
@@ -1250,9 +1250,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 76.0, 19.0 ],
+									"patching_rect" : [ 50.0, 100.0, 77.0, 19.0 ],
 									"style" : "",
-									"text" : "dot.routeSignal~"
+									"text" : "dot.route.signal~"
 								}
 
 							}
@@ -1556,9 +1556,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 76.0, 19.0 ],
+									"patching_rect" : [ 50.0, 100.0, 77.0, 19.0 ],
 									"style" : "",
-									"text" : "dot.routeSignal~"
+									"text" : "dot.route.signal~"
 								}
 
 							}
@@ -1862,9 +1862,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 76.0, 19.0 ],
+									"patching_rect" : [ 50.0, 100.0, 77.0, 19.0 ],
 									"style" : "",
-									"text" : "dot.routeSignal~"
+									"text" : "dot.route.signal~"
 								}
 
 							}
@@ -2168,9 +2168,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 76.0, 19.0 ],
+									"patching_rect" : [ 50.0, 100.0, 77.0, 19.0 ],
 									"style" : "",
-									"text" : "dot.routeSignal~"
+									"text" : "dot.route.signal~"
 								}
 
 							}
@@ -2518,9 +2518,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 76.0, 19.0 ],
+									"patching_rect" : [ 50.0, 100.0, 77.0, 19.0 ],
 									"style" : "",
-									"text" : "dot.routeSignal~"
+									"text" : "dot.route.signal~"
 								}
 
 							}
@@ -2673,9 +2673,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 20.0, 43.0, 76.0, 19.0 ],
+					"patching_rect" : [ 20.0, 43.0, 77.0, 19.0 ],
 					"style" : "",
-					"text" : "dot.routeSignal~"
+					"text" : "dot.route.signal~"
 				}
 
 			}
@@ -3094,7 +3094,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.routeSignal~.maxpat",
+				"name" : "dot.route.signal~.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

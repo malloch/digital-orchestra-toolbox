@@ -1,23 +1,92 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 289.0, 192.0, 535.0, 475.0 ],
+		"appversion" : 		{
+			"major" : 7,
+			"minor" : 3,
+			"revision" : 4,
+			"architecture" : "x86",
+			"modernui" : 1
+		}
+,
+		"rect" : [ 710.0, 177.0, 510.0, 475.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 289.0, 192.0, 535.0, 475.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
+					"style" : "",
+					"text" : "Helper for quickly configuring midi output.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontsize" : 24.0,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
+					"style" : "",
+					"text" : "dot.midi.out",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "autohelp_top_title[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-64",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "dot.menu.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 299.0, 330.0, 211.0, 145.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -27,7 +96,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 135.0, 72.0, 20.0 ],
+					"patching_rect" : [ 390.0, 150.0, 72.0, 22.0 ],
+					"style" : "",
 					"text" : "loadmess 2"
 				}
 
@@ -42,61 +112,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 135.0, 72.0, 20.0 ],
+					"patching_rect" : [ 240.0, 150.0, 72.0, 22.0 ],
+					"style" : "",
 					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [  ],
-					"id" : "obj-64",
-					"maxclass" : "bpatcher",
-					"name" : "dot.menu.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 315.0, 315.0, 211.0, 145.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-16",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 45.0, 484.0, 23.0 ],
-					"text" : "Helper for quickly configuring midi output"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 485.0, 30.0 ],
-					"text" : "dot.midi.out",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-60",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 501.0, 15.0, 4.0, 340.0 ]
 				}
 
 			}
@@ -109,7 +127,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 250.0, 142.0, 62.0 ],
+					"patching_rect" : [ 330.0, 265.0, 142.0, 60.0 ],
+					"style" : "",
 					"text" : "\"control\" mode: data is sent as MIDI control change messages with the given control number"
 				}
 
@@ -123,7 +142,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 250.0, 136.0, 62.0 ],
+					"patching_rect" : [ 180.0, 265.0, 136.0, 60.0 ],
+					"style" : "",
 					"text" : "\"velocity\" mode: data is sent as MIDI note-on messages with the given note number."
 				}
 
@@ -136,7 +156,9 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 109.0, 144.0, 18.0 ]
+					"parameter_enable" : 0,
+					"patching_rect" : [ 330.0, 124.0, 144.0, 18.0 ],
+					"style" : ""
 				}
 
 			}
@@ -148,7 +170,9 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 109.0, 144.0, 18.0 ]
+					"parameter_enable" : 0,
+					"patching_rect" : [ 180.0, 124.0, 144.0, 18.0 ],
+					"style" : ""
 				}
 
 			}
@@ -160,20 +184,28 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 109.0, 144.0, 18.0 ]
+					"parameter_enable" : 0,
+					"patching_rect" : [ 30.0, 124.0, 144.0, 18.0 ],
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [  ],
+					"bgmode" : 0,
 					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-9",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "dot.midi.out.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 134.0, 143.0, 107.0 ]
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 30.0, 149.0, 143.0, 107.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -186,7 +218,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 250.0, 135.0, 62.0 ],
+					"patching_rect" : [ 30.0, 265.0, 135.0, 60.0 ],
+					"style" : "",
 					"text" : "\"note\" mode: data is sent as MIDI note-on messages with the given velocity."
 				}
 
@@ -200,50 +233,65 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 73.0, 400.0, 34.0 ],
+					"patching_rect" : [ 30.0, 88.0, 400.0, 33.0 ],
+					"style" : "",
 					"text" : "In all cases, incoming data are auto-scaled to the range 0 - 127. Hit \"reset\" to re-calibrate scaling."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [  ],
+					"bgmode" : 0,
 					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-2",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "dot.midi.out.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 135.0, 143.0, 107.0 ]
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 180.0, 150.0, 143.0, 107.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [  ],
+					"bgmode" : 0,
 					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-5",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "dot.midi.out.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 135.0, 143.0, 107.0 ]
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 330.0, 150.0, 143.0, 107.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"angle" : 180.0,
+					"angle" : 270.0,
 					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-17",
+					"bgcolor" : [ 0.745098, 0.0, 0.0, 1.0 ],
+					"id" : "obj-18",
 					"maxclass" : "panel",
-					"mode" : 1,
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 490.0, 31.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
+					"proportion" : 0.39,
+					"rounded" : 0,
+					"style" : "",
+					"varname" : "autohelp_top_panel[2]"
 				}
 
 			}
@@ -252,7 +300,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -261,7 +308,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -269,8 +315,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -278,8 +322,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -287,13 +329,34 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "dot.midi.out.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.autoscale.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.menu.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

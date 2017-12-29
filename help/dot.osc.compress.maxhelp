@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 472.0, 211.0, 535.0, 445.0 ],
+		"rect" : [ 799.0, 219.0, 510.0, 358.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,44 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
+					"style" : "",
+					"text" : "Simply removes spaces in OSC address strings",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontsize" : 24.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
+					"style" : "",
+					"text" : "dot.osc.compress",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "autohelp_top_title[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 405.0, 92.0, 22.0 ],
+					"patching_rect" : [ 30.0, 300.0, 92.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.osc.expand"
 				}
@@ -61,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 435.0, 83.0, 22.0 ],
+					"patching_rect" : [ 30.0, 330.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend help"
 				}
@@ -77,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 465.0, 56.0, 22.0 ],
+					"patching_rect" : [ 30.0, 360.0, 56.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -91,7 +122,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 375.0, 59.0, 20.0 ],
+					"patching_rect" : [ 30.0, 270.0, 59.0, 20.0 ],
 					"style" : "",
 					"text" : "See also:"
 				}
@@ -106,7 +137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 135.0, 81.0, 22.0 ],
+					"patching_rect" : [ 165.0, 90.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "/foo /gnu /bar"
 				}
@@ -121,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 225.0, 144.0, 22.0 ],
+					"patching_rect" : [ 30.0, 180.0, 144.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -135,7 +166,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 135.0, 123.0, 22.0 ],
+					"patching_rect" : [ 30.0, 90.0, 123.0, 22.0 ],
 					"style" : "",
 					"text" : "/foo /zoo /glu 123 6.3"
 				}
@@ -151,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 180.0, 105.0, 22.0 ],
+					"patching_rect" : [ 30.0, 135.0, 105.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.osc.compress"
 				}
@@ -171,72 +202,26 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 315.0, 285.0, 211.0, 145.0 ],
+					"patching_rect" : [ 299.0, 195.0, 211.0, 145.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-16",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 45.0, 491.0, 22.0 ],
-					"style" : "",
-					"text" : "Simply removes spaces in OSC address strings"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 485.0, 30.0 ],
-					"style" : "",
-					"text" : "dot.osc.compress",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-60",
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.745098, 0.0, 0.0, 1.0 ],
+					"id" : "obj-18",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 501.0, 15.0, 4.0, 304.0 ],
+					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
 					"proportion" : 0.39,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-2",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 490.0, 31.0 ],
-					"proportion" : 0.39,
+					"rounded" : 0,
 					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
+					"varname" : "autohelp_top_panel[2]"
 				}
 
 			}
@@ -244,7 +229,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 114.5, 210.0, 239.5, 210.0 ],
+					"midpoints" : [ 39.5, 165.0, 164.5, 165.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -252,7 +237,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 249.5, 165.0, 114.5, 165.0 ],
+					"midpoints" : [ 174.5, 120.0, 39.5, 120.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -283,8 +268,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -445,9 +445,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ -184.0, 0.0, 177.0, 22.0 ],
+					"patching_rect" : [ -184.0, 0.0, 137.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.stream.autoscale 0 127 clip"
+					"text" : "dot.autoscale 0 127 clip"
 				}
 
 			}
@@ -897,7 +897,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.stream.autoscale.maxpat",
+				"name" : "dot.autoscale.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

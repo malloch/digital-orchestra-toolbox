@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 747.0, 296.0, 532.0, 432.0 ],
+		"rect" : [ 747.0, 296.0, 510.0, 432.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,16 +38,61 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-17",
+					"id" : "obj-19",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 120.0, 141.0, 33.0 ],
+					"patching_rect" : [ 45.0, 382.0, 210.0, 33.0 ],
 					"style" : "",
-					"text" : "replace the address(es) to be routed:"
+					"text" : "Left outlet outputs matches with index corresponding to argument order."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 32.0, 510.0, 38.0 ],
+					"style" : "",
+					"text" : "Native-max OSC parser allowing multiple OSC addresses to be dynamically added and removed.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontsize" : 24.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
+					"style" : "",
+					"text" : "dot.osc.route",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "autohelp_top_title[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 405.0, 105.0, 90.0, 60.0 ],
+					"style" : "",
+					"text" : "Arguments or right inlet set addresses to route:"
 				}
 
 			}
@@ -59,7 +104,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 345.0, 72.0, 20.0 ],
+					"patching_rect" : [ 165.0, 354.0, 72.0, 20.0 ],
 					"style" : "",
 					"text" : "matches 2"
 				}
@@ -73,7 +118,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 345.0, 72.0, 20.0 ],
+					"patching_rect" : [ 45.0, 354.0, 72.0, 20.0 ],
 					"style" : "",
 					"text" : "matches 1"
 				}
@@ -87,7 +132,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 255.0, 72.0, 20.0 ],
+					"patching_rect" : [ 114.0, 255.0, 72.0, 20.0 ],
 					"style" : "",
 					"text" : "unmatched:"
 				}
@@ -118,7 +163,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 150.0, 135.0, 50.0, 22.0 ],
+					"patching_rect" : [ 150.0, 105.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -133,7 +178,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 135.0, 50.0, 22.0 ],
+					"patching_rect" : [ 45.0, 105.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -152,55 +197,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 315.0, 270.0, 211.0, 145.0 ],
+					"patching_rect" : [ 299.0, 268.5, 211.0, 145.0 ],
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-19",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 45.0, 493.0, 53.0 ],
-					"style" : "",
-					"text" : "Native-max OSC parser allowing multiple OSC addresses to be dynamically added and removed. Arguments or right inlet set addresses to route. Left outlet outputs matches with index corresponding to argument order."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 485.0, 30.0 ],
-					"style" : "",
-					"text" : "dot.osc.route",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-60",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 501.0, 15.0, 4.0, 304.0 ],
-					"proportion" : 0.39,
-					"style" : ""
 				}
 
 			}
@@ -213,7 +211,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 165.0, 97.0, 22.0 ],
+					"patching_rect" : [ 150.0, 135.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "/banana/peel $1"
 				}
@@ -228,7 +226,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 195.0, 98.0, 22.0 ],
+					"patching_rect" : [ 285.0, 135.0, 98.0, 22.0 ],
 					"style" : "",
 					"text" : "/banana /orange"
 				}
@@ -243,7 +241,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 225.0, 65.0, 22.0 ],
+					"patching_rect" : [ 285.0, 165.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "/grapefruit"
 				}
@@ -258,7 +256,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 165.0, 96.0, 22.0 ],
+					"patching_rect" : [ 45.0, 135.0, 96.0, 22.0 ],
 					"style" : "",
 					"text" : "/orange/juice $1"
 				}
@@ -273,7 +271,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 165.0, 98.0, 22.0 ],
+					"patching_rect" : [ 285.0, 105.0, 98.0, 22.0 ],
 					"style" : "",
 					"text" : "/orange /banana"
 				}
@@ -288,7 +286,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 255.0, 118.0, 22.0 ],
+					"patching_rect" : [ 186.0, 255.0, 118.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -332,7 +330,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 210.0, 197.0, 22.0 ],
+					"patching_rect" : [ 45.0, 210.0, 259.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.osc.route /orange /banana/peel"
 				}
@@ -340,19 +338,19 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 180.0,
+					"angle" : 270.0,
 					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-20",
+					"bgcolor" : [ 0.745098, 0.0, 0.0, 1.0 ],
+					"id" : "obj-18",
 					"maxclass" : "panel",
-					"mode" : 1,
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 490.0, 31.0 ],
+					"patching_rect" : [ 0.0, 0.0, 510.0, 75.0 ],
 					"proportion" : 0.39,
+					"rounded" : 0,
 					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
+					"varname" : "autohelp_top_panel[2]"
 				}
 
 			}
@@ -383,7 +381,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 232.5, 242.0, 273.5, 242.0 ],
+					"midpoints" : [ 294.5, 242.0, 294.5, 242.0 ],
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -448,8 +446,8 @@
 			}
 , 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
