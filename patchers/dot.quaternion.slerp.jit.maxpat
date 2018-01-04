@@ -43,8 +43,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 270.0, 510.0, 80.0, 60.0 ],
-					"presentation_rect" : [ 270.5, 511.0, 0.0, 0.0 ]
+					"patching_rect" : [ 270.0, 510.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -55,8 +54,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 373.5, 510.0, 80.0, 60.0 ],
-					"presentation_rect" : [ 336.0, 509.0, 0.0, 0.0 ]
+					"patching_rect" : [ 373.5, 510.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -67,8 +65,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 165.0, 510.0, 80.0, 60.0 ],
-					"presentation_rect" : [ 171.0, 511.0, 0.0, 0.0 ]
+					"patching_rect" : [ 165.0, 510.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -91,8 +88,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 495.0, 330.0, 80.0, 60.0 ],
-					"presentation_rect" : [ 510.0, 335.0, 0.0, 0.0 ]
+					"patching_rect" : [ 495.0, 330.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -116,8 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 633.0, 375.0, 80.0, 60.0 ],
-					"presentation_rect" : [ 573.0, 381.0, 0.0, 0.0 ]
+					"patching_rect" : [ 633.0, 375.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -446,8 +441,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 240.0, 435.0, 80.0, 60.0 ],
-									"presentation_rect" : [ 236.0, 436.0, 0.0, 0.0 ]
+									"patching_rect" : [ 240.0, 435.0, 80.0, 60.0 ]
 								}
 
 							}
@@ -470,8 +464,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 473.0, 427.0, 80.0, 60.0 ],
-									"presentation_rect" : [ 471.0, 428.0, 0.0, 0.0 ]
+									"patching_rect" : [ 473.0, 427.0, 80.0, 60.0 ]
 								}
 
 							}
@@ -482,8 +475,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 345.0, 442.0, 80.0, 60.0 ],
-									"presentation_rect" : [ 517.0, 400.0, 0.0, 0.0 ]
+									"patching_rect" : [ 345.0, 442.0, 80.0, 60.0 ]
 								}
 
 							}
@@ -494,8 +486,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 630.0, 360.0, 80.0, 60.0 ],
-									"presentation_rect" : [ 630.0, 363.0, 0.0, 0.0 ]
+									"patching_rect" : [ 630.0, 360.0, 80.0, 60.0 ]
 								}
 
 							}
@@ -506,8 +497,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 630.0, 251.0, 80.0, 60.0 ],
-									"presentation_rect" : [ 630.0, 251.0, 0.0, 0.0 ]
+									"patching_rect" : [ 630.0, 251.0, 80.0, 60.0 ]
 								}
 
 							}
@@ -518,8 +508,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 630.0, 150.0, 80.0, 60.0 ],
-									"presentation_rect" : [ 624.0, 144.0, 0.0, 0.0 ]
+									"patching_rect" : [ 630.0, 150.0, 80.0, 60.0 ]
 								}
 
 							}
@@ -530,8 +519,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 315.0, 82.0, 80.0, 60.0 ],
-									"presentation_rect" : [ 311.0, 81.0, 0.0, 0.0 ]
+									"patching_rect" : [ 315.0, 82.0, 80.0, 60.0 ]
 								}
 
 							}
@@ -1647,7 +1635,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 30.0, 555.0, 73.0, 22.0 ],
-					"presentation_rect" : [ 74.0, 552.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.op @op *"
 				}
@@ -1989,9 +1976,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 540.0, 105.0, 47.0 ],
+					"patching_rect" : [ 675.0, 540.0, 171.0, 47.0 ],
 					"style" : "",
-					"text" : "Joseph Malloch\nIDMIL 2011\nwww.idmil.org"
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2011\nwww.idmil.org/software/dot"
 				}
 
 			}

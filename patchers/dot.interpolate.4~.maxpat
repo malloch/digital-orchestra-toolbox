@@ -45,9 +45,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 120.0, 155.0, 47.0 ],
+					"patching_rect" : [ 90.0, 120.0, 195.0, 47.0 ],
 					"style" : "",
-					"text" : "M.Schumacher \nIDMIL 04/2009\n www.idmil.org"
+					"text" : "Digital Orchestra Toolbox\nMarlon Schumacher / IDMIL 2009\nwww.idmil.org/software/dot"
 				}
 
 			}

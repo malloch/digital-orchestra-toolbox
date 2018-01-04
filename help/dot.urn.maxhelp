@@ -341,7 +341,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
+					"patching_rect" : [ 0.0, 0.0, 510.0, 75.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : "",

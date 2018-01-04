@@ -76,7 +76,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 75.0, 360.0, 42.0, 22.0 ],
-					"presentation_rect" : [ 268.0, 363.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "select"
 				}
@@ -283,9 +282,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 30.0, 107.0, 47.0 ],
+					"patching_rect" : [ 105.0, 435.0, 200.0, 47.0 ],
 					"style" : "",
-					"text" : "Joseph Malloch IDMIL 2010-2017 www.idmil.org"
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2010-2017\nwww.idmil.org/software/dot"
 				}
 
 			}

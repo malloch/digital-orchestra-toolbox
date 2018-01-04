@@ -543,13 +543,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-29",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 120.0, 106.0, 60.0 ],
+					"patching_rect" : [ 225.0, 120.0, 279.0, 47.0 ],
 					"style" : "",
-					"text" : "Stephen Sinclair\nJoseph Malloch IDMIL 2007 www.idmil.org"
+					"text" : "Digital Orchestra Toolbox\nStephen Sinclair & Joseph Malloch /  IDMIL 2007\nwww.idmil.org/software/dot"
 				}
 
 			}

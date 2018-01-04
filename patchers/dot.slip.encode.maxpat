@@ -268,9 +268,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 330.0, 107.0, 47.0 ],
+					"patching_rect" : [ 225.0, 330.0, 208.0, 47.0 ],
 					"style" : "",
-					"text" : "Joseph Malloch IDMIL 2010-2012 www.idmil.org"
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2010-2012\nwww.idmil.org/software/dot"
 				}
 
 			}
