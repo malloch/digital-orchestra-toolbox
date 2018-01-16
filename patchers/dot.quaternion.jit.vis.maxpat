@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 285.0, 135.0, 56.0, 22.0 ],
+					"style" : "",
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -296,24 +309,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 127.0, 244.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.0, 135.0, 91.0, 22.0 ],
+					"patching_rect" : [ 495.0, 135.0, 91.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend shape"
 				}
@@ -326,7 +327,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 405.0, 105.0, 49.0, 22.0 ],
+					"patching_rect" : [ 435.0, 105.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "t b l"
 				}
@@ -339,7 +340,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 180.0, 20.0, 22.0 ],
+					"patching_rect" : [ 585.0, 180.0, 20.0, 22.0 ],
 					"style" : "",
 					"text" : "t l"
 				}
@@ -352,7 +353,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 105.0, 106.0, 22.0 ],
+					"patching_rect" : [ 285.0, 165.0, 106.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend jit_matrix"
 				}
@@ -365,7 +366,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 285.0, 75.0, 259.0, 22.0 ],
+					"patching_rect" : [ 285.0, 75.0, 319.0, 22.0 ],
 					"style" : "",
 					"text" : "route jit_matrix shape"
 				}
@@ -378,7 +379,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.0, 180.0, 81.0, 22.0 ],
+					"patching_rect" : [ 435.0, 210.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "1 0 0 0, bang"
 				}
@@ -404,7 +405,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 135.0, 165.0, 47.0 ],
+					"patching_rect" : [ 675.0, 135.0, 165.0, 47.0 ],
 					"style" : "",
 					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2017\nwww.idmil.org/software/dot"
 				}
@@ -417,7 +418,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 180.0, 56.0, 22.0 ],
+					"patching_rect" : [ 435.0, 135.0, 56.0, 22.0 ],
 					"style" : "",
 					"text" : "deferlow"
 				}
@@ -430,21 +431,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 135.0, 75.0, 22.0 ],
+					"patching_rect" : [ 285.0, 105.0, 95.0, 22.0 ],
 					"style" : "",
-					"text" : "speedlim 33"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 75.0, 30.0, 24.0, 24.0 ],
-					"style" : ""
+					"text" : "dot.speedlim 33"
 				}
 
 			}
@@ -550,7 +539,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 75.0, 135.0, 60.0, 22.0 ],
+					"patching_rect" : [ 75.0, 30.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -648,22 +637,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 444.5, 164.0, 534.5, 164.0 ],
+					"midpoints" : [ 504.5, 164.0, 594.5, 164.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -684,14 +666,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 534.5, 285.0, 84.5, 285.0 ],
+					"midpoints" : [ 594.5, 285.0, 84.5, 285.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -712,7 +687,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -720,6 +702,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 444.5, 198.0, 294.5, 198.0 ],
 					"source" : [ "obj-59", 0 ]
 				}
 
@@ -733,15 +716,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-6", 0 ]
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-6", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-6", 2 ]
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -763,18 +746,18 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 84.5, 168.0, 444.5, 168.0 ],
-					"order" : 0,
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 84.5, 198.0, 294.5, 198.0 ],
+					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
-					"midpoints" : [ 84.5, 168.0, 294.5, 168.0 ],
-					"order" : 1,
+					"destination" : [ "obj-19", 0 ],
+					"midpoints" : [ 84.5, 198.0, 444.5, 198.0 ],
+					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -804,6 +787,13 @@
 			}
 , 			{
 				"name" : "dot.quaternion.multiply.jit.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.speedlim.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
