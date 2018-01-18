@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 535.0, 191.0, 510.0, 440.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 440.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,21 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 28.0, 360.0, 227.0, 20.0 ],
+					"presentation_rect" : [ 28.0, 356.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Right outlet outputs residual."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -72,13 +87,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 345.0, 155.0, 47.0 ],
+					"patching_rect" : [ 28.0, 315.0, 227.0, 33.0 ],
 					"style" : "",
-					"text" : "second argument/inlet lets you specify a different ratio into the window."
+					"text" : "Second argument/inlet lets you specify a different ratio into the window."
 				}
 
 			}
@@ -121,7 +136,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 400.0, 67.5, 95.0, 37.0 ],
+					"patching_rect" : [ 400.0, 67.5, 97.0, 37.0 ],
 					"style" : "",
 					"text" : "# of samples to consider"
 				}
@@ -226,8 +241,8 @@
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
 					"patching_rect" : [ 240.0, 105.0, 127.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.median 20"

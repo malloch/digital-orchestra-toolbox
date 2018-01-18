@@ -38,6 +38,33 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-2",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 103.0, 195.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 75.0, 195.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 103.0, 165.0, 31.0, 22.0 ],
+					"style" : "",
+					"text" : "!- 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
@@ -45,7 +72,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 74.0, 79.0, 22.0 ],
+					"patching_rect" : [ 30.0, 89.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "zl stream #1"
 				}
@@ -60,7 +87,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 105.0, 62.0, 22.0 ],
+					"patching_rect" : [ 30.0, 120.0, 62.0, 22.0 ],
 					"style" : "",
 					"text" : "zl median"
 				}
@@ -71,13 +98,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"linecount" : 3,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 180.0, 195.0, 47.0 ],
+					"patching_rect" : [ 150.0, 150.0, 166.0, 74.0 ],
 					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nMarlon Schumacher / IDMIL 2009\nwww.idmil.org/software/dot"
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch /\nMarlon Schumacher /\nIDMIL 2009\nwww.idmil.org/software/dot"
 				}
 
 			}
@@ -142,14 +169,41 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"midpoints" : [ 39.5, 74.5, 124.5, 74.5 ],
+					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"order" : 1,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 39.5, 153.0, 112.5, 153.0 ],
+					"order" : 0,
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
 					"source" : [ "obj-33", 0 ]
 				}
 

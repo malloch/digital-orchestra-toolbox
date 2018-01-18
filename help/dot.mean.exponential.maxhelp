@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 55.0, 102.0, 510.0, 457.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 457.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,21 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 45.0, 360.0, 195.0, 20.0 ],
+					"presentation_rect" : [ 45.0, 362.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Second outlet outputs residual."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -101,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 405.0, 93.0, 22.0 ],
+					"patching_rect" : [ 105.0, 420.0, 93.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.mean.timed"
 				}
@@ -133,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 465.0, 59.0, 22.0 ],
+					"patching_rect" : [ 105.0, 480.0, 59.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -149,7 +164,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 435.0, 86.0, 22.0 ],
+					"patching_rect" : [ 105.0, 450.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend help"
 				}
@@ -164,7 +179,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 375.0, 117.0, 22.0 ],
+					"patching_rect" : [ 105.0, 390.0, 117.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.mean.windowed"
 				}
@@ -178,7 +193,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 390.0, 64.0, 20.0 ],
+					"patching_rect" : [ 45.0, 405.0, 64.0, 20.0 ],
 					"style" : "",
 					"text" : "see also:"
 				}
@@ -505,11 +520,10 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 300.0, 160.0, 33.0 ],
+					"patching_rect" : [ 45.0, 300.0, 270.0, 20.0 ],
 					"style" : "",
 					"text" : "Argument specifies weight of the current sample"
 				}
@@ -599,8 +613,8 @@
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
 					"patching_rect" : [ 255.0, 105.0, 190.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.mean.exponential 0.05"

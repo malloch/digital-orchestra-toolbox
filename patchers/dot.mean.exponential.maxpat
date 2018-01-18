@@ -38,6 +38,33 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 75.0, 225.0, 31.0, 22.0 ],
+					"style" : "",
+					"text" : "!- 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-10",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 75.0, 255.0, 25.0, 25.0 ],
+					"presentation_rect" : [ 69.0, 241.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -45,7 +72,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 135.0, 75.0, 97.0, 22.0 ],
-					"presentation_rect" : [ 198.0, 76.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "dot.float.sanitize"
 				}
@@ -137,7 +163,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 225.0, 157.0, 47.0 ],
+					"patching_rect" : [ 120.0, 240.0, 157.0, 47.0 ],
 					"style" : "",
 					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2011-2017\nwww.idmil.org/software/dot"
 				}
@@ -195,7 +221,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 240.0, 25.0, 25.0 ],
+					"patching_rect" : [ 30.0, 255.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -203,7 +229,16 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 1 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -225,6 +260,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -232,8 +274,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 39.5, 213.0, 84.5, 213.0 ],
 					"order" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 2,
 					"source" : [ "obj-4", 0 ]
 				}
 

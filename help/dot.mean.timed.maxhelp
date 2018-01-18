@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 759.0, 244.0, 510.0, 537.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 537.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 45.0, 375.0, 195.0, 20.0 ],
+					"style" : "",
+					"text" : "Second outlet outputs residual."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -212,8 +224,8 @@
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 285.0, 180.0, 123.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.mean.timed 1000"

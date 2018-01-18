@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 693.0, 182.0, 510.0, 487.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 487.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,21 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 375.0, 180.0, 20.0 ],
+					"presentation_rect" : [ 31.0, 379.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Second outlet outputs residual."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -363,7 +378,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 345.0, 146.0, 20.0 ],
+					"patching_rect" : [ 30.0, 345.0, 146.0, 20.0 ],
 					"style" : "",
 					"text" : "input: int or float"
 				}
@@ -390,11 +405,10 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 315.0, 160.0, 33.0 ],
+					"patching_rect" : [ 30.0, 315.0, 273.0, 20.0 ],
 					"style" : "",
 					"text" : "Argument specifies weight of the current sample"
 				}
@@ -484,8 +498,8 @@
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
 					"patching_rect" : [ 255.0, 120.0, 190.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.denoise.exponential 0.1"
