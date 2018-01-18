@@ -43,7 +43,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 382.0, 210.0, 33.0 ],
+					"patching_rect" : [ 45.0, 382.0, 213.0, 33.0 ],
 					"style" : "",
 					"text" : "Left outlet outputs matches with index corresponding to argument order."
 				}
@@ -75,7 +75,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.osc.route",
+					"text" : "dot.OSC.route",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -438,7 +438,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.osc.route.maxpat",
+				"name" : "dot.OSC.route.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

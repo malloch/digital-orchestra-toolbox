@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 403.0, 79.0, 510.0, 459.0 ],
+		"rect" : [ 638.0, 138.0, 510.0, 459.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 565.0, 22.0 ],
 					"style" : "",
-					"text" : "Asynchrouous demodulation of baseband signal from an AM-carrier.",
+					"text" : "Asynchronous demodulation of baseband signal from an AM-carrier.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -62,7 +62,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 1045.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.asyncdemod~",
+					"text" : "dot.AM.demodulate.asynchronous~",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -2704,9 +2704,9 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 30.0, 165.0, 244.0, 22.0 ],
+									"patching_rect" : [ 30.0, 165.0, 324.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.asyncdemod~ @freq 4000 @phase 0"
+									"text" : "dot.AM.demodulate.asynchronous~ @freq 4000 @phase 0"
 								}
 
 							}
@@ -3154,9 +3154,9 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 330.0, 244.0, 22.0 ],
+					"patching_rect" : [ 15.0, 330.0, 324.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.asyncdemod~ @freq 4000 @phase 0"
+					"text" : "dot.AM.demodulate.asynchronous~ @freq 4000 @phase 0"
 				}
 
 			}
@@ -3443,7 +3443,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.asyncdemod~.maxpat",
+				"name" : "dot.AM.demodulate.asynchronous~.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

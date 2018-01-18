@@ -48,7 +48,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 330.0, 120.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 362.0, 123.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -221,7 +220,6 @@
 					}
 ,
 					"patching_rect" : [ 210.0, 150.0, 139.0, 22.0 ],
-					"presentation_rect" : [ 242.0, 153.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -247,7 +245,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 270.0, 120.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 302.0, 123.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -264,7 +261,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 210.0, 120.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 242.0, 123.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -281,7 +277,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 150.0, 120.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 184.0, 124.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -311,7 +306,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.quaternion.slerp",
+					"text" : "dot.quaternion.Slerp",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -326,7 +321,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 407.0, 66.0, 76.0, 52.0 ],
+					"patching_rect" : [ 407.0, 66.0, 79.0, 52.0 ],
 					"style" : "",
 					"text" : "interpolation ratio (0–1)"
 				}
@@ -388,7 +383,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 90.0, 30.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 93.0, 31.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -713,7 +707,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.slerp.maxpat",
+				"name" : "dot.quaternion.Slerp.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.quaternion.normalize.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -721,6 +722,13 @@
 			}
 , 			{
 				"name" : "dot.vector.dotproduct.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.quaternion.shortestpath.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

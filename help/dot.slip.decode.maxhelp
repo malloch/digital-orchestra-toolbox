@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 683.0, 168.0, 510.0, 507.0 ],
+		"rect" : [ 395.0, 125.0, 510.0, 507.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,21 +39,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-20",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 399.0, 144.0, 111.0, 47.0 ],
-					"style" : "",
-					"text" : "For single-ended slip just omit the \"start\" property"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
@@ -61,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 510.0, 22.0 ],
 					"style" : "",
-					"text" : "Parses SLIP-encoded data with user-defined start, end, and escape characters.",
+					"text" : "Parses data encoded with Serial Line Internet Protocol.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -76,71 +61,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.slip.decode",
+					"text" : "dot.SLIP.decode",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 300.0, 189.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-11",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 240.0, 150.0, 35.0 ],
-					"style" : "",
-					"text" : "dot.slip.decode @end 11 @escape 92"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-8",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 210.0, 189.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 150.0, 150.0, 35.0 ],
-					"style" : "",
-					"text" : "dot.slip.encode @end 11 @escape 92"
 				}
 
 			}
@@ -167,9 +90,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 105.0, 97.0, 22.0 ],
+					"patching_rect" : [ 30.0, 105.0, 121.0, 22.0 ],
 					"style" : "",
-					"text" : "1 2 3 4 92 34 10"
+					"text" : "1 2 3 4 92 192 34 10"
 				}
 
 			}
@@ -179,14 +102,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 150.0, 150.0, 35.0 ],
+					"patching_rect" : [ 30.0, 150.0, 91.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.slip.encode @start 10 @end 11 @escape 92"
+					"text" : "dot.slip.encode"
 				}
 
 			}
@@ -304,14 +226,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 240.0, 150.0, 35.0 ],
+					"patching_rect" : [ 30.0, 240.0, 91.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.slip.decode @start 10 @end 11 @escape 92"
+					"text" : "dot.slip.decode"
 				}
 
 			}
@@ -336,14 +257,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 249.5, 287.0, 434.5, 287.0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-12", 0 ]
@@ -353,16 +266,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"order" : 1,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 39.5, 138.0, 249.5, 138.0 ],
-					"order" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -394,23 +297,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"order" : 1,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 249.5, 197.0, 434.5, 197.0 ],
-					"order" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
 					"midpoints" : [ 39.5, 287.0, 224.5, 287.0 ],
 					"source" : [ "obj-9", 0 ]
@@ -419,7 +305,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.slip.decode.maxpat",
+				"name" : "dot.SLIP.decode.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -433,7 +319,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.slip.encode.maxpat",
+				"name" : "dot.SLIP.encode.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

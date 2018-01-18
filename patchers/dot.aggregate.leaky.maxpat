@@ -696,7 +696,7 @@
 											}
 , 											{
 												"box" : 												{
-													"color" : [ 0.741176, 0.184314, 0.756863, 1.0 ],
+													"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-3",
@@ -704,9 +704,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "bang", "" ],
-													"patching_rect" : [ 15.0, 330.0, 102.0, 22.0 ],
+													"patching_rect" : [ 15.0, 330.0, 137.0, 22.0 ],
 													"style" : "",
-													"text" : "dot.squeuedlim 1"
+													"text" : "dot.timing.squeuedlim 1"
 												}
 
 											}
@@ -2864,7 +2864,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.squeuedlim.maxpat",
+				"name" : "dot.timing.squeuedlim.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

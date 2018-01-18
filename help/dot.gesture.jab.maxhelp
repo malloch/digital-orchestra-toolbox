@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 671.0, 207.0, 510.0, 424.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 424.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 510.0, 38.0 ],
 					"style" : "",
-					"text" : "Detect \"jabbing\" gestures in acceration data using a debounced windowed maximum difference technique.",
+					"text" : "Detect \"jabbing\" gestures in acceleration data using a debounced windowed maximum difference technique.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

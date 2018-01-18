@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 755.0, 250.0, 510.0, 359.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 359.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 510.0, 22.0 ],
 					"style" : "",
-					"text" : "Encodes data using SLIP-coding with user-defined start, end and escape chars.",
+					"text" : "Encodes data using Serial Line Internet Protocol.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -61,55 +61,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.slip.encode",
+					"text" : "dot.SLIP.encode",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 180.0, 108.0, 22.0 ],
-					"style" : "",
-					"text" : "print \"Single SLIP\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-8",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 135.0, 149.0, 35.0 ],
-					"style" : "",
-					"text" : "dot.slip.encode @end 11 @escape 92"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 123.0, 135.0, 47.0 ],
-					"style" : "",
-					"text" : "For single-ended slip just omit the \"start\" property"
 				}
 
 			}
@@ -178,13 +132,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"linecount" : 27,
+									"linecount" : 37,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 75.0, 45.0, 328.0, 368.0 ],
+									"patching_rect" : [ 75.0, 45.0, 328.0, 503.0 ],
 									"style" : "",
-									"text" : "//********************************************************\r//  Slip Encoding Example\r//  Joseph Malloch December 2007\r//  Input Devices and Music Interaction Laboratory\r//********************************************************\r\r//define values for slip coding\rint escapeChar = 101;\rint delimiterChar = 100;\r\rvoid setup() {\r  //start serial\r  Serial.begin(115200);\r}\r\rvoid loop() {\r  //read analog inputs and output\r  for (t=0; t<8; t++) {\r    slipOut(analogRead(t)/4);\r  }\r}\r\rvoid slipOut(byte output) {\r    if ((output==escapeChar)||(output==delimiterChar))\n        Serial.print(escapeChar, BYTE);\r    Serial.print(output, BYTE);\r}"
+									"text" : "//********************************************************\r//  Slip Encoding Example\r//  Joseph Malloch December 2007\r//  Input Devices and Music Interaction Laboratory\r//********************************************************\r\r//define values for slip coding\rint END = 192;\rint ESC = 219;\nint ESC_END = 220;\nint ESC_ESC = 221;\r\rvoid setup() {\r    //start serial\r    Serial.begin(115200);\r}\r\rvoid loop() {\r    //read analog inputs and output\r    for (t=0; t<8; t++) {\r        slipOut(analogRead(t)/4);\r    }\r}\r\rvoid slipOut(byte output) {\n    if (output == ESC) {\n        Serial.print(ESC, BYTE);\n        Serial.print(ESC_ESC, BYTE);\n    }\n    else if (output == END) {\n        Serial.print(ESC, BYTE);\n        Serial.print(ESC_END, BYTE);\n    }\n    else {\r        Serial.print(output, BYTE);\n    }\r}"
 								}
 
 							}
@@ -279,9 +233,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 180.0, 113.0, 22.0 ],
+					"patching_rect" : [ 30.0, 180.0, 63.0, 22.0 ],
 					"style" : "",
-					"text" : "print \"Double SLIP\""
+					"text" : "print SLIP"
 				}
 
 			}
@@ -320,14 +274,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 135.0, 161.0, 35.0 ],
+					"patching_rect" : [ 30.0, 135.0, 91.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.slip.encode @start 10 @end 11 @escape 92"
+					"text" : "dot.slip.encode"
 				}
 
 			}
@@ -368,25 +321,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 39.5, 123.0, 204.5, 123.0 ],
-					"order" : 0,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"order" : 1,
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -399,7 +335,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.slip.encode.maxpat",
+				"name" : "dot.SLIP.encode.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

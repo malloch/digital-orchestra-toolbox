@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.spherical",
+					"text" : "dot.spherical.fromCartesian",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -580,9 +580,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 300.0, 180.0, 139.0, 22.0 ],
+					"patching_rect" : [ 300.0, 180.0, 157.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.spherical"
+					"text" : "dot.spherical.fromCartesian"
 				}
 
 			}
@@ -738,7 +738,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.spherical.maxpat",
+				"name" : "dot.spherical.fromCartesian.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

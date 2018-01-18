@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 147.0, 208.0, 510.0, 326.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 326.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Returns bitdepth of the running Max application.",
+					"text" : "Returns bit depth of the running Max application.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -86,7 +86,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.bitdepth",
+					"text" : "dot.system.bitDepth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -136,9 +136,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 180.0, 73.0, 22.0 ],
+					"patching_rect" : [ 90.0, 180.0, 117.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.bitdepth"
+					"text" : "dot.system.bitDepth"
 				}
 
 			}
@@ -184,7 +184,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.bitdepth.maxpat",
+				"name" : "dot.system.bitDepth.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

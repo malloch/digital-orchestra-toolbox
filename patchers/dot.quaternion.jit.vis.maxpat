@@ -426,14 +426,15 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
 					"id" : "obj-55",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 105.0, 95.0, 22.0 ],
+					"patching_rect" : [ 285.0, 105.0, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.speedlim 33"
+					"text" : "dot.timing.speedlim 33"
 				}
 
 			}
@@ -793,7 +794,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.speedlim.maxpat",
+				"name" : "dot.timing.speedlim.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

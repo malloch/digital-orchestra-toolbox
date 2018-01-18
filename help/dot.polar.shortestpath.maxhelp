@@ -211,7 +211,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.polar.shortestpath",
+					"text" : "dot.polar.shortestPath",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -1026,7 +1026,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.polar.shortestpath.maxpat",
+				"name" : "dot.polar.shortestPath.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

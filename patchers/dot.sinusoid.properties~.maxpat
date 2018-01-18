@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 360.0, 204.0, 620.0, 340.0 ],
+		"rect" : [ 360.0, 204.0, 660.0, 340.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,9 +44,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 120.0, 210.0, 199.0, 22.0 ],
+					"patching_rect" : [ 120.0, 210.0, 245.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.phaseTofreq~ @unit radians"
+					"text" : "dot.frequency.instantaneous~ @unit radians"
 				}
 
 			}
@@ -60,7 +60,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.0, 30.0, 30.0, 30.0 ],
+					"patching_rect" : [ 600.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -75,7 +75,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 30.0, 30.0, 30.0 ],
+					"patching_rect" : [ 555.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -126,7 +126,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 276.5, 30.0, 66.0, 20.0 ],
+					"patching_rect" : [ 321.5, 30.0, 66.0, 20.0 ],
 					"style" : "",
 					"text" : "@average"
 				}
@@ -139,7 +139,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 255.0, 120.0, 154.0, 22.0 ],
+					"patching_rect" : [ 300.0, 120.0, 154.0, 22.0 ],
 					"style" : "",
 					"text" : "route done average cutoff"
 				}
@@ -152,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 195.0, 30.0, 79.0, 22.0 ],
+					"patching_rect" : [ 240.0, 30.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "patcherargs"
 				}
@@ -251,7 +251,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.0, 150.0, 120.0, 35.0 ],
+					"patching_rect" : [ 435.0, 150.0, 120.0, 35.0 ],
 					"style" : "",
 					"text" : "print \"dot.sintrack~ doesn't understand:\""
 				}
@@ -296,7 +296,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 579.5, 240.5, 225.5, 240.5 ],
+					"midpoints" : [ 609.5, 240.5, 225.5, 240.5 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -335,7 +335,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
-					"midpoints" : [ 120.5, 107.75, 264.5, 107.75 ],
+					"midpoints" : [ 120.5, 107.75, 309.5, 107.75 ],
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -343,7 +343,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 534.5, 197.5, 309.5, 197.5 ],
+					"midpoints" : [ 564.5, 197.5, 355.5, 197.5 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -365,7 +365,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 354.5, 240.0, 225.5, 240.0 ],
+					"midpoints" : [ 399.5, 240.0, 225.5, 240.0 ],
 					"source" : [ "obj-90", 2 ]
 				}
 
@@ -386,7 +386,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.phaseTofreq~.maxpat",
+				"name" : "dot.frequency.instantaneous~.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

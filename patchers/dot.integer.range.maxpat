@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -149,9 +149,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 105.0, 73.0, 22.0 ],
+					"patching_rect" : [ 45.0, 105.0, 117.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.bitdepth"
+					"text" : "dot.system.bitDepth"
 				}
 
 			}
@@ -217,7 +217,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.bitdepth.maxpat",
+				"name" : "dot.system.bitDepth.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

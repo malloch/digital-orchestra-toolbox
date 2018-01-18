@@ -150,9 +150,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "bang", "bang" ],
-					"patching_rect" : [ 60.0, 165.0, 125.0, 22.0 ],
+					"patching_rect" : [ 60.0, 165.0, 153.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.io.filein my_file.txt"
+					"text" : "dot.io.filein slider_demo.txt"
 				}
 
 			}

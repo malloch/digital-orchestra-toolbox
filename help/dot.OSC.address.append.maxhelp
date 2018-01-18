@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.osc.appendaddr",
+					"text" : "dot.OSC.address.append",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -134,9 +134,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 390.0, 121.0, 22.0 ],
+					"patching_rect" : [ 105.0, 390.0, 143.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.osc.prependaddr"
+					"text" : "dot.osc.address.prepend"
 				}
 
 			}
@@ -314,9 +314,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 165.0, 143.0, 22.0 ],
+					"patching_rect" : [ 60.0, 165.0, 165.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.osc.appendaddr /test"
+					"text" : "dot.osc.address.append /test"
 				}
 
 			}
@@ -445,7 +445,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
-					"midpoints" : [ 369.5, 160.0, 193.5, 160.0 ],
+					"midpoints" : [ 369.5, 160.0, 215.5, 160.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -515,14 +515,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.osc.appendaddr.maxpat",
+				"name" : "dot.OSC.address.append.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.osc.route.maxpat",
+				"name" : "dot.OSC.route.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

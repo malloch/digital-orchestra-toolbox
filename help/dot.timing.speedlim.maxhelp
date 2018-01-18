@@ -44,7 +44,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 236.0, 285.0, 22.0, 22.0 ],
-					"presentation_rect" : [ 235.0, 406.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -530,7 +529,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.speedlim",
+					"text" : "dot.timing.speedlim",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -565,9 +564,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 180.0, 102.0, 22.0 ],
+					"patching_rect" : [ 165.0, 180.0, 137.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.speedlim 100"
+					"text" : "dot.timing.speedlim 100"
 				}
 
 			}
@@ -685,7 +684,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.speedlim.maxpat",
+				"name" : "dot.timing.speedlim.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

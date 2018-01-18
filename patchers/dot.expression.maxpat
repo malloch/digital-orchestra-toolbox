@@ -620,17 +620,17 @@
 											}
 , 											{
 												"box" : 												{
-													"color" : [ 0.741176, 0.184314, 0.756863, 1.0 ],
+													"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-3",
 													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 15.0, 330.0, 102.0, 22.0 ],
+													"numinlets" : 2,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "bang", "" ],
+													"patching_rect" : [ 15.0, 330.0, 137.0, 22.0 ],
 													"style" : "",
-													"text" : "dot.squeuedlim 1"
+													"text" : "dot.timing.squeuedlim 1"
 												}
 
 											}
@@ -4646,7 +4646,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 360.0, 165.0, 47.0 ],
+					"patching_rect" : [ 180.0, 360.0, 167.0, 47.0 ],
 					"style" : "",
 					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2008\nwww.idmil.org/software/dot"
 				}
@@ -4850,7 +4850,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "dot.timing.squeuedlim.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 

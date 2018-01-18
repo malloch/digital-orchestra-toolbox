@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 689.0, 308.0, 510.0, 423.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 423.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.normalize",
+					"text" : "dot.vector.normalize",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -77,7 +77,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.0, 225.0, 201.0, 22.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "0.144928 0.289855 1. 0.57971"
 				}
 
 			}
@@ -169,7 +170,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.0, 180.0, 199.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.normalize 10"
+					"text" : "dot.vector.normalize 10"
 				}
 
 			}
@@ -258,7 +259,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.normalize.maxpat",
+				"name" : "dot.vector.normalize.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
