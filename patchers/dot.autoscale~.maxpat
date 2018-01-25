@@ -1939,7 +1939,7 @@
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 150.0, 105.0, 319.0, 22.0 ],
 					"style" : "",
-					"text" : "route reset outputin outputmax exponent lock"
+					"text" : "route reset min max exponent lock"
 				}
 
 			}

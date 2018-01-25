@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 201.0, 162.0, 510.0, 444.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 444.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Converts a single decimal byte into 8 binary bits.",
+					"text" : "Converts a single byte into a list of 8 binary bits.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

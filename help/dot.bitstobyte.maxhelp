@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 400.0, 159.0, 510.0, 446.0 ],
+		"rect" : [ 635.0, 84.0, 510.0, 446.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Converts 8 bits into a single decimal byte",
+					"text" : "Converts 8 bits into a single byte",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -169,7 +169,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 300.0, 120.0, 20.0, 20.0 ],
+					"patching_rect" : [ 270.0, 90.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -182,7 +182,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 120.0, 20.0, 20.0 ],
+					"patching_rect" : [ 240.0, 90.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -195,7 +195,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 240.0, 120.0, 20.0, 20.0 ],
+					"patching_rect" : [ 210.0, 90.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
