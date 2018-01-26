@@ -3,7 +3,7 @@
     "authors" : [ "Joseph Malloch", "Stephen Sinclair", "Marlon Schumacher" ],
 	"name" : "Digital Orchestra Toolbox",
 	"description" : "A collection of useful abstractions for gesture processing and building digital musical instruments.",
-	"homepatcher" : "DOT-Overview.maxpat",
+	"homepatcher" : "dot.overview.maxpat",
 	"max_version_max" : "none",
 	"max_version_min" : "6.1.7",
 	"os" : 	{

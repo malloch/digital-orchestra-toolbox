@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Simply removes spaces in OSC address strings",
+					"text" : "Simply removes spaces in Open Sound Control (OSC) address strings.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.OSC.compress",
+					"text" : "dot.osc.compress",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -182,9 +182,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 135.0, 105.0, 22.0 ],
+					"patching_rect" : [ 30.0, 135.0, 151.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.osc.compress"
+					"text" : "dot.osc.address.compress"
 				}
 
 			}
@@ -274,7 +274,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.OSC.compress.maxpat",
+				"name" : "dot.osc.address.compress.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

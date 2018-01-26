@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.list.interpolate.2",
+					"text" : "dot.vector.interpolate.2",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -725,9 +725,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 255.0, 123.0, 22.0 ],
+					"patching_rect" : [ 165.0, 255.0, 132.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.list.interpolate.2"
+					"text" : "dot.vector.interpolate.2"
 				}
 
 			}
@@ -905,7 +905,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 39.5, 243.0, 226.5, 243.0 ],
+					"midpoints" : [ 39.5, 243.0, 231.0, 243.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -963,7 +963,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 2 ],
-					"midpoints" : [ 309.5, 243.0, 278.5, 243.0 ],
+					"midpoints" : [ 309.5, 243.0, 287.5, 243.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -978,7 +978,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.list.interpolate.2.maxpat",
+				"name" : "dot.vector.interpolate.2.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

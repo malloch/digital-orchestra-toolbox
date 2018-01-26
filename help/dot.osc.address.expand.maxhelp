@@ -41,12 +41,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-12",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 32.0, 510.0, 22.0 ],
+					"patching_rect" : [ 0.0, 32.0, 510.0, 38.0 ],
 					"style" : "",
-					"text" : "Simply expands OSC address strings so that the route object can parse them.",
+					"text" : "Simply expands Open Sound Control (OSC) address strings so that the route object can parse them.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -61,7 +62,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.OSC.expand",
+					"text" : "dot.osc.expand",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -167,9 +168,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 285.0, 105.0, 22.0 ],
+					"patching_rect" : [ 105.0, 285.0, 151.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.osc.compress"
+					"text" : "dot.osc.address.compress"
 				}
 
 			}
@@ -241,9 +242,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 135.0, 92.0, 22.0 ],
+					"patching_rect" : [ 105.0, 135.0, 138.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.osc.expand"
+					"text" : "dot.osc.address.expand"
 				}
 
 			}
@@ -276,7 +277,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
+					"patching_rect" : [ 0.0, 0.0, 510.0, 70.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : "",
@@ -367,14 +368,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.OSC.expand.maxpat",
+				"name" : "dot.osc.address.expand.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.OSC.compress.maxpat",
+				"name" : "dot.osc.address.compress.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

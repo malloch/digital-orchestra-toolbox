@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Shortens long OSC addresses by giving them aliases.",
+					"text" : "Shortens long Open Sound Control (OSC) addresses by giving them aliases.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.OSC.alias",
+					"text" : "dot.osc.alias",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -353,7 +353,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.OSC.alias.maxpat",
+				"name" : "dot.osc.alias.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

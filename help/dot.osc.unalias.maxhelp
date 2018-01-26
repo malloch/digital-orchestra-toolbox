@@ -41,12 +41,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-4",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
+					"patching_rect" : [ 0.0, 32.0, 497.0, 38.0 ],
 					"style" : "",
-					"text" : "Restores OSC addresses that have been aliased using dot.osc.alias.",
+					"text" : "Restores Open Sound Control (OSC )addresses that have been aliased using dot.osc.alias.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -61,7 +62,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.OSC.unalias",
+					"text" : "dot.osc.unalias",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -274,7 +275,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
+					"patching_rect" : [ 0.0, 0.0, 510.0, 74.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : "",
@@ -359,14 +360,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.OSC.unalias.maxpat",
+				"name" : "dot.osc.unalias.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.OSC.alias.maxpat",
+				"name" : "dot.osc.alias.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

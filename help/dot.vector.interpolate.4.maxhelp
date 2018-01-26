@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.list.interpolate.4",
+					"text" : "dot.vector.interpolate.4",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -1490,9 +1490,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 281.0, 131.0, 22.0 ],
+					"patching_rect" : [ 190.0, 281.0, 132.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.list.interpolate.4"
+					"text" : "dot.vector.interpolate.4"
 				}
 
 			}
@@ -1775,7 +1775,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.list.interpolate.4.maxpat",
+				"name" : "dot.vector.interpolate.4.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

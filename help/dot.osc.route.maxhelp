@@ -58,9 +58,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 32.0, 510.0, 38.0 ],
+					"patching_rect" : [ 0.0, 32.0, 517.0, 38.0 ],
 					"style" : "",
-					"text" : "Native-max OSC parser allowing multiple OSC addresses to be dynamically added and removed.",
+					"text" : "Native-max Open Sound Control (OSC) parser allowing multiple OSC addresses to be dynamically added and removed.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -75,7 +75,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.OSC.route",
+					"text" : "dot.osc.route",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -438,7 +438,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.OSC.route.maxpat",
+				"name" : "dot.osc.route.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

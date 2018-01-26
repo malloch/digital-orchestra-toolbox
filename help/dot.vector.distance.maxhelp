@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.list.distance",
+					"text" : "dot.vector.distance",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -216,9 +216,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 120.0, 101.0, 22.0 ],
+					"patching_rect" : [ 45.0, 120.0, 118.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.list.distance -"
+					"text" : "dot.vector.distance -"
 				}
 
 			}
@@ -292,7 +292,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.list.distance.maxpat",
+				"name" : "dot.vector.distance.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
