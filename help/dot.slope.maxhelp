@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 47.0, 101.0, 510.0, 438.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 438.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.slope.timed",
+					"text" : "dot.slope",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -193,9 +193,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 30.0, 180.0, 109.0, 22.0 ],
+					"patching_rect" : [ 30.0, 180.0, 76.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.slope.timed 10"
+					"text" : "dot.slope 10"
 				}
 
 			}
@@ -310,22 +310,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 129.5, 210.0, 189.5, 210.0 ],
+					"midpoints" : [ 96.5, 210.0, 189.5, 210.0 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.slope.timed.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"name" : "dot.slope.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

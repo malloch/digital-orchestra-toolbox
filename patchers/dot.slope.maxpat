@@ -75,9 +75,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 30.0, 210.0, 60.0 ],
+					"patching_rect" : [ 105.0, 30.0, 210.0, 60.0 ],
 					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nStephen Sinclair & Joseph Malloch IDMIL 2006\nwww.idmil.org/software/dot"
+					"text" : "Digital Orchestra Toolbox\nStephen Sinclair & Joseph Malloch IDMIL 2006-2018\nwww.idmil.org/software/dot"
 				}
 
 			}
@@ -89,10 +89,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 225.0, 150.0, 61.0, 22.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 90.0, 210.0, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "loadbang"
+					"text" : "loadmess #1"
 				}
 
 			}
@@ -101,29 +101,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 210.0, 104.0, 35.0 ],
+					"patching_rect" : [ 90.0, 240.0, 179.0, 22.0 ],
 					"style" : "",
 					"text" : "if $f1!=0 then $f1 else 0.159155"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 180.0, 55.0, 22.0 ],
-					"style" : "",
-					"text" : "#1"
 				}
 
 			}
@@ -136,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 30.0, 285.0, 36.0, 22.0 ],
+					"patching_rect" : [ 30.0, 270.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "* 1."
 				}
@@ -165,7 +149,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 345.0, 25.0, 25.0 ],
+					"patching_rect" : [ 75.0, 345.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -179,7 +163,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 135.0, 315.0, 46.0, 22.0 ],
+					"patching_rect" : [ 75.0, 315.0, 46.0, 22.0 ],
 					"style" : "",
 					"text" : "abs 0."
 				}
@@ -193,7 +177,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 345.0, 25.0, 25.0 ],
+					"patching_rect" : [ 30.0, 345.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -252,7 +236,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 30.0, 25.0, 25.0 ],
+					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -309,7 +293,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -317,22 +301,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
-					"midpoints" : [ 234.5, 270.0, 56.5, 270.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 39.5, 310.0, 144.5, 310.0 ],
+					"midpoints" : [ 39.5, 303.0, 84.5, 303.0 ],
 					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
