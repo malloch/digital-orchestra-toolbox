@@ -39,27 +39,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"hidden" : 1,
-					"id" : "obj-20",
+					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.0, 120.0, 85.0, 22.0 ],
+					"patching_rect" : [ 200.0, 120.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess 100"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 90.0, 24.0, 24.0 ],
-					"style" : ""
+					"text" : "loadmess 1000"
 				}
 
 			}
@@ -72,7 +59,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 466.5, 143.0, 22.0 ],
+					"patching_rect" : [ 105.0, 481.5, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.deviation.exponential"
 				}
@@ -88,7 +75,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Calculates the Standard Deviation of a windowed stream of numbers.",
+					"text" : "Calculates the Standard Deviation of a time-windowed stream of numbers.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -103,7 +90,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.deviation.windowed",
+					"text" : "dot.deviation.timed",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -119,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 555.0, 59.0, 22.0 ],
+					"patching_rect" : [ 105.0, 570.0, 59.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -135,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 525.0, 86.0, 22.0 ],
+					"patching_rect" : [ 105.0, 540.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend help"
 				}
@@ -150,9 +137,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 495.0, 111.0, 22.0 ],
+					"patching_rect" : [ 105.0, 510.0, 135.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.deviation.timed"
+					"text" : "dot.deviation.windowed"
 				}
 
 			}
@@ -164,7 +151,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 495.0, 64.0, 20.0 ],
+					"patching_rect" : [ 30.0, 495.0, 64.0, 20.0 ],
 					"style" : "",
 					"text" : "see also:"
 				}
@@ -193,7 +180,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 400.0, 166.0, 20.0 ],
+					"patching_rect" : [ 46.5, 385.0, 166.0, 20.0 ],
 					"style" : "",
 					"text" : "blue bar shows mean +/- SD",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -210,9 +197,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 257.0, 330.0, 220.0, 22.0 ],
+					"patching_rect" : [ 272.0, 330.0, 203.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.deviation.windowed 100 @Bessel 0"
+					"text" : "dot.deviation.timed 1000 @Bessel 0"
 				}
 
 			}
@@ -270,7 +257,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 75.0, 135.0, 30.0, 30.0 ],
+									"patching_rect" : [ 75.5, 135.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 83.0, 133.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -312,7 +300,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 75.0, 90.0, 33.5, 22.0 ],
+									"patching_rect" : [ 75.5, 90.0, 33.5, 22.0 ],
 									"style" : "",
 									"text" : "+ 0."
 								}
@@ -420,7 +408,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 200.0, 165.0, 50.0, 22.0 ],
+					"patching_rect" : [ 200.0, 150.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -436,6 +424,19 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 105.0, 120.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 45.0, 90.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -479,7 +480,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 255.0, 210.0, 74.0 ],
+					"patching_rect" : [ 270.0, 255.0, 210.0, 74.0 ],
 					"style" : "",
 					"text" : "object defaults to calculating the \"sample standard deviation\" To calculate the \"standard deviation of a sample\" instead, include the attribute @Bessel 0 in the arguments:"
 				}
@@ -495,9 +496,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.0, 150.5, 120.0, 51.0 ],
+					"patching_rect" : [ 252.0, 135.5, 139.0, 51.0 ],
 					"style" : "",
-					"text" : "argument/right inlet sets window size"
+					"text" : "Argument/right inlet sets window size in milliseconds"
 				}
 
 			}
@@ -513,7 +514,7 @@
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 60.0, 195.0, 159.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.deviation.windowed 100"
+					"text" : "dot.deviation.timed 1000"
 				}
 
 			}
@@ -552,7 +553,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 270.0, 169.0, 150.0 ],
+					"patching_rect" : [ 45.0, 255.0, 169.0, 150.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -592,6 +593,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-11", 0 ]
@@ -615,8 +623,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-19", 0 ]
+					"destination" : [ "obj-32", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -625,14 +634,6 @@
 					"destination" : [ "obj-11", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -667,7 +668,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 54.5, 183.0, 69.5, 183.0 ],
+					"midpoints" : [ 54.5, 176.0, 69.5, 176.0 ],
 					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
@@ -697,7 +698,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.deviation.windowed.maxpat",
+				"name" : "dot.deviation.timed.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.window.timed.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

@@ -112,9 +112,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 450.0, 115.0, 22.0 ],
+					"patching_rect" : [ 90.0, 450.0, 139.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.autoscale.timed"
+					"text" : "dot.autoscale.windowed"
 				}
 
 			}
@@ -127,9 +127,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 421.5, 139.0, 22.0 ],
+					"patching_rect" : [ 90.0, 421.5, 147.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.autoscale.windowed"
+					"text" : "dot.autoscale.exponential"
 				}
 
 			}
@@ -158,7 +158,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 510.0, 22.0 ],
 					"style" : "",
-					"text" : "Automatically rescale a stream using exponential mean and deviation.",
+					"text" : "Automatically rescale a stream using windowed mean and deviation.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -173,7 +173,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.autoscale.exponential",
+					"text" : "dot.autoscale.windowed",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -389,9 +389,9 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "float", "float" ],
-					"patching_rect" : [ 255.0, 120.0, 173.0, 22.0 ],
+					"patching_rect" : [ 255.0, 120.0, 165.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.autoscale.exponential 0.01"
+					"text" : "dot.autoscale.windowed 100"
 				}
 
 			}
@@ -497,7 +497,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 2 ],
-					"midpoints" : [ 418.5, 157.0, 204.5, 157.0 ],
+					"midpoints" : [ 410.5, 157.0, 204.5, 157.0 ],
 					"source" : [ "obj-15", 2 ]
 				}
 
@@ -505,7 +505,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"midpoints" : [ 341.5, 152.0, 129.5, 152.0 ],
+					"midpoints" : [ 337.5, 152.0, 129.5, 152.0 ],
 					"source" : [ "obj-15", 1 ]
 				}
 
@@ -557,21 +557,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.autoscale.exponential.maxpat",
+				"name" : "dot.autoscale.windowed.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.deviation.exponential.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.mean.exponential.maxpat",
+				"name" : "dot.deviation.windowed.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

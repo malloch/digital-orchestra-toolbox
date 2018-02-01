@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 628.0, 226.0, 510.0, 427.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 427.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 375.0, 131.0, 22.0 ],
+					"patching_rect" : [ 90.0, 390.0, 131.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.extrema.windowed"
 				}
@@ -91,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 346.5, 74.0, 22.0 ],
+					"patching_rect" : [ 90.0, 361.5, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.extrema"
 				}
@@ -107,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 420.0, 83.0, 22.0 ],
+					"patching_rect" : [ 90.0, 420.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend help"
 				}
@@ -123,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 450.0, 56.0, 22.0 ],
+					"patching_rect" : [ 90.0, 450.0, 56.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -137,7 +137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 315.0, 59.0, 20.0 ],
+					"patching_rect" : [ 30.0, 375.0, 59.0, 20.0 ],
 					"style" : "",
 					"text" : "See also:"
 				}
@@ -152,9 +152,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 90.0, 165.0, 33.0 ],
+					"patching_rect" : [ 285.0, 90.0, 198.0, 33.0 ],
 					"style" : "",
-					"text" : "argument specifies window length in milliseconds"
+					"text" : "argument/right inlet specifies window length in milliseconds"
 				}
 
 			}
@@ -251,7 +251,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 150.0, 135.0, 139.0, 22.0 ],
@@ -356,14 +356,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.extrema.timed.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

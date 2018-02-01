@@ -47,6 +47,7 @@ max objectfile dot.swap dot.list.swap;
 max objectfile dot.timedextrema dot.extrema.timed;
 max objectfile dot.timedsmooth dot.mean.timed;
 max objectfile dot.typecheck dot.route.type;
+max objectfile dot.unwrap dot.polar.shortestpath;
 max objectfile dot.vscale dot.vector.scale;
 max objectfile dot.windowedextrema dot.extrema.windowed;
 max objectfile dot.wrap dot.polar.shortestpath;

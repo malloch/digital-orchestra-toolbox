@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 181.0, 206.0, 501.0, 418.0 ],
+		"rect" : [ 490.0, 211.0, 501.0, 418.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,6 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 120.0, 345.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 121.0, 346.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -167,7 +168,7 @@
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 30.0, 105.0, 439.0, 22.0 ],
 					"style" : "",
-					"text" : "route int float mult weight min max range"
+					"text" : "route int float mult windowsize min max range"
 				}
 
 			}
@@ -233,9 +234,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 75.0, 180.0, 160.0, 22.0 ],
+					"patching_rect" : [ 75.0, 180.0, 154.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.deviation.exponential #1"
+					"text" : "dot.deviation.timed #1"
 				}
 
 			}
@@ -262,9 +263,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 68.0, 30.0, 121.0, 49.0 ],
+					"patching_rect" : [ 68.0, 30.0, 127.0, 49.0 ],
 					"style" : "",
-					"text" : "patcherargs @min 0 @max 1 @mult 2 @weight 0.1"
+					"text" : "patcherargs @min 0 @max 1 @mult 2 @windowsize 1000"
 				}
 
 			}
@@ -344,7 +345,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 179.5, 91.5, 39.5, 91.5 ],
+					"midpoints" : [ 185.5, 91.5, 39.5, 91.5 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -486,7 +487,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 225.5, 243.0, 96.5, 243.0 ],
+					"midpoints" : [ 219.5, 243.0, 96.5, 243.0 ],
 					"order" : 1,
 					"source" : [ "obj-5", 1 ]
 				}
@@ -502,7 +503,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 225.5, 243.0, 141.5, 243.0 ],
+					"midpoints" : [ 219.5, 243.0, 141.5, 243.0 ],
 					"order" : 0,
 					"source" : [ "obj-5", 1 ]
 				}
@@ -533,14 +534,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.deviation.exponential.maxpat",
+				"name" : "dot.deviation.timed.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.mean.exponential.maxpat",
+				"name" : "dot.window.timed.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
