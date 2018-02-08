@@ -60,20 +60,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 30.0, 25.0, 25.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "local minima",
-					"id" : "obj-3",
-					"index" : 0,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 225.0, 25.0, 25.0 ],
+					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -81,12 +68,25 @@
 , 			{
 				"box" : 				{
 					"comment" : "local maxima",
+					"id" : "obj-3",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 75.0, 225.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "local minima",
 					"id" : "obj-4",
 					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 225.0, 25.0, 25.0 ],
+					"patching_rect" : [ 30.0, 225.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -145,9 +145,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 30.0, 120.0, 44.0, 22.0 ],
+					"patching_rect" : [ 30.0, 120.0, 49.0, 22.0 ],
 					"style" : "",
-					"text" : "< 0."
+					"text" : "> 0."
 				}
 
 			}
@@ -175,7 +175,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 195.0, 165.0, 47.0 ],
+					"patching_rect" : [ 120.0, 195.0, 167.0, 47.0 ],
 					"style" : "",
 					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2006\nwww.idmil.org/software/dot"
 				}

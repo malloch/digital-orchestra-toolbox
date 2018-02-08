@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 445.0, 286.0, 510.0, 450.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 438.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 375.0, 131.0, 22.0 ],
+					"patching_rect" : [ 90.0, 405.0, 131.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.extrema.windowed"
 				}
@@ -91,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 346.5, 107.0, 22.0 ],
+					"patching_rect" : [ 90.0, 376.5, 107.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.extrema.timed"
 				}
@@ -198,7 +198,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 450.0, 59.0, 22.0 ],
+					"patching_rect" : [ 90.0, 465.0, 59.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -214,7 +214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 420.0, 86.0, 22.0 ],
+					"patching_rect" : [ 90.0, 435.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend help"
 				}
@@ -228,7 +228,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 315.0, 71.0, 20.0 ],
+					"patching_rect" : [ 30.0, 390.0, 71.0, 20.0 ],
 					"style" : "",
 					"text" : "See also:"
 				}
@@ -311,7 +311,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 60.0, 135.0, 74.0, 22.0 ],
+					"patching_rect" : [ 60.0, 135.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.extrema"
 				}
@@ -457,14 +457,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.extrema.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

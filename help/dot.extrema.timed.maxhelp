@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 427.0 ],
+		"rect" : [ 450.0, 101.0, 510.0, 451.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,14 +39,64 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-7",
+					"fontsize" : 12.0,
+					"id" : "obj-27",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 32.0, 510.0, 22.0 ],
+					"patching_rect" : [ 30.0, 300.0, 184.0, 60.0 ],
 					"style" : "",
-					"text" : "Outputs the minimum and maximum value received with the last n milliseconds.",
+					"text" : "3rd outlet outputs ordered difference between extrema: positive if increasing, negative if decreasing."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 375.0, 180.0, 116.0, 20.0 ],
+					"presentation_rect" : [ 425.0, 167.0, 0.0, 0.0 ],
+					"style" : "",
+					"suppressinlet" : 1,
+					"text" : "difference",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 375.0, 180.0, 116.0, 96.0 ],
+					"presentation_rect" : [ 395.0, 167.0, 0.0, 0.0 ],
+					"setminmax" : [ -100.0, 100.0 ],
+					"setstyle" : 2,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-7",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 32.0, 510.0, 38.0 ],
+					"style" : "",
+					"text" : "Outputs the minimum and maximum value received with the last n milliseconds. Also outputs the ordered difference between the extrema in the window.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -76,7 +126,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 390.0, 131.0, 22.0 ],
+					"patching_rect" : [ 90.0, 420.0, 131.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.extrema.windowed"
 				}
@@ -91,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 361.5, 74.0, 22.0 ],
+					"patching_rect" : [ 90.0, 391.5, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.extrema"
 				}
@@ -107,7 +157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 420.0, 83.0, 22.0 ],
+					"patching_rect" : [ 90.0, 450.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend help"
 				}
@@ -123,7 +173,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 450.0, 56.0, 22.0 ],
+					"patching_rect" : [ 90.0, 480.0, 56.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -137,7 +187,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 375.0, 59.0, 20.0 ],
+					"patching_rect" : [ 30.0, 405.0, 59.0, 20.0 ],
 					"style" : "",
 					"text" : "See also:"
 				}
@@ -152,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 90.0, 198.0, 33.0 ],
+					"patching_rect" : [ 270.0, 105.0, 198.0, 33.0 ],
 					"style" : "",
 					"text" : "argument/right inlet specifies window length in milliseconds"
 				}
@@ -164,11 +214,14 @@
 					"fontsize" : 12.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.0, 165.0, 56.0, 20.0 ],
+					"patching_rect" : [ 255.0, 180.0, 116.0, 20.0 ],
 					"style" : "",
-					"text" : "minima"
+					"suppressinlet" : 1,
+					"text" : "maxima",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -178,11 +231,14 @@
 					"fontsize" : 12.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 165.0, 56.0, 20.0 ],
+					"patching_rect" : [ 135.0, 180.0, 116.0, 20.0 ],
 					"style" : "",
-					"text" : "maxima"
+					"suppressinlet" : 1,
+					"text" : "minima",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -194,9 +250,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 150.0, 165.0, 116.0, 96.0 ],
-					"setminmax" : [ 0.0, 128.0 ],
-					"setstyle" : 3,
+					"patching_rect" : [ 135.0, 180.0, 116.0, 96.0 ],
+					"setminmax" : [ 0.0, 100.0 ],
+					"setstyle" : 2,
 					"style" : ""
 				}
 
@@ -209,9 +265,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 165.0, 116.0, 96.0 ],
-					"setminmax" : [ 0.0, 128.0 ],
-					"setstyle" : 3,
+					"patching_rect" : [ 255.0, 180.0, 116.0, 96.0 ],
+					"setminmax" : [ 0.0, 100.0 ],
+					"setstyle" : 2,
 					"style" : ""
 				}
 
@@ -224,8 +280,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 165.0, 116.0, 96.0 ],
-					"setminmax" : [ 0.0, 128.0 ],
+					"patching_rect" : [ 15.0, 180.0, 116.0, 96.0 ],
+					"setminmax" : [ 0.0, 100.0 ],
 					"setstyle" : 3,
 					"style" : ""
 				}
@@ -239,7 +295,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 90.0, 154.0, 19.0 ],
+					"patching_rect" : [ 15.0, 105.0, 154.0, 19.0 ],
+					"size" : 100.0,
 					"style" : ""
 				}
 
@@ -252,9 +309,9 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 150.0, 135.0, 139.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
+					"patching_rect" : [ 135.0, 150.0, 259.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.extrema.timed 1000"
 				}
@@ -274,7 +331,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 299.0, 270.0, 211.0, 145.0 ],
+					"patching_rect" : [ 299.0, 300.0, 211.0, 145.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -289,7 +346,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
+					"patching_rect" : [ 0.0, 0.0, 510.0, 75.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : "",
@@ -299,6 +356,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-1", 0 ]
@@ -331,7 +395,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 39.5, 120.0, 159.5, 120.0 ],
+					"midpoints" : [ 24.5, 135.0, 144.5, 135.0 ],
 					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
@@ -363,6 +427,27 @@
 			}
 , 			{
 				"name" : "dot.extrema.timed.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.float.sanitize.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.window.timed.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.sign.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
