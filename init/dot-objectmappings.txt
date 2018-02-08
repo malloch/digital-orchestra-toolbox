@@ -51,5 +51,3 @@ max objectfile dot.unwrap dot.polar.shortestpath;
 max objectfile dot.vscale dot.vector.scale;
 max objectfile dot.windowedextrema dot.extrema.windowed;
 max objectfile dot.wrap dot.polar.shortestpath;
-max objectfile dot.xmlread dot.xml.read;
-max objectfile dot.xmlwrite dot.xml.write;
