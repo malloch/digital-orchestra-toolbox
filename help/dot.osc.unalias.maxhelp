@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 697.0, 230.0, 510.0, 445.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 445.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,9 +45,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 32.0, 497.0, 38.0 ],
+					"patching_rect" : [ 0.0, 32.0, 501.0, 38.0 ],
 					"style" : "",
-					"text" : "Restores Open Sound Control (OSC )addresses that have been aliased using dot.osc.alias.",
+					"text" : "Restores Open Sound Control (OSC) addresses that have been aliased using dot.osc.alias.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -194,9 +194,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 210.0, 218.0, 22.0 ],
+					"patching_rect" : [ 105.0, 210.0, 199.0, 22.0 ],
 					"style" : "",
-					"text" : "/this/is/a/very/long/OSC/namespace $1"
+					"text" : "/this/is/a/very/long/OSC/address $1"
 				}
 
 			}
@@ -210,7 +210,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 285.0, 67.0, 22.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "/0.1 53."
 				}
 
 			}
@@ -354,21 +355,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.osc.unalias.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.osc.alias.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

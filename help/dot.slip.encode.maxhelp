@@ -233,9 +233,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 180.0, 63.0, 22.0 ],
+					"patching_rect" : [ 30.0, 180.0, 122.0, 22.0 ],
 					"style" : "",
-					"text" : "print SLIP"
+					"text" : "print SLIP @popup 1"
 				}
 
 			}
@@ -336,14 +336,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.SLIP.encode.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

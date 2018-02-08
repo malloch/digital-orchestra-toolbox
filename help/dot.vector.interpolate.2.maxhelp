@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 110.0, 149.0, 510.0, 445.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 445.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -929,7 +929,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 174.5, 278.0, 430.0, 278.0, 430.0, 83.0, 174.5, 83.0 ],
+					"midpoints" : [ 174.5, 283.0, 430.0, 283.0, 430.0, 83.0, 174.5, 83.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -979,14 +979,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.vector.interpolate.2.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 524.0 ],
+		"rect" : [ 35.0, 97.0, 510.0, 524.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 510.0, 498.0 ],
+						"rect" : [ 35.0, 123.0, 510.0, 498.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -131,7 +131,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 									"style" : "",
-									"text" : "dot.covariance",
+									"text" : "dot.correlation.windowed",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"varname" : "autohelp_top_title[1]"
 								}
@@ -657,7 +657,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-63",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -781,12 +780,12 @@
 									"fontsize" : 12.0,
 									"id" : "obj-1",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 225.0, 89.0, 22.0 ],
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 165.0, 225.0, 143.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.covariance"
+									"text" : "dot.correlation.windowed"
 								}
 
 							}
@@ -976,7 +975,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 100.0, 126.0, 510.0, 498.0 ],
+						"rect" : [ 0.0, 26.0, 510.0, 498.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1092,7 +1091,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "float", "float" ],
+									"outlettype" : [ "float", "int" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -1567,7 +1566,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-10",
-									"items" : [ "positive", "covariance", ",", "negative", "covariance", ",", "zero", "covariance" ],
+									"items" : [ "positive", "correlation", ",", "negative", "correlation", ",", "zero", "correlation" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1828,13 +1827,6 @@
 			}
 , 			{
 				"name" : "dot.deviation.windowed.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.float.sanitize.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

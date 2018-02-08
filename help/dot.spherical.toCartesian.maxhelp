@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 726.0, 82.0, 510.0, 423.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 423.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -644,9 +644,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 45.0, 285.0, 157.0, 22.0 ],
+					"patching_rect" : [ 45.0, 285.0, 139.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.spherical.fromCartesian"
+					"text" : "dot.spherical"
 				}
 
 			}
@@ -844,22 +844,22 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.spherical.fromCartesian.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"name" : "dot.spherical.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.spherical.toCartesian.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

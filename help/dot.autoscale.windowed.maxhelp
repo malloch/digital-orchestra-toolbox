@@ -112,9 +112,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 450.0, 139.0, 22.0 ],
+					"patching_rect" : [ 90.0, 450.0, 115.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.autoscale.windowed"
+					"text" : "dot.autoscale.timed"
 				}
 
 			}

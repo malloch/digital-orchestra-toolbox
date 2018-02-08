@@ -643,7 +643,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 240.5, 231.0, 285.0, 231.0, 285.0, 117.0, 309.5, 117.0 ],
+					"midpoints" : [ 240.5, 241.0, 285.0, 241.0, 285.0, 111.0, 309.5, 111.0 ],
 					"source" : [ "obj-13", 2 ]
 				}
 
@@ -739,14 +739,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.spherical.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
