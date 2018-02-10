@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 982.0, 358.0, 343.0, 358.0 ],
+		"rect" : [ 745.0, 400.0, 243.0, 356.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -71,6 +71,7 @@
 					"presentation_rect" : [ 90.0, 30.0, 75.0, 75.0 ],
 					"proportion" : 0.39,
 					"rounded" : 104,
+					"shape" : 1,
 					"style" : "",
 					"varname" : "autohelp_top_panel[14]"
 				}
@@ -92,6 +93,7 @@
 					"presentation_rect" : [ 118.0, 74.0, 60.0, 60.0 ],
 					"proportion" : 0.39,
 					"rounded" : 104,
+					"shape" : 1,
 					"style" : "",
 					"varname" : "autohelp_top_panel[15]"
 				}
@@ -113,6 +115,7 @@
 					"presentation_rect" : [ 116.0, 7.0, 91.0, 91.0 ],
 					"proportion" : 0.39,
 					"rounded" : 104,
+					"shape" : 1,
 					"style" : "",
 					"varname" : "autohelp_top_panel[16]"
 				}
