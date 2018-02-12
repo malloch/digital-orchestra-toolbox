@@ -42,7 +42,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
+					"outlettype" : [ "float", "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -249,9 +249,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 165.0, 60.0, 65.0, 22.0 ],
+									"patching_rect" : [ 165.0, 60.0, 58.0, 22.0 ],
 									"style" : "",
-									"text" : "metro 100"
+									"text" : "metro 50"
 								}
 
 							}
