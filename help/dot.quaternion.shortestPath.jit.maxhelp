@@ -38,20 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 53.5, 90.0, 93.0, 24.0 ],
-					"style" : "",
-					"text" : "click to start"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
+					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -66,7 +53,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 245.0, 193.0 ],
+						"rect" : [ 59.0, 104.0, 341.0, 164.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -103,9 +90,9 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 30.0, 75.0, 151.0, 22.0 ],
+									"patching_rect" : [ 30.0, 75.0, 285.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.quaternion.line.jit 2000"
+									"text" : "dot.quaternion.line.jit @ramptime 2000 @shortest 0"
 								}
 
 							}
@@ -155,6 +142,7 @@
 					}
 ,
 					"patching_rect" : [ 30.0, 225.0, 48.0, 22.0 ],
+					"presentation_rect" : [ 30.0, 226.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -165,6 +153,19 @@
 ,
 					"style" : "",
 					"text" : "p ramp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 53.5, 90.0, 93.0, 24.0 ],
+					"style" : "",
+					"text" : "click to start"
 				}
 
 			}
@@ -185,7 +186,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 245.0, 193.0 ],
+						"rect" : [ 59.0, 104.0, 341.0, 164.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -222,9 +223,9 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 30.0, 75.0, 151.0, 22.0 ],
+									"patching_rect" : [ 30.0, 75.0, 285.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.quaternion.line.jit 2000"
+									"text" : "dot.quaternion.line.jit @ramptime 2000 @shortest 0"
 								}
 
 							}
@@ -737,7 +738,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -766,15 +767,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-7", 0 ]
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-8", 0 ]
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
