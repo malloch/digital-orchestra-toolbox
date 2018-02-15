@@ -256,7 +256,7 @@
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 315.0, 315.0, 229.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.quaternion.slerp.jit 0.5 @shortest 0"
+					"text" : "dot.quaternion.jit.slerp 0.5 @shortest 0"
 				}
 
 			}
@@ -528,14 +528,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.quaternion.slerp.jit.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.quaternion.normalize.jit.maxpat",
+				"name" : "dot.quaternion.jit.slerp.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

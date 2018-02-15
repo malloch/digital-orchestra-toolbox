@@ -82,7 +82,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.741176, 0.184314, 0.756863, 1.0 ],
+					"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-195",
@@ -92,7 +92,7 @@
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 30.0, 90.0, 155.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.quaternion.conjugate.jit"
+					"text" : "dot.quaternion.jit.conjugate"
 				}
 
 			}
@@ -179,8 +179,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.quaternion.conjugate.jit.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"name" : "dot.quaternion.jit.conjugate.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

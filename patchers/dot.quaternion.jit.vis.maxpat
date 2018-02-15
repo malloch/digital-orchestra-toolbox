@@ -854,7 +854,7 @@
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 90.0, 390.0, 229.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.quaternion.rotate.jit"
+					"text" : "dot.quaternion.jit.rotate"
 				}
 
 			}
@@ -1219,21 +1219,21 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.quaternion.rotate.jit.maxpat",
+				"name" : "dot.quaternion.jit.rotate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.conjugate.jit.maxpat",
+				"name" : "dot.quaternion.jit.conjugate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.multiply.jit.maxpat",
+				"name" : "dot.quaternion.jit.multiply.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

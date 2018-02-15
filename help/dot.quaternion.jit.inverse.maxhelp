@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 467.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 421.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -430,8 +430,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "dot.quaternion.jit.vis.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 180.0, 195.0, 140.0, 105.0 ],
 					"viewvisibility" : 1
 				}
@@ -449,8 +450,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "dot.quaternion.jit.vis.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 195.0, 140.0, 105.0 ],
 					"viewvisibility" : 1
 				}
@@ -466,7 +468,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Normalize quaternions stored in the planes of a jitter matrix.",
+					"text" : "Calculate the inverse of quaternions stored in the planes of a jitter matrix.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -481,7 +483,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.quaternion.normalize.jit",
+					"text" : "dot.quaternion.jit.inverse",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -497,9 +499,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 180.0, 165.0, 155.0, 22.0 ],
+					"patching_rect" : [ 180.0, 165.0, 141.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.quaternion.normalize.jit"
+					"text" : "dot.quaternion.jit.inverse"
 				}
 
 			}
@@ -517,7 +519,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 299.0, 315.0, 211.0, 145.0 ],
+					"patching_rect" : [ 299.0, 270.0, 211.0, 145.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -595,7 +597,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.normalize.jit.maxpat",
+				"name" : "dot.quaternion.jit.inverse.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.quaternion.jit.conjugate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -609,21 +618,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.rotate.jit.maxpat",
+				"name" : "dot.quaternion.jit.rotate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.conjugate.jit.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.quaternion.multiply.jit.maxpat",
+				"name" : "dot.quaternion.jit.multiply.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

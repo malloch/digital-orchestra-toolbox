@@ -92,7 +92,7 @@
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 30.0, 75.0, 285.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.quaternion.line.jit @ramptime 2000 @shortest 0"
+									"text" : "dot.quaternion.jit.line @ramptime 2000 @shortest 0"
 								}
 
 							}
@@ -142,7 +142,6 @@
 					}
 ,
 					"patching_rect" : [ 30.0, 225.0, 48.0, 22.0 ],
-					"presentation_rect" : [ 30.0, 226.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -225,7 +224,7 @@
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 30.0, 75.0, 285.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.quaternion.line.jit @ramptime 2000 @shortest 0"
+									"text" : "dot.quaternion.jit.line @ramptime 2000 @shortest 0"
 								}
 
 							}
@@ -652,7 +651,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Adjust a stream of quaternions to eliminate unnecessary rotations.",
+					"text" : "Adjust a stream of quaternion matrices to eliminate unnecessary rotations.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -667,7 +666,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.quaternion.shortestPath.jit",
+					"text" : "dot.quaternion.jit.shortestpath",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -685,7 +684,7 @@
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 180.0, 195.0, 169.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.quaternion.shortestpath.jit"
+					"text" : "dot.quaternion.jit.shortestpath"
 				}
 
 			}
@@ -788,7 +787,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.shortestPath.jit.maxpat",
+				"name" : "dot.quaternion.jit.shortestpath.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -802,21 +801,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.rotate.jit.maxpat",
+				"name" : "dot.quaternion.jit.rotate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.conjugate.jit.maxpat",
+				"name" : "dot.quaternion.jit.conjugate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.multiply.jit.maxpat",
+				"name" : "dot.quaternion.jit.multiply.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -837,21 +836,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.line.jit.maxpat",
+				"name" : "dot.quaternion.jit.line.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.slerp.jit.maxpat",
+				"name" : "dot.quaternion.jit.slerp.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.normalize.jit.maxpat",
+				"name" : "dot.quaternion.jit.normalize.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

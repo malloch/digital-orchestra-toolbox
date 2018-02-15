@@ -1235,7 +1235,7 @@
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 30.0, 180.0, 155.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.quaternion.normalize.jit"
+									"text" : "dot.quaternion.jit.normalize"
 								}
 
 							}
@@ -1667,7 +1667,7 @@
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 225.0, 180.0, 155.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.quaternion.normalize.jit"
+									"text" : "dot.quaternion.jit.normalize"
 								}
 
 							}
@@ -2467,7 +2467,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.quaternion.normalize.jit.maxpat",
+				"name" : "dot.quaternion.jit.normalize.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

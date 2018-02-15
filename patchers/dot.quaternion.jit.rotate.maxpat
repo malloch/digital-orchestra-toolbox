@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -198,7 +198,7 @@
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 30.0, 285.0, 169.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.quaternion.multiply.jit"
+					"text" : "dot.quaternion.jit.multiply"
 				}
 
 			}
@@ -210,9 +210,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 180.0, 255.0, 142.0, 22.0 ],
+					"patching_rect" : [ 180.0, 255.0, 143.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.quaternion.multiply.jit"
+					"text" : "dot.quaternion.jit.multiply"
 				}
 
 			}
@@ -239,7 +239,7 @@
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 180.0, 90.0, 155.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.quaternion.conjugate.jit"
+					"text" : "dot.quaternion.jit.conjugate"
 				}
 
 			}
@@ -439,15 +439,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.quaternion.conjugate.jit.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"name" : "dot.quaternion.jit.conjugate.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.multiply.jit.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"name" : "dot.quaternion.jit.multiply.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
