@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 368.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 365.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -103,7 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 204.0, 90.0, 20.0 ],
+					"patching_rect" : [ 160.0, 219.0, 90.0, 20.0 ],
 					"style" : "",
 					"text" : "Residual"
 				}
@@ -115,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 204.0, 90.0, 20.0 ],
+					"patching_rect" : [ 40.0, 219.0, 90.0, 20.0 ],
 					"style" : "",
 					"text" : "Rounded value"
 				}
@@ -130,7 +130,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 150.0, 180.0, 50.0, 22.0 ],
+					"patching_rect" : [ 165.0, 195.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -142,9 +142,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 135.0, 225.0, 47.0 ],
+					"patching_rect" : [ 240.0, 105.0, 248.0, 47.0 ],
 					"style" : "",
-					"text" : "first argument/inlet controls descending hysteresis, second controls ascending hysteresis."
+					"text" : "first argument/inlet controls ascending hysteresis, second controls descending hysteresis."
 				}
 
 			}
@@ -159,7 +159,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 150.0, 90.0, 50.0, 22.0 ],
+					"patching_rect" : [ 165.0, 105.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -175,7 +175,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 90.0, 90.0, 50.0, 22.0 ],
+					"patching_rect" : [ 105.0, 105.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -221,7 +221,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 180.0, 50.0, 22.0 ],
+					"patching_rect" : [ 45.0, 195.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -235,10 +235,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "float" ],
-					"patching_rect" : [ 30.0, 135.0, 139.0, 22.0 ],
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 45.0, 150.0, 139.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.round -0.5 0.5"
+					"text" : "dot.round 0.5 0.5"
 				}
 
 			}
@@ -253,7 +253,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 90.0, 50.0, 22.0 ],
+					"patching_rect" : [ 45.0, 105.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -357,6 +357,34 @@
 			}
 , 			{
 				"name" : "dot.round.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.split.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.float.inf.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.aggregate.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.float.sanitize.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
