@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 424.0, 277.0, 480.0, 306.0 ],
+		"rect" : [ 236.0, 311.0, 378.0, 344.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,14 +38,14 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 360.0, 225.0, 30.0, 30.0 ],
-					"style" : ""
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "int" ],
+					"patching_rect" : [ 30.0, 225.0, 244.0, 22.0 ],
+					"style" : "",
+					"text" : "minimum 0."
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.0, 225.0, 165.0, 47.0 ],
+					"patching_rect" : [ 180.0, 255.0, 165.0, 47.0 ],
 					"style" : "",
 					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2018\nwww.idmil.org/software/dot"
 				}
@@ -71,7 +71,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 60.0, 49.0, 22.0 ],
+					"patching_rect" : [ 135.0, 60.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "zl nth 1"
 				}
@@ -84,7 +84,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 30.0, 110.0, 22.0 ],
+					"patching_rect" : [ 135.0, 30.0, 110.0, 22.0 ],
 					"style" : "",
 					"text" : "patcherargs -inf inf"
 				}
@@ -98,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 360.0, 150.0, 69.0, 22.0 ],
+					"patching_rect" : [ 255.0, 150.0, 69.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.float.inf"
 				}
@@ -111,7 +111,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 360.0, 105.0, 90.0, 22.0 ],
+					"patching_rect" : [ 255.0, 105.0, 90.0, 22.0 ],
 					"style" : "",
 					"text" : "route inf INF"
 				}
@@ -126,7 +126,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 30.0, 30.0, 30.0 ],
+					"patching_rect" : [ 255.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -135,12 +135,12 @@
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 30.0, 195.0, 349.0, 22.0 ],
+					"outlettype" : [ "float", "int" ],
+					"patching_rect" : [ 30.0, 195.0, 79.0, 22.0 ],
 					"style" : "",
-					"text" : "split 0."
+					"text" : "maximum 0."
 				}
 
 			}
@@ -152,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 195.0, 150.0, 77.0, 22.0 ],
+					"patching_rect" : [ 90.0, 150.0, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.float.inf -"
 				}
@@ -165,7 +165,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 105.0, 98.0, 22.0 ],
+					"patching_rect" : [ 90.0, 105.0, 98.0, 22.0 ],
 					"style" : "",
 					"text" : "route -inf -INF"
 				}
@@ -180,7 +180,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 30.0, 30.0, 30.0 ],
+					"patching_rect" : [ 90.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -193,7 +193,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 225.0, 30.0, 30.0 ],
+					"patching_rect" : [ 30.0, 270.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -222,37 +222,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-13", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 2 ],
+					"destination" : [ "obj-6", 1 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 2 ],
-					"midpoints" : [ 440.5, 183.0, 369.5, 183.0 ],
-					"source" : [ "obj-29", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 405.0, 138.0, 369.5, 138.0 ],
+					"midpoints" : [ 300.0, 138.0, 264.5, 138.0 ],
 					"source" : [ "obj-29", 1 ]
 				}
 
@@ -261,6 +246,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"midpoints" : [ 335.5, 196.5, 264.5, 196.5 ],
+					"source" : [ "obj-29", 2 ]
 				}
 
 			}
@@ -288,7 +281,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 279.5, 93.0, 369.5, 93.0 ],
+					"midpoints" : [ 174.5, 93.0, 264.5, 93.0 ],
 					"source" : [ "obj-32", 1 ]
 				}
 
@@ -296,7 +289,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 249.5, 93.0, 204.5, 93.0 ],
+					"midpoints" : [ 144.5, 93.0, 99.5, 93.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -304,7 +297,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 283.5, 183.0, 204.5, 183.0 ],
+					"midpoints" : [ 178.5, 183.0, 99.5, 183.0 ],
 					"source" : [ "obj-4", 2 ]
 				}
 
@@ -312,7 +305,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 244.0, 138.0, 204.5, 138.0 ],
+					"midpoints" : [ 139.0, 138.0, 99.5, 138.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -328,6 +321,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}

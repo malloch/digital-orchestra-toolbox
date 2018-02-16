@@ -118,7 +118,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Like the split object, but can handle inf and -inf as bounds.",
+					"text" : "Constrain numbers to within a specified range.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -133,25 +133,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.split",
+					"text" : "dot.constrain",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"format" : 6,
-					"id" : "obj-9",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 225.0, 225.0, 50.0, 22.0 ],
-					"style" : ""
 				}
 
 			}
@@ -211,11 +195,11 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 45.0, 180.0, 199.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.split 0 inf"
+					"text" : "dot.constrain 0 inf"
 				}
 
 			}
@@ -261,13 +245,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-1", 1 ]
 				}
 
 			}
@@ -329,7 +306,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.split.maxpat",
+				"name" : "dot.constrain.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
