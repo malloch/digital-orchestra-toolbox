@@ -389,7 +389,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "float", "float" ],
-					"patching_rect" : [ 255.0, 120.0, 165.0, 22.0 ],
+					"patching_rect" : [ 255.0, 120.0, 169.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.autoscale.windowed 100"
 				}
@@ -497,7 +497,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 2 ],
-					"midpoints" : [ 410.5, 157.0, 204.5, 157.0 ],
+					"midpoints" : [ 414.5, 157.0, 204.5, 157.0 ],
 					"source" : [ "obj-15", 2 ]
 				}
 
@@ -505,7 +505,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"midpoints" : [ 337.5, 152.0, 129.5, 152.0 ],
+					"midpoints" : [ 339.5, 152.0, 129.5, 152.0 ],
 					"source" : [ "obj-15", 1 ]
 				}
 
@@ -565,13 +565,6 @@
 			}
 , 			{
 				"name" : "dot.deviation.windowed.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.float.sanitize.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
