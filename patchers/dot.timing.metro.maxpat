@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 54.0, 79.0, 417.0, 368.0 ],
+		"rect" : [ 713.0, 194.0, 398.0, 428.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,13 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "bang", "int" ],
+					"patching_rect" : [ 45.0, 285.0, 109.0, 22.0 ],
+					"style" : "",
+					"text" : "t i b i"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
 					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.75, 315.0, 25.0, 25.0 ],
+					"patching_rect" : [ 135.0, 360.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -58,7 +73,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 45.0, 180.0, 24.0, 22.0 ],
+					"patching_rect" : [ 45.0, 195.0, 24.0, 22.0 ],
 					"style" : "",
 					"text" : "t b"
 				}
@@ -73,7 +88,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 60.0, 192.0, 22.0 ],
+					"patching_rect" : [ 180.0, 60.0, 192.0, 22.0 ],
 					"style" : "",
 					"text" : "if $f2!=0 then $f1 $f2 else 100 100"
 				}
@@ -88,7 +103,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 30.0, 95.0, 22.0 ],
+					"patching_rect" : [ 180.0, 30.0, 95.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess #1 #2"
 				}
@@ -103,9 +118,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 285.0, 170.0, 47.0 ],
+					"patching_rect" : [ 210.0, 343.0, 162.0, 47.0 ],
 					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2009\nwww.idmil.org/software/dot"
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2009–2018\nwww.idmil.org/software/dot"
 				}
 
 			}
@@ -118,7 +133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 45.0, 270.0, 39.0, 22.0 ],
+					"patching_rect" : [ 45.0, 315.0, 39.0, 22.0 ],
 					"style" : "",
 					"text" : "delay"
 				}
@@ -133,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 30.0, 60.0, 33.5, 22.0 ],
+					"patching_rect" : [ 30.0, 75.0, 33.5, 22.0 ],
 					"style" : "",
 					"text" : "t i i"
 				}
@@ -148,7 +163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 75.0, 105.0, 36.0, 22.0 ],
+					"patching_rect" : [ 75.0, 120.0, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -163,7 +178,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 150.0, 49.0, 22.0 ],
+					"patching_rect" : [ 45.0, 165.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -178,7 +193,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 135.0, 180.0, 32.5, 22.0 ],
+					"patching_rect" : [ 135.0, 195.0, 32.5, 22.0 ],
 					"style" : "",
 					"text" : "-"
 				}
@@ -193,7 +208,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 135.0, 150.0, 49.0, 22.0 ],
+					"patching_rect" : [ 135.0, 165.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "zl nth 2"
 				}
@@ -208,7 +223,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 45.0, 240.0, 138.5, 22.0 ],
+					"patching_rect" : [ 45.0, 255.0, 138.5, 22.0 ],
 					"style" : "",
 					"text" : "+"
 				}
@@ -222,7 +237,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 315.0, 25.0, 25.0 ],
+					"patching_rect" : [ 90.0, 360.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -236,7 +251,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 30.0, 25.0, 25.0 ],
+					"patching_rect" : [ 135.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -250,7 +265,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 45.0, 210.0, 109.0, 22.0 ],
+					"patching_rect" : [ 45.0, 225.0, 109.0, 22.0 ],
 					"style" : "",
 					"text" : "random"
 				}
@@ -265,7 +280,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 30.0, 25.0, 25.0 ],
+					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -302,7 +317,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 39.5, 92.0, 84.5, 92.0 ],
+					"midpoints" : [ 39.5, 107.0, 84.5, 107.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -310,7 +325,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 204.5, 114.5, 144.5, 114.5 ],
+					"midpoints" : [ 189.5, 129.5, 144.5, 129.5 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -325,17 +340,29 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 54.5, 299.0, 114.5, 299.0, 114.5, 140.0, 84.5, 140.0 ],
-					"order" : 0,
+					"midpoints" : [ 54.5, 347.0, 28.5, 347.0, 28.5, 154.0, 84.5, 154.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 1,
-					"source" : [ "obj-15", 0 ]
+					"source" : [ "obj-16", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-16", 2 ]
 				}
 
 			}
@@ -362,16 +389,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"order" : 1,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 

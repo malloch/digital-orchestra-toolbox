@@ -269,9 +269,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 150.0, 71.0, 20.0 ],
+					"patching_rect" : [ 150.0, 155.0, 100.0, 20.0 ],
 					"style" : "",
-					"text" : "Front view"
+					"text" : "Front view",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -302,9 +304,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 150.0, 60.0, 20.0 ],
+					"patching_rect" : [ 45.0, 155.0, 100.0, 20.0 ],
 					"style" : "",
-					"text" : "Top view"
+					"text" : "Top view",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
