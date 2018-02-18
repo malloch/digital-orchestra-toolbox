@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.bytetobits" module="dot" kind="patcher">
+	<digest>
+		convert a byte to bits
+	</digest>
+	<description>
+		Converts a single byte into a list of 8 binary bits.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="int">
+			<digest>
+                byte
+			</digest>
+			<description>
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="int">
+			<digest>
+                bit #0
+			</digest>
+			<description>
+			</description>
+		</outlet>
+        <outlet id="1" type="int">
+            <digest>
+                bit #1
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="2" type="int">
+            <digest>
+                bit #2
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="3" type="int">
+            <digest>
+                bit #3
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="4" type="int">
+            <digest>
+                bit #4
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="5" type="int">
+            <digest>
+                bit #5
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="6" type="int">
+            <digest>
+                bit #6
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="7" type="int">
+            <digest>
+                bit #7
+            </digest>
+            <description>
+            </description>
+        </outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="int">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                convert to a list of bits
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

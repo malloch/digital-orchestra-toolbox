@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.aggregate.leaky" module="dot" kind="patcher">
+	<digest>
+		Integrator with a leak
+	</digest>
+	<description>
+		An integrator with a configurable leak.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="INLET_TYPE">
+			<digest>
+                int or float to add to the integrator
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="INLET_TYPE">
+            <digest>
+                z value for internal leak function (optional)
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="INLET_TYPE">
+			<digest>
+                aggregated value
+			</digest>
+			<description>
+			</description>
+		</outlet>
+        <outlet id="1" type="INLET_TYPE">
+            <digest>
+                bang when stable value has been reached.
+            </digest>
+            <description>
+            </description>
+        </outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+<!--        <objarg name="Number of channels" type="int" optional="1"> -->
+<!--            <digest>-->
+<!--            </digest>-->
+<!--            <description>-->
+<!--            Number of audio output channels-->
+<!--            </description>-->
+<!--        </objarg>-->
+	</objarglist>
+
+	<!--ATTRIBUTES-->
+	<attributelist>
+		<attribute name="expression" get="0" set="1" type="symbol/list" size="1">
+			<digest>
+				Leak function in the form "y=x"
+			</digest>
+			<description>
+				Leak function in the form "y=x"
+			</description>
+		</attribute>
+
+		<attribute name="min" get="0" set="1" type="int/float" size="1">
+			<digest>
+				Minimum internal value
+			</digest>
+			<description>
+				Minimum internal value
+			</description>
+		</attribute>
+
+		<attribute name="max" get="0" set="1" type="int/float" size="1">
+			<digest>
+				Maximum internal value
+			</digest>
+			<description>
+				Maximum internal value
+			</description>
+		</attribute>
+
+        <attribute name="timegrain" get="0" set="1" type="int/float" size="1">
+            <digest>
+                Time grain for leak calculations
+            </digest>
+            <description>
+                Time grain for leak calculations
+            </description>
+        </attribute>
+	</attributelist>
+
+	<!--MESSAGES-->
+	<methodlist>
+		<method name="expression">
+			<arglist>
+                <arg name="expression" type="symbol/list" optional="0" />
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Leak function in the form "y=x"
+			</description>
+		</method>
+		<method name="min">
+			<arglist>
+                <arg name="value" type="int/float" optional="0" />
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Minimum internal value
+			</description>
+		</method>
+		<method name="max">
+			<arglist>
+				<arg name="value" type="int/float" optional="0" />
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Maximum internal value
+			</description>
+		</method>
+		<method name="timegrain">
+			<arglist>
+				<arg name="grain" type="int/float" optional="0" />
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Time grain for leak calculations
+			</description>
+		</method>
+		<method name="int">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Add to aggregate
+			</description>
+		</method>
+		<method name="float">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Add to aggregate
+			</description>
+		</method>
+	</methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="dot.aggregate" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

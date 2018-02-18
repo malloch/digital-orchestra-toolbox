@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.bound" module="dot" kind="patcher">
+	<digest>
+		mute/clamp/wrap/fold numbers
+	</digest>
+	<description>
+		Mute, clamp, wrap, or fold a stream of numbers at a predefined min and/or max.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="int/float">
+			<digest>
+                input to constrain
+			</digest>
+			<description>
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="float">
+			<digest>
+                bound output
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+        <attribute name="min" get="0" set="1" type="list" size="1">
+            <digest>
+                min
+            </digest>
+            <description>
+                Action to take if input is less than minimum.
+            </description>
+        </attribute>
+
+        <attribute name="max" get="0" set="1" type="list" size="1">
+            <digest>
+                max
+            </digest>
+            <description>
+                Action to take if input is greater than maximum.
+            </description>
+        </attribute>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="min">
+            <arglist>
+                <arg name="action" type="symbol" optional="0" />
+                <arg name="value" type="int/float" optional="1" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                minimum
+            </description>
+        </method>
+        <method name="max">
+            <arglist>
+                <arg name="action" type="symbol" optional="0" />
+                <arg name="value" type="int/float" optional="1" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                maximum
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+
