@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.quaternion.jit.shortestpath" module="dot" kind="patcher">
+	<digest>
+		Eliminate unnecessary rotations
+	</digest>
+	<description>
+		Adjust a stream of quaternion matrices to eliminate unnecessary rotations.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+        <metadata name="tag">Quaternion</metadata>
+        <metadata name="tag">Jitter</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="matrix">
+			<digest>
+                Quaternion matrix
+			</digest>
+			<description>
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="matrix">
+			<digest>
+                Adjusted quaternion matrix
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="matrix">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Quaternion matrix
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+        <seealso name="dot.quaternion.jit.line" />
+        <seealso name="dot.quaternion.jit.slerp" />
+        <seealso name="dot.quaternion.line" />
+        <seealso name="dot.quaternion.shortestpath" />
+        <seealso name="dot.quaternion.slerp" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+</c74object>
+

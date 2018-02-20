@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.quaternion.jit.line" module="dot" kind="patcher">
+	<digest>
+        Timed ramp between quaternion matrices.
+	</digest>
+	<description>
+		Timed ramp between quaternion matrices.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+        <metadata name="tag">Quaternion</metadata>
+        <metadata name="tag">Jitter</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="matrix">
+			<digest>
+                Target quaternions
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="int/float">
+            <digest>
+                Ramp time in milliseconds
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="1" type="int/float">
+            <digest>
+                Time grain in milliseconds
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="matrix">
+			<digest>
+                Interpolated quaternions
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+        <attribute name="ramptime" get="0" set="1" type="float" size="1">
+            <digest>
+                Ramp time
+            </digest>
+            <description>
+                Ramp time in milliseconds
+            </description>
+        </attribute>
+
+        <attribute name="shortest" get="0" set="1" type="float" size="1">
+            <digest>
+                Shortest path
+            </digest>
+            <description>
+                Take shortest path between quaternions.
+            </description>
+        </attribute>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="matrix">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Target quaternions
+            </description>
+        </method>
+        <method name="shortest">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Set whether interpolation should take the shortest path.
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+</c74object>
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.quaternion.multiply" module="dot" kind="patcher">
+	<digest>
+		Multiply quaternions
+	</digest>
+	<description>
+		Multiply two quaternions.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+        <metadata name="tag">Quaternion</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="list">
+			<digest>
+                Left quaternion
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="list">
+            <digest>
+                Right quaternion
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="list">
+			<digest>
+                Quaternion product
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="Quaternion" type="list" optional="1">
+            <digest>
+            </digest>
+            <description>
+                Quaternion multiplier
+            </description>
+        </objarg>
+    </objarglist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="list">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Quaternion as list [w, x, y, z]
+            </description>
+        </method>
+        <method name="bang">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Output current value
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+</c74object>
+

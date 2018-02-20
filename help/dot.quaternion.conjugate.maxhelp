@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 316.0, 100.0, 510.0, 467.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 467.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,8 +48,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "dot.quaternion.jit.vis.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 225.0, 140.0, 105.0 ],
 					"viewvisibility" : 1
 				}
@@ -67,8 +68,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "dot.quaternion.jit.vis.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 225.0, 140.0, 105.0 ],
 					"viewvisibility" : 1
 				}
@@ -113,7 +115,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Calculate the conjugate of a quaternion",
+					"text" : "Calculate the conjugate of a quaternion.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -318,21 +320,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.rotate.jit.maxpat",
+				"name" : "dot.quaternion.jit.rotate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.conjugate.jit.maxpat",
+				"name" : "dot.quaternion.jit.conjugate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.multiply.jit.maxpat",
+				"name" : "dot.quaternion.jit.multiply.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

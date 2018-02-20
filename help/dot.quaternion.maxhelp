@@ -79,7 +79,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Convert angles to a quaternion",
+					"text" : "Convert angles to a quaternion.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -260,21 +260,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.rotate.jit.maxpat",
+				"name" : "dot.quaternion.jit.rotate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.conjugate.jit.maxpat",
+				"name" : "dot.quaternion.jit.conjugate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.quaternion.multiply.jit.maxpat",
+				"name" : "dot.quaternion.jit.multiply.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

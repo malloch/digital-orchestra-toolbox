@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.quaternion.jit.rotate" module="dot" kind="patcher">
+	<digest>
+		Rotate jitter geometries
+	</digest>
+	<description>
+		Rotate jitter geometries using jitter quaternions.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+        <metadata name="tag">Quaternion</metadata>
+        <metadata name="tag">Jitter</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="signal">
+			<digest>
+                signal to demodulate
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="float/signal">
+            <digest>
+                frequency
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="1" type="float/signal">
+            <digest>
+                phase
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="1" type="float/signal">
+            <digest>
+                bandwidth
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+                output
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+        <attribute name="freq" get="0" set="1" type="float" size="1">
+            <digest>
+                Frequency
+            </digest>
+            <description>
+                Frequency
+            </description>
+        </attribute>
+
+        <attribute name="phase" get="0" set="1" type="float" size="1">
+            <digest>
+                Phase
+            </digest>
+            <description>
+                Phase
+            </description>
+        </attribute>
+
+        <attribute name="bandwidth" get="0" set="1" type="float" size="1">
+            <digest>
+                Bandwidth
+            </digest>
+            <description>
+                Bandwidth
+            </description>
+        </attribute>
+
+<!--        <attribute name="calibrate" get="0" set="1" type="float" size="1">-->
+<!--            <digest>-->
+<!--                Calibrate-->
+<!--            </digest>-->
+<!--            <description>-->
+<!--                Calibrate-->
+<!--            </description>-->
+<!--        </attribute>-->
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="freq">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Frequency
+            </description>
+        </method>
+        <method name="phase">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Phase
+            </description>
+        </method>
+        <method name="bandwidth">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Bandwidth
+            </description>
+        </method>
+<!--        <method name="calibrate">-->
+<!--            <arglist>-->
+<!--            </arglist>-->
+<!--            <digest>-->
+<!--            </digest>-->
+<!--            <description>-->
+<!--                Calibrate-->
+<!--            </description>-->
+<!--        </method>-->
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

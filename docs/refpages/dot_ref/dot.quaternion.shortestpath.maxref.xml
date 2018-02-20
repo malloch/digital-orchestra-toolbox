@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.quaternion.shortestpath" module="dot" kind="patcher">
+	<digest>
+		Eliminate unnecessary rotations
+	</digest>
+	<description>
+		Adjust a stream of quaternions to eliminate unnecessary rotations.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+        <metadata name="tag">Quaternion</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="list">
+			<digest>
+                Quaternion as list [w, x, y, z]
+			</digest>
+			<description>
+                Quaternion as list [w, x, y, z]
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="list">
+			<digest>
+                Quaternion as list [w, x, y, z]
+			</digest>
+			<description>
+                Quaternion as list [w, x, y, z]
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="list">
+            <arglist>
+            </arglist>
+            <digest>
+                Quaternion as list [w, x, y, z]
+            </digest>
+            <description>
+                Quaternion as list [w, x, y, z]
+            </description>
+        </method>
+        <method name="bang">
+            <arglist>
+            </arglist>
+            <digest>
+                Output current value
+            </digest>
+            <description>
+                Output current value
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+        <seealso name="dot.quaternion.line" />
+        <seealso name="dot.quaternion.slerp" />
+        <seealso name="dot.quaternion.jit.line" />
+        <seealso name="dot.quaternion.jit.shortestpath" />
+        <seealso name="dot.quaternion.jit.slerp" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+</c74object>
+

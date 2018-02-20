@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.quaternion" module="dot" kind="patcher">
+	<digest>
+		Convert angles to a quaternion.
+	</digest>
+	<description>
+		Convert angles to a quaternion.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+        <metadata name="tag">Quaternion</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="float/list">
+			<digest>
+                Rotation angle φ or list of [φ, θ, ψ]
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="float">
+            <digest>
+                Rotation angle θ
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="2" type="float/list">
+            <digest>
+                Rotation angle ψ
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="list">
+			<digest>
+                Quaternion
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="float">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Rotation angle φ
+            </description>
+        </method>
+        <method name="bang">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Output current value
+            </description>
+        </method>
+        <method name="list">
+            <arglist>
+                <arg name="φ" type="float" optional="0" />
+                <arg name="θ" type="float" optional="0" />
+                <arg name="ψ" type="float" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Rotation angles [φ, θ, ψ]
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+</c74object>
+

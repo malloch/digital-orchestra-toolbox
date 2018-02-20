@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 195.0, 169.0, 47.0 ],
+					"patching_rect" : [ 150.0, 195.0, 169.0, 47.0 ],
 					"style" : "",
 					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2011\nwww.idmil.org/software/dot"
 				}
@@ -59,7 +59,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 225.0, 25.0, 25.0 ],
+					"patching_rect" : [ 30.0, 210.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -73,7 +73,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 150.0, 184.0, 22.0 ],
+					"patching_rect" : [ 120.0, 150.0, 184.0, 22.0 ],
 					"style" : "",
 					"text" : "vexpr $f1 / $f2 @scalarmode 1"
 				}
@@ -88,7 +88,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 120.0, 283.0, 22.0 ],
+					"patching_rect" : [ 285.0, 120.0, 283.0, 22.0 ],
 					"style" : "",
 					"text" : "expr sqrt(pow($f1\\, 2) + pow($f2\\, 2) + pow($f3\\, 2))"
 				}
@@ -103,7 +103,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 75.0, 57.0, 22.0 ],
+					"patching_rect" : [ 120.0, 75.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "$2 $3 $4"
 				}
@@ -118,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 195.0, 41.0, 22.0 ],
+					"patching_rect" : [ 30.0, 180.0, 109.0, 22.0 ],
 					"style" : "",
 					"text" : "zl join"
 				}
@@ -133,7 +133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 30.0, 120.0, 74.0, 22.0 ],
+					"patching_rect" : [ 30.0, 150.0, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "* 114.59156"
 				}
@@ -180,7 +180,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 39.5, 64.5, 159.5, 64.5 ],
+					"midpoints" : [ 39.5, 64.5, 129.5, 64.5 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -210,7 +210,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 159.5, 106.0, 324.5, 106.0 ],
+					"midpoints" : [ 129.5, 106.0, 294.5, 106.0 ],
 					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
@@ -234,7 +234,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 159.5, 182.0, 61.5, 182.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
