@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.MIDI.out",
+					"text" : "dot.midi.out",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -336,21 +336,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.MIDI.out.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.autoscale.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

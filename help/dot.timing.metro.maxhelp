@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 385.0 ],
+		"rect" : [ 49.0, 79.0, 510.0, 385.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 180.0, 270.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 181.0, 268.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -203,7 +202,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
 					"patching_rect" : [ 45.0, 150.0, 154.0, 22.0 ],
@@ -327,6 +326,13 @@
 			}
 , 			{
 				"name" : "dot.timing.metro.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.timing.translate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

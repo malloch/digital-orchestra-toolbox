@@ -2225,7 +2225,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 69.0, 105.0, 585.0, 636.0 ],
+						"rect" : [ 0.0, 26.0, 585.0, 636.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4902,7 +4902,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 585.0, 636.0 ],
+						"rect" : [ 69.0, 105.0, 585.0, 636.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4932,6 +4932,33 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 0.0, 255.0, 285.0, 20.0 ],
+									"presentation_rect" : [ 1.0, 257.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "Make the translate object easier to use:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 315.0, 255.0, 112.0, 22.0 ],
+									"presentation_rect" : [ 314.0, 258.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "dot.timing.translate"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"hidden" : 1,
@@ -4940,7 +4967,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.0, 300.0, 53.0, 22.0 ],
+									"patching_rect" : [ 315.0, 330.0, 53.0, 22.0 ],
 									"style" : "",
 									"text" : "pcontrol"
 								}
@@ -4956,7 +4983,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.0, 270.0, 81.0, 22.0 ],
+									"patching_rect" : [ 315.0, 300.0, 81.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend help"
 								}
@@ -5217,6 +5244,14 @@
 								"patchline" : 								{
 									"destination" : [ "obj-79", 0 ],
 									"hidden" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-79", 0 ],
+									"hidden" : 1,
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -5339,7 +5374,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 306.0, 585.0, 33.0 ],
-									"presentation_rect" : [ 0.0, 321.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "MIDI",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -5357,7 +5391,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 300.0, 585.0, 45.0 ],
-									"presentation_rect" : [ 0.0, 315.0, 0.0, 0.0 ],
 									"proportion" : 0.39,
 									"rounded" : 0,
 									"style" : "",
@@ -6424,7 +6457,6 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 426.0, 210.0, 33.0 ],
-									"presentation_rect" : [ 94.0, 401.0, 0.0, 0.0 ],
 									"style" : "",
 									"suppressinlet" : 1,
 									"text" : "Polar & Spherical",
@@ -6443,7 +6475,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 420.0, 585.0, 45.0 ],
-									"presentation_rect" : [ 94.0, 395.0, 0.0, 0.0 ],
 									"proportion" : 0.39,
 									"rounded" : 0,
 									"style" : "",

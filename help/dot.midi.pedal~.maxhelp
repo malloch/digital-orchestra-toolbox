@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Detect triggers from a MIDI-pedal through an audio-input.",
+					"text" : "Detect triggers from a MIDI-pedal through an audio input.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.MIDI.pedal~",
+					"text" : "dot.midi.pedal~",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -254,14 +254,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.MIDI.pedal~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
