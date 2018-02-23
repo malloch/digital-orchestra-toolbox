@@ -54,7 +54,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 510.0, 538.0 ],
+						"rect" : [ 799.0, 108.0, 510.0, 538.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -618,7 +618,7 @@
 									"id" : "obj-64",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "dot.menu.maxpat",
+									"name" : "dot.logo.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -837,7 +837,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 799.0, 108.0, 510.0, 538.0 ],
+						"rect" : [ 0.0, 26.0, 510.0, 538.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1561,35 +1561,35 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.schmitt~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.route.signal~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.fromsignal~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.scale~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"name" : "dot.logo.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -497,7 +497,7 @@
 					"id" : "obj-64",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "dot.menu.maxpat",
+					"name" : "dot.logo.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -661,7 +661,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.menu.maxpat",
+				"name" : "dot.logo.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -149,7 +149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 255.0, 75.0, 33.0 ],
+					"patching_rect" : [ 15.0, 255.0, 75.0, 33.0 ],
 					"style" : "",
 					"text" : "short namespace"
 				}
@@ -209,9 +209,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 285.0, 67.0, 22.0 ],
-					"style" : "",
-					"text" : "/0.1 53."
+					"patching_rect" : [ 30.0, 285.0, 67.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -257,7 +256,7 @@
 					"id" : "obj-64",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "dot.menu.maxpat",
+					"name" : "dot.logo.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -325,7 +324,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 114.5, 272.0, 102.5, 272.0 ],
+					"midpoints" : [ 114.5, 272.0, 87.5, 272.0 ],
 					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
@@ -354,7 +353,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.menu.maxpat",
+				"name" : "dot.logo.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

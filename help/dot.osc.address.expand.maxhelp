@@ -62,7 +62,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.osc.expand",
+					"text" : "dot.osc.address.expand",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -77,9 +77,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 405.0, 105.0, 22.0 ],
+					"patching_rect" : [ 30.0, 405.0, 151.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.osc.compress"
+					"text" : "dot.osc.address.compress"
 				}
 
 			}
@@ -258,7 +258,7 @@
 					"id" : "obj-64",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "dot.menu.maxpat",
+					"name" : "dot.logo.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -361,22 +361,22 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
+				"name" : "dot.logo.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.osc.address.expand.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.osc.address.compress.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
