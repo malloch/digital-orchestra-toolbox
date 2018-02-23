@@ -1,8 +1,8 @@
 # DOT - Digital Orchestra Toolbox
 
-This "toolbox" is a collection of Max abstractions that we have found useful in creating gesture processing patches for digital musical instruments. Each patch is accompanied by a help patch to demonstrate its use.
+The Digital Orchestra Toolbox (DOT) started its life back in 2006 as a repository of useful [MaxMSP](https://cycling74.com/) functions for the [CIRMMT/McGill Digital Orchestra Project](http://idmil.org/projects/digital_orchestra). Over the years it has grown and evolved as it was used in subsequent projects at McGill and elsewhere, including the development and performance of a number of new digital musical instruments such as the [T-Stick](https://josephmalloch.wordpress.com/portfolio/tstick/) and the [Spine](https://josephmalloch.wordpress.com/portfolio/spine/).
 
-Since the tools are provided as Max abstractions rather than external objects, there should be no issues with cross-platform use. Additionally, anyone can open the abstraction patches to see how it functions.
+Currently, the DOT includes more than 120 tools, and unlike many packages available for extending Max, it consists  only  of abstractions external objects.  In addition to ensuring easy cross-platform functionality (since they do not need to be compiled for a specific platform), this approach also means that the internal structure and function of the tools is viewable, understandable, editable and appropriable by users within Max itself.
 
 ## Contributors
 
