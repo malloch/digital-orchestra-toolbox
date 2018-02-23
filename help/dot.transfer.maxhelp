@@ -583,21 +583,18 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.transfer.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "exponential.table",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

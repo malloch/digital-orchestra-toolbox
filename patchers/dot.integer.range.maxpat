@@ -218,7 +218,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.system.bitDepth.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

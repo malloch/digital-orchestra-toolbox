@@ -44,7 +44,6 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
 					"patching_rect" : [ 615.0, 285.0, 109.0, 22.0 ],
-					"presentation_rect" : [ 569.0, 280.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.unpack 6"
 				}
@@ -58,7 +57,6 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
 					"patching_rect" : [ 420.0, 285.0, 109.0, 22.0 ],
-					"presentation_rect" : [ 395.0, 283.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.unpack 6"
 				}
@@ -72,7 +70,6 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
 					"patching_rect" : [ 225.0, 285.0, 109.0, 22.0 ],
-					"presentation_rect" : [ 207.0, 282.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.unpack 6"
 				}

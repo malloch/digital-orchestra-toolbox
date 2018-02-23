@@ -152,7 +152,6 @@
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"ft1" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "number~",
 									"mode" : 1,
@@ -638,7 +637,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
 									"patching_rect" : [ 330.0, 225.0, 56.0, 22.0 ],
-									"presentation_rect" : [ 301.0, 240.0, 0.0, 0.0 ],
 									"sig" : 2.0,
 									"style" : ""
 								}
@@ -657,7 +655,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
 									"patching_rect" : [ 270.0, 225.0, 56.0, 22.0 ],
-									"presentation_rect" : [ 240.0, 244.0, 0.0, 0.0 ],
 									"sig" : 1.0,
 									"style" : ""
 								}
@@ -676,7 +673,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
 									"patching_rect" : [ 210.0, 225.0, 56.0, 22.0 ],
-									"presentation_rect" : [ 180.0, 244.0, 0.0, 0.0 ],
 									"sig" : -1.0,
 									"style" : ""
 								}
@@ -695,7 +691,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
 									"patching_rect" : [ 150.0, 225.0, 56.0, 22.0 ],
-									"presentation_rect" : [ 125.0, 240.0, 0.0, 0.0 ],
 									"sig" : 0.2,
 									"style" : ""
 								}
@@ -1385,28 +1380,24 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.scale~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.route.signal~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.fromsignal~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

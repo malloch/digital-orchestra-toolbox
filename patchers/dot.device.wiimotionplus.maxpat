@@ -153,7 +153,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "float", "float" ],
 									"patching_rect" : [ 80.0, 130.0, 163.0, 22.0 ],
 									"style" : "",
 									"text" : "dot.deviation.exponential 0.1"
@@ -435,7 +435,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "float", "float" ],
 									"patching_rect" : [ 80.0, 130.0, 163.0, 22.0 ],
 									"style" : "",
 									"text" : "dot.deviation.exponential 0.1"
@@ -717,7 +717,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "float", "float" ],
 									"patching_rect" : [ 80.0, 130.0, 163.0, 22.0 ],
 									"style" : "",
 									"text" : "dot.deviation.exponential 0.1"
@@ -1868,21 +1868,30 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.deviation.exponential.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.mean.exponential.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.sanitize.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.constrain.maxpat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.float.inf.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

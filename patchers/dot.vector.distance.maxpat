@@ -201,13 +201,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 345.0, 180.0, 180.0, 22.0 ],
+					"patching_rect" : [ 345.0, 180.0, 115.0, 35.0 ],
 					"style" : "",
-					"text" : "dot.list.distance: bad arguments"
+					"text" : "dot.vector.distance: bad arguments"
 				}
 
 			}
@@ -248,11 +249,11 @@
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 120.0, 86.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 195.0, 120.0, 81.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess #1"
+					"text" : "patcherargs -"
 				}
 
 			}

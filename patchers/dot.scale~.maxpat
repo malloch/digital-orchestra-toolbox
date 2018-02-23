@@ -724,7 +724,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 30.0, 229.0, 33.0 ],
+					"patching_rect" : [ 225.0, 30.0, 231.0, 33.0 ],
 					"style" : "",
 					"text" : "accepts signals and floats/ints for control. Signals override messages"
 				}
@@ -1690,7 +1690,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 360.0, 240.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 352.0, 227.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -2731,14 +2730,12 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.route.signal~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.fromsignal~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

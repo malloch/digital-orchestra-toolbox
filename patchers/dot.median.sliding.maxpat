@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 103.0, 195.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 75.0, 195.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 

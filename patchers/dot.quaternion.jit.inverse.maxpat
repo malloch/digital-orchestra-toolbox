@@ -180,7 +180,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.quaternion.jit.conjugate.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

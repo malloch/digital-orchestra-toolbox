@@ -44,7 +44,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 390.0, 195.0, 20.0, 22.0 ],
-					"presentation_rect" : [ 345.0, 165.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "t l"
 				}
@@ -58,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 195.0, 20.0, 22.0 ],
-					"presentation_rect" : [ 271.0, 163.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "t l"
 				}
@@ -110,6 +108,8 @@
 					"fontface" : 0,
 					"fontsize" : 8.998901,
 					"id" : "obj-25",
+					"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+					"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 					"maxclass" : "filtergraph~",
 					"nfilters" : 1,
 					"numinlets" : 8,
@@ -1634,7 +1634,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 5 ],
-					"midpoints" : [ 399.5, 228.0, 400.928558, 228.0 ],
+					"midpoints" : [ 399.5, 228.0, 400.928571, 228.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -1696,7 +1696,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 5 ],
-					"midpoints" : [ 459.5, 223.0, 400.928558, 223.0 ],
+					"midpoints" : [ 459.5, 223.0, 400.928571, 223.0 ],
 					"source" : [ "obj-86", 0 ]
 				}
 
@@ -1704,7 +1704,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 6 ],
-					"midpoints" : [ 534.5, 228.0, 413.214294, 228.0 ],
+					"midpoints" : [ 534.5, 228.0, 413.214286, 228.0 ],
 					"source" : [ "obj-87", 0 ]
 				}
 
@@ -1770,14 +1770,12 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.route.signal~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.repeat.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

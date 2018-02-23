@@ -166,7 +166,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 105.0, 169.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.vector.dotProduct"
+					"text" : "dot.vector.dotproduct"
 				}
 
 			}
@@ -271,15 +271,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.vector.dotProduct.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"name" : "dot.vector.dotproduct.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.quaternion.normalize.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

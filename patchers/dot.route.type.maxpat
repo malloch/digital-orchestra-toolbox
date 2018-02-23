@@ -535,7 +535,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 105.0, 60.0, 49.0 ],
+					"patching_rect" : [ 30.0, 105.0, 63.0, 49.0 ],
 					"style" : "",
 					"text" : "substitute bang signal"
 				}

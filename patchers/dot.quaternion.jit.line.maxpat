@@ -507,7 +507,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 2 ],
-					"midpoints" : [ 679.833313, 168.5, 594.5, 168.5 ],
+					"midpoints" : [ 679.833333, 168.5, 594.5, 168.5 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -529,7 +529,12 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.quaternion.jit.slerp.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.quaternion.jit.normalize.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 255.0, 195.0, 60.0 ],
+					"patching_rect" : [ 150.0, 255.0, 197.0, 60.0 ],
 					"style" : "",
 					"text" : "Digital Orchestra Toolbox\nJoseph Malloch & Stephen Sinclair\nIDMIL 2009\nwww.idmil.org/software/dot"
 				}

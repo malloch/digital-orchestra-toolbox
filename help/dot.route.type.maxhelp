@@ -578,7 +578,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 204.571426, 231.0, 142.5, 231.0 ],
+					"midpoints" : [ 204.571429, 231.0, 142.5, 231.0 ],
 					"source" : [ "obj-11", 3 ]
 				}
 
@@ -593,7 +593,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 150.214279, 223.5, 83.5, 223.5 ],
+					"midpoints" : [ 150.214286, 223.5, 83.5, 223.5 ],
 					"source" : [ "obj-11", 2 ]
 				}
 
@@ -601,7 +601,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
-					"midpoints" : [ 258.928558, 226.0, 247.5, 226.0 ],
+					"midpoints" : [ 258.928571, 226.0, 247.5, 226.0 ],
 					"source" : [ "obj-11", 4 ]
 				}
 
@@ -609,7 +609,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"midpoints" : [ 313.285706, 226.0, 333.5, 226.0 ],
+					"midpoints" : [ 313.285714, 226.0, 333.5, 226.0 ],
 					"source" : [ "obj-11", 5 ]
 				}
 
@@ -617,7 +617,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
-					"midpoints" : [ 367.642853, 226.0, 393.0, 226.0 ],
+					"midpoints" : [ 367.642857, 226.0, 393.0, 226.0 ],
 					"source" : [ "obj-11", 6 ]
 				}
 
@@ -632,7 +632,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 95.85714, 221.5, 62.5, 221.5 ],
+					"midpoints" : [ 95.857143, 221.5, 62.5, 221.5 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -718,14 +718,12 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.route.type.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

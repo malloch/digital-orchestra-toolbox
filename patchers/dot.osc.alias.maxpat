@@ -831,7 +831,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 390.0, 165.0, 47.0 ],
+					"patching_rect" : [ 75.0, 390.0, 167.0, 47.0 ],
 					"style" : "",
 					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2010\nwww.idmil.org/software/dot"
 				}
@@ -1132,7 +1132,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 189.166672, 167.0, 54.5, 167.0 ],
+					"midpoints" : [ 189.166667, 167.0, 54.5, 167.0 ],
 					"source" : [ "obj-7", 2 ]
 				}
 

@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 133.0, 270.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 164.0, 272.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -59,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 90.0, 270.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 101.0, 270.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -149,7 +147,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
+					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 45.0, 240.0, 125.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.mean.exponential"
@@ -163,7 +161,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
+					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 90.0, 120.0, 125.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.mean.exponential"
@@ -177,7 +175,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
+					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 60.0, 150.0, 125.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.mean.exponential"
@@ -394,14 +392,24 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.mean.exponential.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.sanitize.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.constrain.maxpat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.float.inf.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

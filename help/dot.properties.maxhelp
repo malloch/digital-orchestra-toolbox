@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 270.0, 203.0, 210.0, 33.0 ],
-					"presentation_rect" : [ 227.0, 207.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Third outlet outputs unmatched parts of the input string/unmatched strings."
 				}
@@ -61,8 +60,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 143.0, 203.0, 125.0, 33.0 ],
-					"presentation_rect" : [ 233.0, 87.0, 0.0, 0.0 ],
+					"patching_rect" : [ 143.0, 203.0, 128.0, 33.0 ],
 					"style" : "",
 					"text" : "Second outlet outputs number of properties."
 				}
@@ -287,14 +285,12 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.properties.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

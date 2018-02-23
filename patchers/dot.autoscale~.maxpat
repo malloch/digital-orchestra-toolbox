@@ -1960,7 +1960,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 2 ],
-					"midpoints" : [ 113.166664, 257.5, 159.5, 257.5 ],
+					"midpoints" : [ 113.166667, 257.5, 159.5, 257.5 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -2133,7 +2133,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.route.signal~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -145,7 +145,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 2730.971436, "ticks" ],
+						"originallength" : [ 2730.971429, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -891,7 +891,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 3 ],
-					"midpoints" : [ 384.5, 233.0, 253.0, 233.0, 253.0, 269.0, 151.100006, 269.0 ],
+					"midpoints" : [ 384.5, 233.0, 253.0, 233.0, 253.0, 269.0, 151.1, 269.0 ],
 					"order" : 2,
 					"source" : [ "obj-13", 0 ]
 				}
@@ -926,7 +926,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 144.5, 255.0, 76.699997, 255.0 ],
+					"midpoints" : [ 144.5, 255.0, 76.7, 255.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -943,7 +943,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 4 ],
-					"midpoints" : [ 279.5, 348.0, 253.0, 348.0, 253.0, 274.0, 188.300003, 274.0 ],
+					"midpoints" : [ 279.5, 348.0, 253.0, 348.0, 253.0, 274.0, 188.3, 274.0 ],
 					"order" : 1,
 					"source" : [ "obj-37", 0 ]
 				}
@@ -999,7 +999,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 2 ],
-					"midpoints" : [ 279.5, 229.0, 249.0, 229.0, 249.0, 265.0, 113.900002, 265.0 ],
+					"midpoints" : [ 279.5, 229.0, 249.0, 229.0, 249.0, 265.0, 113.9, 265.0 ],
 					"order" : 2,
 					"source" : [ "obj-56", 0 ]
 				}
@@ -1059,21 +1059,18 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.interpolate.4~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "interpolate.4~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 130.0, 324.0, 60.0, 39.0 ],
-					"presentation_rect" : [ 129.0, 324.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "filtered"
 				}
@@ -60,7 +59,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.0, 324.0, 60.0, 39.0 ],
-					"presentation_rect" : [ 282.0, 118.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "sanitized"
 				}
@@ -76,7 +74,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 240.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 64.0, 208.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -90,7 +87,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 191.5, 79.0, 31.0, 39.0 ],
-					"presentation_rect" : [ 196.25, 300.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "nan"
 				}
@@ -105,7 +101,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 145.25, 79.0, 34.5, 39.0 ],
-					"presentation_rect" : [ 146.0, 300.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "-INF"
 				}
@@ -120,7 +115,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 102.0, 79.0, 30.0, 39.0 ],
-					"presentation_rect" : [ 109.0, 301.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "INF"
 				}
@@ -134,7 +128,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 195.0, 120.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 179.25, 89.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -147,7 +140,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 150.5, 120.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 146.0, 91.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -160,7 +152,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 150.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 182.25, 120.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "-1"
 				}
@@ -187,7 +178,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.5, 150.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 143.0, 121.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "-1"
 				}
@@ -255,7 +245,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 300.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 42.0, 194.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -448,14 +437,12 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.float.sanitize.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

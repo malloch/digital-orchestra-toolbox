@@ -163,7 +163,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 180.0, 135.0, 35.0 ],
+					"patching_rect" : [ 480.0, 180.0, 136.0, 35.0 ],
 					"style" : "",
 					"text" : "expr $f1*$f8 + $f2*$f7 - $f3*$f6 + $f4*$f5"
 				}
@@ -195,7 +195,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 180.0, 135.0, 35.0 ],
+					"patching_rect" : [ 180.0, 180.0, 139.0, 35.0 ],
 					"style" : "",
 					"text" : "expr $f2*$f5 + $f1*$f6 + $f3*$f8 - $f4*$f7"
 				}
@@ -569,7 +569,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.quaternion.normalize.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

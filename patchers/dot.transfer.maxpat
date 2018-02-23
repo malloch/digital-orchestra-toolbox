@@ -1149,7 +1149,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
-									"midpoints" : [ 58.166668, 165.0, 39.5, 165.0 ],
+									"midpoints" : [ 58.166667, 165.0, 39.5, 165.0 ],
 									"source" : [ "obj-7", 1 ]
 								}
 
@@ -1165,7 +1165,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
-									"midpoints" : [ 76.833336, 170.0, 144.5, 170.0 ],
+									"midpoints" : [ 76.833333, 170.0, 144.5, 170.0 ],
 									"source" : [ "obj-7", 2 ]
 								}
 

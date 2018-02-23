@@ -48,7 +48,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 255.0, 90.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 254.0, 92.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -65,7 +64,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 315.0, 90.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 314.0, 92.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -80,7 +78,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 255.0, 120.0, 33.0, 22.0 ],
-					"presentation_rect" : [ 254.0, 122.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "sig~"
 				}
@@ -98,7 +95,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 390.0, 195.0, 67.0, 22.0 ],
-					"presentation_rect" : [ 373.0, 211.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -115,7 +111,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 255.0, 195.0, 84.0, 22.0 ],
-					"presentation_rect" : [ 238.0, 211.0, 0.0, 0.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -388,21 +383,18 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.period~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.route.signal~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

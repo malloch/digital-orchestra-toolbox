@@ -72,7 +72,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 135.0, 30.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 137.0, 27.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -153,14 +152,12 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.constrain.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.inf.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

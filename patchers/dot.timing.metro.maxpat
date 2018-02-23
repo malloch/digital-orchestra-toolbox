@@ -1099,7 +1099,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"midpoints" : [ 435.166656, 123.0, 174.5, 123.0 ],
+					"midpoints" : [ 435.166667, 123.0, 174.5, 123.0 ],
 					"source" : [ "obj-38", 1 ]
 				}
 
@@ -1107,7 +1107,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 1 ],
-					"midpoints" : [ 455.833344, 390.5, 90.5, 390.5 ],
+					"midpoints" : [ 455.833333, 390.5, 90.5, 390.5 ],
 					"source" : [ "obj-38", 2 ]
 				}
 
@@ -1136,7 +1136,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.timing.translate.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

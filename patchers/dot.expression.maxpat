@@ -3175,7 +3175,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 1 ],
-									"midpoints" : [ 216.833328, 165.0, 128.5, 165.0 ],
+									"midpoints" : [ 216.833333, 165.0, 128.5, 165.0 ],
 									"source" : [ "obj-8", 2 ]
 								}
 
@@ -4852,7 +4852,12 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.timing.squeuedlim.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.timing.translate.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

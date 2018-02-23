@@ -217,7 +217,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "interpolate.4~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/DOT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
