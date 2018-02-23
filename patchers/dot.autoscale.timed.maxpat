@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 490.0, 211.0, 501.0, 418.0 ],
+		"rect" : [ 557.0, 209.0, 501.0, 418.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 120.0, 345.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 121.0, 346.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -65,14 +64,15 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 210.0, 150.0, 21.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 210.0, 135.0, 112.0, 22.0 ],
 					"style" : "",
-					"text" : "t f"
+					"text" : "dot.timing.translate"
 				}
 
 			}
@@ -236,7 +236,7 @@
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 75.0, 180.0, 154.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.deviation.timed #1"
+					"text" : "dot.deviation.timed"
 				}
 
 			}
@@ -258,14 +258,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 68.0, 30.0, 127.0, 49.0 ],
+					"patching_rect" : [ 75.0, 30.0, 120.0, 35.0 ],
 					"style" : "",
-					"text" : "patcherargs @min 0 @max 1 @mult 2 @windowsize 1000"
+					"text" : "patcherargs @min 0 @max 1 @mult 2"
 				}
 
 			}
@@ -347,6 +347,14 @@
 					"destination" : [ "obj-18", 0 ],
 					"midpoints" : [ 185.5, 91.5, 39.5, 91.5 ],
 					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"midpoints" : [ 84.5, 73.5, 219.5, 73.5 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -542,6 +550,13 @@
 			}
 , 			{
 				"name" : "dot.window.timed.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.timing.translate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

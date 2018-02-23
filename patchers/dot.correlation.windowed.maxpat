@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 630.0, 314.0, 476.0, 307.0 ],
+		"rect" : [ 630.0, 314.0, 476.0, 363.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -215,8 +215,8 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 29.0, 240.0, 321.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.covariance.windowed"

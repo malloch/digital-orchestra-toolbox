@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 440.0 ],
+		"rect" : [ 502.0, 395.0, 510.0, 459.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,13 +38,60 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "@range", 0, 100 ],
+					"bubble" : 1,
+					"id" : "obj-16",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 41.0, 68.5, 93.0, 37.0 ],
+					"style" : "",
+					"text" : "click to start streaming"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 180.0, 280.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "Windowed median",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 345.0, 280.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "Residual (high-pass)",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "@range", -100, 100 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-8",
+					"id" : "obj-9",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "dot.stream.vis.maxpat",
@@ -52,7 +99,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 135.0, 169.0, 150.0 ],
+					"patching_rect" : [ 345.0, 150.0, 150.0, 150.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -65,7 +112,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-7",
+					"id" : "obj-10",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "dot.stream.vis.maxpat",
@@ -73,7 +120,28 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 135.0, 169.0, 150.0 ],
+					"patching_rect" : [ 15.0, 150.0, 150.0, 150.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "@range", 0, 100 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-24",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "dot.stream.vis.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 180.0, 150.0, 150.0, 150.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -86,21 +154,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 75.0, 24.0, 24.0 ],
+					"patching_rect" : [ 15.0, 75.0, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 75.0, 150.0, 24.0 ],
-					"style" : "",
-					"text" : "click to start streaming"
 				}
 
 			}
@@ -361,7 +416,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 30.0, 105.0, 91.0, 22.0 ],
+					"patching_rect" : [ 15.0, 120.0, 91.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -385,7 +440,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 465.0, 59.0, 22.0 ],
+					"patching_rect" : [ 90.0, 480.0, 59.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -401,7 +456,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 435.0, 86.0, 22.0 ],
+					"patching_rect" : [ 90.0, 450.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend help"
 				}
@@ -416,7 +471,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 405.0, 103.0, 22.0 ],
+					"patching_rect" : [ 90.0, 420.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.median.timed"
 				}
@@ -430,23 +485,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 405.0, 64.0, 20.0 ],
+					"patching_rect" : [ 30.0, 420.0, 64.0, 20.0 ],
 					"style" : "",
 					"text" : "see also:"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-3",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 374.0, 227.0, 20.0 ],
-					"style" : "",
-					"text" : "Right outlet outputs residual."
 				}
 
 			}
@@ -490,9 +531,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 344.0, 227.0, 33.0 ],
+					"patching_rect" : [ 15.0, 359.0, 242.0, 33.0 ],
 					"style" : "",
-					"text" : "Second argument/inlet lets you specify a different ratio into the window."
+					"text" : "Second argument/inlet lets you specify the ratio into the window (default 0.5)"
 				}
 
 			}
@@ -506,22 +547,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 75.0, 50.0, 22.0 ],
+					"patching_rect" : [ 345.0, 75.0, 50.0, 22.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-21",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 300.0, 146.0, 20.0 ],
-					"style" : "",
-					"text" : "input: int or float"
 				}
 
 			}
@@ -535,7 +562,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.0, 74.0, 157.0, 24.0 ],
+					"patching_rect" : [ 191.0, 74.0, 157.0, 24.0 ],
 					"style" : "",
 					"text" : "# of samples to consider"
 				}
@@ -549,7 +576,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 322.0, 242.0, 20.0 ],
+					"patching_rect" : [ 15.0, 322.0, 242.0, 20.0 ],
 					"style" : "",
 					"text" : "Argument sets window size in samples."
 				}
@@ -565,7 +592,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
-					"patching_rect" : [ 255.0, 105.0, 169.0, 22.0 ],
+					"patching_rect" : [ 180.0, 120.0, 184.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.median.windowed 20"
 				}
@@ -585,7 +612,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 299.0, 285.0, 211.0, 145.0 ],
+					"patching_rect" : [ 299.0, 300.0, 211.0, 145.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -611,6 +638,14 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"midpoints" : [ 24.5, 310.0, 172.0, 310.0, 172.0, 109.0, 189.5, 109.0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -618,7 +653,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -632,8 +667,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-30", 1 ]
 				}
 
 			}
@@ -650,14 +692,6 @@
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 39.5, 295.0, 227.0, 295.0, 227.0, 94.0, 264.5, 94.0 ],
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}

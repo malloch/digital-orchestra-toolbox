@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 515.0, 215.0, 510.0, 383.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 383.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,7 +69,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
 					"patching_rect" : [ 45.0, 135.0, 137.0, 22.0 ],
@@ -89,7 +89,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 225.0, 205.0, 135.0 ],
 					"setminmax" : [ 0.0, 128.0 ],
-					"size" : 9,
+					"size" : 2,
 					"style" : ""
 				}
 
@@ -194,8 +194,8 @@
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 45.0, 195.0, 205.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.window.timed 500"
@@ -267,6 +267,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.window.timed.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.timing.translate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

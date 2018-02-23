@@ -53,7 +53,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 165.0, 150.0, 150.0 ],
-					"presentation_rect" : [ 344.0, 167.0, 0.0, 0.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -198,7 +197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 360.0, 195.0, 20.0 ],
+					"patching_rect" : [ 15.0, 375.0, 195.0, 20.0 ],
 					"style" : "",
 					"text" : "Second outlet outputs residual."
 				}
@@ -379,7 +378,7 @@
 									"fontsize" : 12.0,
 									"id" : "obj-15",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 30.0, 75.0, 143.0, 22.0 ],
@@ -565,7 +564,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 330.0, 270.0, 33.0 ],
+					"patching_rect" : [ 15.0, 345.0, 270.0, 33.0 ],
 					"style" : "",
 					"text" : "Arguments specify weights for ascending and descending samples"
 				}
@@ -733,6 +732,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "dot.constrain.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.float.inf.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dot.menu.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
@@ -741,6 +754,13 @@
 			}
 , 			{
 				"name" : "dot.timing.metro.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.timing.translate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
