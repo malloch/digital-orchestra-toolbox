@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 345.0, 117.0, 22.0 ],
-					"presentation_rect" : [ 110.0, 343.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "dot.aggregate.timed"
 				}
@@ -77,7 +76,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.aggregate.windowed",
+					"text" : "dot.aggregate.sliding",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -248,7 +247,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 180.0, 199.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.aggregate.windowed 10"
+					"text" : "dot.aggregate.sliding 10"
 				}
 
 			}
@@ -360,7 +359,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.aggregate.windowed.maxpat",
+				"name" : "dot.aggregate.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

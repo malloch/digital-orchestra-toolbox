@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 801.0, 224.0, 445.0, 441.0 ],
+		"rect" : [ 801.0, 224.0, 404.0, 441.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 225.0, 75.0, 50.0, 22.0 ],
+					"patching_rect" : [ 195.0, 75.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -150,9 +150,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 75.0, 120.0, 135.0, 22.0 ],
+					"patching_rect" : [ 75.0, 120.0, 116.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.deviation.windowed"
+					"text" : "dot.deviation.sliding"
 				}
 
 			}
@@ -166,9 +166,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 30.0, 315.0, 214.0, 22.0 ],
+					"patching_rect" : [ 30.0, 315.0, 184.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.mean.windowed"
+					"text" : "dot.mean.sliding"
 				}
 
 			}
@@ -194,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 270.0, 30.0, 97.0, 22.0 ],
+					"patching_rect" : [ 240.0, 30.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "patcherargs 100"
 				}
@@ -210,7 +210,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 30.0, 25.0, 25.0 ],
+					"patching_rect" : [ 195.0, 30.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -224,7 +224,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 225.0, 170.0, 47.0 ],
+					"patching_rect" : [ 225.0, 225.0, 170.0, 47.0 ],
 					"style" : "",
 					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2018\nwww.idmil.org/software/dot"
 				}
@@ -292,7 +292,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 279.5, 63.0, 234.5, 63.0 ],
+					"midpoints" : [ 249.5, 63.0, 204.5, 63.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -354,7 +354,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 234.5, 108.0, 200.5, 108.0 ],
+					"midpoints" : [ 204.5, 108.0, 181.5, 108.0 ],
 					"order" : 1,
 					"source" : [ "obj-18", 0 ]
 				}
@@ -377,7 +377,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 200.5, 160.5, 96.5, 160.5 ],
+					"midpoints" : [ 181.5, 160.5, 96.5, 160.5 ],
 					"order" : 1,
 					"source" : [ "obj-5", 1 ]
 				}
@@ -394,7 +394,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 200.5, 160.5, 141.5, 160.5 ],
+					"midpoints" : [ 181.5, 160.5, 141.5, 160.5 ],
 					"order" : 0,
 					"source" : [ "obj-5", 1 ]
 				}
@@ -425,7 +425,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.mean.windowed.maxpat",
+				"name" : "dot.mean.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -439,7 +439,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.deviation.windowed.maxpat",
+				"name" : "dot.deviation.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

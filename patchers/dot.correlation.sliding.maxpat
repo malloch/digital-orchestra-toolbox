@@ -43,7 +43,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 228.0, 135.0, 39.0, 22.0 ],
+					"patching_rect" : [ 240.0, 135.0, 39.0, 22.0 ],
 					"style" : "",
 					"text" : "zl len"
 				}
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 207.0, 108.0, 40.0, 22.0 ],
+					"patching_rect" : [ 165.0, 105.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "t l l"
 				}
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 207.0, 75.0, 56.0, 22.0 ],
+					"patching_rect" : [ 165.0, 75.0, 56.0, 22.0 ],
 					"style" : "",
 					"text" : "route list"
 				}
@@ -95,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 330.0, 135.0, 73.0, 22.0 ],
+					"patching_rect" : [ 285.0, 135.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "maximum 2"
 				}
@@ -110,7 +110,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 30.0, 30.0, 30.0 ],
+					"patching_rect" : [ 285.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -122,7 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 45.0, 210.0, 169.0, 22.0 ],
+					"patching_rect" : [ 45.0, 210.0, 139.0, 22.0 ],
 					"style" : "",
 					"text" : "* 0."
 				}
@@ -136,9 +136,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 195.0, 180.0, 135.0, 22.0 ],
+					"patching_rect" : [ 165.0, 180.0, 116.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.deviation.windowed"
+					"text" : "dot.deviation.sliding"
 				}
 
 			}
@@ -151,7 +151,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 30.0, 30.0, 30.0 ],
+					"patching_rect" : [ 150.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -177,9 +177,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 45.0, 180.0, 135.0, 22.0 ],
+					"patching_rect" : [ 45.0, 180.0, 116.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.deviation.windowed"
+					"text" : "dot.deviation.sliding"
 				}
 
 			}
@@ -203,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 375.0, 30.0, 74.0, 22.0 ],
+					"patching_rect" : [ 330.0, 30.0, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "patcherargs"
 				}
@@ -217,9 +217,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 29.0, 240.0, 321.0, 22.0 ],
+					"patching_rect" : [ 29.0, 240.0, 275.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.covariance.windowed"
+					"text" : "dot.covariance.sliding"
 				}
 
 			}
@@ -279,7 +279,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 339.5, 168.0, 170.5, 168.0 ],
+					"midpoints" : [ 294.5, 168.0, 151.5, 168.0 ],
 					"order" : 2,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -288,7 +288,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 339.5, 168.0, 320.5, 168.0 ],
+					"midpoints" : [ 294.5, 168.0, 271.5, 168.0 ],
 					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -391,14 +391,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.covariance.windowed.maxpat",
+				"name" : "dot.covariance.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.deviation.windowed.maxpat",
+				"name" : "dot.deviation.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

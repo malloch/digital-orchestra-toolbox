@@ -45,9 +45,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 345.0, 141.0, 22.0 ],
+					"patching_rect" : [ 105.0, 345.0, 122.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.aggregate.windowed"
+					"text" : "dot.aggregate.sliding"
 				}
 
 			}

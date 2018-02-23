@@ -76,9 +76,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 405.0, 131.0, 22.0 ],
+					"patching_rect" : [ 90.0, 405.0, 111.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.extrema.windowed"
+					"text" : "dot.extrema.sliding"
 				}
 
 			}

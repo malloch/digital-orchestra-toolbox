@@ -252,7 +252,7 @@
 									"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
 									"id" : "obj-1",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 30.0, 75.0, 146.5, 22.0 ],
@@ -543,9 +543,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 465.0, 117.0, 22.0 ],
+					"patching_rect" : [ 75.0, 465.0, 98.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.mean.windowed"
+					"text" : "dot.mean.sliding"
 				}
 
 			}
@@ -700,6 +700,13 @@
 			}
 , 			{
 				"name" : "dot.window.timed.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.timing.translate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

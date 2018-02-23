@@ -166,9 +166,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 510.0, 135.0, 22.0 ],
+					"patching_rect" : [ 105.0, 510.0, 116.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.deviation.windowed"
+					"text" : "dot.deviation.sliding"
 				}
 
 			}

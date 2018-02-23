@@ -235,7 +235,7 @@
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 75.0, 180.0, 154.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.deviation.windowed #1"
+					"text" : "dot.deviation.sliding #1"
 				}
 
 			}
@@ -533,14 +533,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.deviation.windowed.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.float.sanitize.maxpat",
+				"name" : "dot.deviation.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

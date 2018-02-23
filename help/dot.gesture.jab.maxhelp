@@ -100,7 +100,7 @@
 									"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
 									"id" : "obj-32",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 30.0, 90.0, 169.0, 22.0 ],
@@ -634,7 +634,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.median.windowed.maxpat",
+				"name" : "dot.median.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -648,6 +648,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "dot.float.inf.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dot.extrema.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -655,7 +662,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.extrema.windowed.maxpat",
+				"name" : "dot.extrema.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -691,6 +698,13 @@
 			}
 , 			{
 				"name" : "dot.timing.metro.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.timing.translate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

@@ -54,7 +54,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 510.0, 498.0 ],
+						"rect" : [ 100.0, 126.0, 510.0, 498.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -131,7 +131,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 									"style" : "",
-									"text" : "dot.correlation.windowed",
+									"text" : "dot.correlation.sliding",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"varname" : "autohelp_top_title[1]"
 								}
@@ -783,9 +783,9 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 165.0, 225.0, 143.0, 22.0 ],
+									"patching_rect" : [ 165.0, 225.0, 124.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.correlation.windowed"
+									"text" : "dot.correlation.sliding"
 								}
 
 							}
@@ -975,7 +975,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 100.0, 126.0, 510.0, 498.0 ],
+						"rect" : [ 0.0, 26.0, 510.0, 498.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1616,7 +1616,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 									"style" : "",
-									"text" : "dot.correlation.windowed",
+									"text" : "dot.correlation.sliding",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"varname" : "autohelp_top_title[1]"
 								}
@@ -1678,7 +1678,7 @@
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 45.0, 195.0, 169.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.correlation.windowed 10"
+									"text" : "dot.correlation.sliding 10"
 								}
 
 							}
@@ -1812,21 +1812,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.correlation.windowed.maxpat",
+				"name" : "dot.correlation.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.covariance.windowed.maxpat",
+				"name" : "dot.covariance.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.deviation.windowed.maxpat",
+				"name" : "dot.deviation.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

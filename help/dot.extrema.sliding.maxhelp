@@ -100,7 +100,7 @@
 									"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
 									"id" : "obj-32",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 30.0, 90.0, 169.0, 22.0 ],
@@ -324,7 +324,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.extrema.windowed",
+					"text" : "dot.extrema.sliding",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -339,7 +339,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 345.0, 221.0, 47.0 ],
+					"patching_rect" : [ 30.0, 345.0, 222.0, 47.0 ],
 					"style" : "",
 					"text" : "3rd outlet outputs ordered difference between extrema: positive if increasing, negative if decreasing."
 				}
@@ -510,7 +510,7 @@
 					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 135.0, 195.0, 259.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.extrema.windowed 20"
+					"text" : "dot.extrema.sliding 20"
 				}
 
 			}
@@ -637,7 +637,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.extrema.windowed.maxpat",
+				"name" : "dot.extrema.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -659,6 +659,13 @@
 			}
 , 			{
 				"name" : "dot.timing.metro.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.timing.translate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

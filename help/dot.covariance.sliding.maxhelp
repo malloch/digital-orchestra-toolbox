@@ -782,11 +782,11 @@
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
-									"patching_rect" : [ 165.0, 225.0, 145.0, 22.0 ],
+									"numoutlets" : 3,
+									"outlettype" : [ "float", "float", "float" ],
+									"patching_rect" : [ 165.0, 225.0, 130.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.covariance.windowed"
+									"text" : "dot.covariance.sliding"
 								}
 
 							}
@@ -901,7 +901,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 1 ],
-									"midpoints" : [ 336.5, 218.0, 237.5, 218.0 ],
+									"midpoints" : [ 336.5, 218.0, 230.0, 218.0 ],
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -1531,7 +1531,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 									"style" : "",
-									"text" : "dot.covariance.windowed",
+									"text" : "dot.covariance.sliding",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"varname" : "autohelp_top_title[1]"
 								}
@@ -1589,11 +1589,11 @@
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "float", "float", "float" ],
 									"patching_rect" : [ 45.0, 195.0, 169.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.covariance.windowed 10"
+									"text" : "dot.covariance.sliding 10"
 								}
 
 							}
@@ -1727,7 +1727,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.covariance.windowed.maxpat",
+				"name" : "dot.covariance.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

@@ -60,7 +60,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 375.0, 180.0, 116.0, 20.0 ],
-					"presentation_rect" : [ 425.0, 167.0, 0.0, 0.0 ],
 					"style" : "",
 					"suppressinlet" : 1,
 					"text" : "difference",
@@ -78,7 +77,6 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 375.0, 180.0, 116.0, 96.0 ],
-					"presentation_rect" : [ 395.0, 167.0, 0.0, 0.0 ],
 					"setminmax" : [ -100.0, 100.0 ],
 					"setstyle" : 2,
 					"style" : ""
@@ -126,9 +124,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 420.0, 131.0, 22.0 ],
+					"patching_rect" : [ 90.0, 420.0, 111.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.extrema.windowed"
+					"text" : "dot.extrema.sliding"
 				}
 
 			}
@@ -441,6 +439,13 @@
 			}
 , 			{
 				"name" : "dot.window.timed.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.timing.translate.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
