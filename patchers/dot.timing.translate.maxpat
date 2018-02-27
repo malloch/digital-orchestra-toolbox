@@ -56,9 +56,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 135.0, 180.0, 60.5, 22.0 ],
+					"patching_rect" : [ 135.0, 180.0, 61.0, 22.0 ],
 					"style" : "",
-					"text" : "zl join"
+					"text" : "zl join ms"
 				}
 
 			}
@@ -623,7 +623,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
-					"midpoints" : [ 219.5, 168.0, 186.0, 168.0 ],
+					"midpoints" : [ 219.5, 168.0, 186.5, 168.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
