@@ -81,10 +81,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 75.0, 60.0, 49.0, 22.0 ],
 					"style" : "",
-					"text" : "route -"
+					"text" : "sel -"
 				}
 
 			}
