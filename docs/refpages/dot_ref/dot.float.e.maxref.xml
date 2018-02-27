@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.float.e" module="dot" kind="patcher">
+	<digest>
+		Euler's number (e)
+	</digest>
+	<description>
+		Outputs  Euler's number (e) as a floating-point value.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="bang">
+			<digest>
+                trigger output
+			</digest>
+			<description>
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="float">
+			<digest>
+                output
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="Sign" type="symbol" optional="1">
+            <digest>
+            </digest>
+            <description>
+                Sign of output
+            </description>
+        </objarg>
+    </objarglist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="bang">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Trigger output
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

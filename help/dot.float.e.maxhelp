@@ -115,7 +115,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 510.0, 22.0 ],
 					"style" : "",
-					"text" : "Outputs Euler's constant e.",
+					"text" : "Outputs Euler's number (e).",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
