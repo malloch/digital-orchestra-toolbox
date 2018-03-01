@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.urn" module="dot" kind="patcher">
+	<digest>
+		Generate random numbers without duplicates
+	</digest>
+	<description>
+		Outputs random numbers and keeps track of each number that has been generated. When all numbers up to the maximum (set via an argument or the right inlet) have been output, a <m>bang</m> is send out the right outlet.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+        <metadata name="tag">Max</metadata>
+        <metadata name="tag">Math</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="INLET_TYPE">
+			<digest>
+                bang generates random number
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="int">
+            <digest>
+                add numbers back to the pot
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="int">
+			<digest>
+                Random number output
+			</digest>
+			<description>
+			</description>
+		</outlet>
+        <outlet id="1" type="bang">
+            <digest>
+                Bang if the pot is empty (all numbers have been chosen).
+            </digest>
+            <description>
+            </description>
+        </outlet>
+	</outletlist>
+
+    <!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="limit" optional="1" type="int">
+            <digest>
+                Random number limit
+            </digest>
+            <description>
+                The number of possible values for the random number generator. If no argument is typed in, there will be only <m>1</m> possible number.
+            </description>
+        </objarg>
+        <objarg name="seed" optional="1" type="int">
+            <digest>
+                Random generator seed
+            </digest>
+            <description>
+                A second argument is used to set a &quot;seed&quot; value for the random generator. If no argument is specified, the time value will be used to initialize the seed.
+            </description>
+        </objarg>
+    </objarglist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="bang">
+            <arglist>
+            </arglist>
+            <digest>
+                Output random number
+            </digest>
+            <description>
+                In left inlet: Sends out a previously unchosen random number from 0 to one less than the specified maximum limit.
+            </description>
+        </method>
+        <method name="max">
+            <arglist>
+                <arg name="limit" optional="0" type="int" />
+            </arglist>
+            <digest>
+                Set random number limit
+            </digest>
+            <description>
+                Clears the list of already chosen numbers, and specifies the number of possible values for the random number generator. The random numbers will range from 0 to one less than this maximum limit.
+            </description>
+        </method>
+        <method name="in1">
+            <arglist>
+                <arg name="replace" type="int" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Put numbers back into the pot.
+            </description>
+        </method>
+        <method name="clear">
+            <arglist />
+            <digest>
+                Clear the list of output numbers
+            </digest>
+            <description>
+                In left inlet: Clears the list of already chosen numbers.
+            </description>
+        </method>
+        <method name="seed">
+            <arglist>
+                <arg name="seed" optional="0" type="int" />
+            </arglist>
+            <digest>
+                Seed the random generator
+            </digest>
+            <description>
+                In left inlet: The word <m>seed</m>, followed by a number, provides a &quot;seed&quot; value for the random generator, which causes a specific (reproducible) sequence of pseudo-random numbers to occur. The number <m>0</m> uses the time elapsed since system startup (an unpredictable value) as the seed, ensuring an unpredictable sequence of numbers. This unpredictable seed is used by default when the <o>urn</o> object is created. However, once all numbers have been chosen, the sequence will repeat. Therefore, in order to achieve a non-repeating sequence of numbers, you will need to send the <o>urn</o> object the <m>seed 0</m> message each time you send it the <m>clear</m> message.
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+        <seealso name="urn" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+</c74object>
+
