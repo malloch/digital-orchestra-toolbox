@@ -641,7 +641,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.float.inf.maxpat",
-				"bootpath" : "~/Documents/Software/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
