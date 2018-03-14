@@ -9,6 +9,7 @@ max objectfile dot.ema dot.mean.exponential;
 max objectfile dot.emd dot.deviation.exponential;
 max objectfile dot.exemplarcovariance dot.covariance;
 max objectfile dot.filein dot.io.filein;
+max objectfile dot.getindex dot.coll.query;
 max objectfile dot.hz↔samp~ dot.period~;
 max objectfile dot.interpolate2 dot.vector.interpolate.2;
 max objectfile dot.interpolate4 dot.vector.interpolate.4;
