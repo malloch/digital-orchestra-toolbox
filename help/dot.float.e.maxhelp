@@ -223,7 +223,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Software/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

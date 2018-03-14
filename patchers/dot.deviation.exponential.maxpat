@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 889.0, 296.0, 375.0, 324.0 ],
+		"rect" : [ 246.0, 312.0, 375.0, 324.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 30.0, 75.0, 80.0, 22.0 ],
+					"style" : "",
+					"text" : "route float int"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -56,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ 30.0, 195.0, 64.0, 22.0 ],
+					"patching_rect" : [ 30.0, 210.0, 64.0, 22.0 ],
 					"style" : "",
 					"text" : "t b f"
 				}
@@ -69,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 30.0, 225.0, 139.0, 22.0 ],
+					"patching_rect" : [ 30.0, 240.0, 139.0, 22.0 ],
 					"style" : "",
 					"text" : "f"
 				}
@@ -83,7 +96,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 255.0, 30.0, 30.0 ],
+					"patching_rect" : [ 75.0, 270.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -98,7 +111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 150.0, 195.0, 139.0, 22.0 ],
+					"patching_rect" : [ 150.0, 210.0, 139.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.mean.exponential"
 				}
@@ -144,7 +157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 195.0, 30.0, 94.0, 22.0 ],
+					"patching_rect" : [ 150.0, 30.0, 94.0, 22.0 ],
 					"style" : "",
 					"text" : "patcherargs 0.1"
 				}
@@ -161,7 +174,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 30.0, 30.0, 30.0 ],
+					"patching_rect" : [ 255.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -175,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 240.0, 166.0, 47.0 ],
+					"patching_rect" : [ 180.0, 255.0, 166.0, 47.0 ],
 					"style" : "",
 					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2011\nwww.idmil.org/software/dot"
 				}
@@ -203,7 +216,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 255.0, 30.0, 30.0 ],
+					"patching_rect" : [ 30.0, 270.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -219,8 +232,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 204.5, 78.0, 159.5, 78.0 ],
+					"midpoints" : [ 159.5, 78.0, 159.5, 78.0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"midpoints" : [ 234.5, 67.0, 39.5, 67.0 ],
+					"source" : [ "obj-11", 1 ]
 				}
 
 			}
@@ -257,7 +278,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -293,7 +314,41 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 264.5, 74.5, 159.5, 74.5 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"midpoints" : [ 100.5, 115.5, 39.5, 115.5 ],
+					"order" : 1,
+					"source" : [ "obj-9", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"midpoints" : [ 70.0, 108.0, 39.5, 108.0 ],
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 100.5, 196.5, 159.5, 196.5 ],
+					"order" : 0,
+					"source" : [ "obj-9", 2 ]
 				}
 
 			}
@@ -318,6 +373,12 @@
 			}
 , 			{
 				"name" : "dot.float.inf.maxpat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.maximum.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
