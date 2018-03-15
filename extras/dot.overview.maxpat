@@ -530,7 +530,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 585.0, 636.0 ],
+						"rect" : [ 122.0, 135.0, 585.0, 636.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -722,7 +722,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 135.0, 452.0, 210.0, 20.0 ],
+									"patching_rect" : [ 135.0, 450.0, 210.0, 20.0 ],
 									"style" : "",
 									"text" : "Retrieves coll data entries by query:"
 								}
@@ -748,7 +748,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 446.0, 105.0, 27.0 ],
+									"patching_rect" : [ 0.0, 446.25, 105.0, 27.0 ],
 									"style" : "",
 									"suppressinlet" : 1,
 									"text" : "Storage"
@@ -775,9 +775,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 360.0, 450.0, 82.0, 22.0 ],
+									"patching_rect" : [ 360.0, 450.0, 49.0, 22.0 ],
 									"style" : "",
-									"text" : "dot.coll.query"
+									"text" : "dot.coll"
 								}
 
 							}
@@ -838,7 +838,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 135.0, 360.5, 210.0, 20.0 ],
+									"patching_rect" : [ 135.0, 360.0, 210.0, 20.0 ],
 									"style" : "",
 									"text" : "SLIP encoding and decoding:"
 								}
@@ -1326,7 +1326,7 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 120.0, 444.75, 465.0, 29.5 ],
+									"patching_rect" : [ 120.0, 446.25, 465.0, 29.5 ],
 									"proportion" : 0.39,
 									"rounded" : 0,
 									"style" : ""
@@ -2225,7 +2225,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 122.0, 135.0, 585.0, 636.0 ],
+						"rect" : [ 0.0, 26.0, 585.0, 636.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2260,7 +2260,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 300.0, 193.0, 20.0 ],
-									"presentation_rect" : [ 1.0, 302.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Correlation:"
 								}
