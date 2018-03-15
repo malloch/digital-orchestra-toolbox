@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.timing.translate" module="dot" kind="patcher">
+	<digest>
+		Convert between different units of time
+	</digest>
+	<description>
+		Converts from any of the fixed or relative Max <link name="maxtime" module="core" type="vignette">time values</link> to any other fixed or relative time value.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.0</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+        <metadata name="tag">time</metadata>
+        <metadata name="tag">Timing</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="INLET_TYPE">
+			<digest>
+                message to translate
+			</digest>
+			<description>
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="float/symbol">
+			<digest>
+                translated time
+			</digest>
+			<description>
+			</description>
+		</outlet>
+        <outlet id="1" type="symbol">
+            <digest>
+                output time units
+            </digest>
+            <description>
+            </description>
+        </outlet>
+	</outletlist>
+
+    <!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="input-format" type="list" optional="1">
+            <digest>
+                Input time format
+            </digest>
+            <description>
+                The first argument sets the input format to expect, and has the same effect as setting the attribute @in. Time can be specified in any of the <link name="maxtime" module="core" type="vignette">time formats</link> used in Max.
+            </description>
+        </objarg>
+        <objarg name="output-format" type="list" optional="1">
+            <digest>
+                Output time format
+            </digest>
+            <description>
+                The second argument sets the output format to expect, and has the same effect as setting the attribute @out. Time can be specified in any of the <link name="maxtime" module="core" type="vignette">time formats</link> used in Max.
+            </description>
+        </objarg>
+    </objarglist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+        <attribute name="in" get="0" set="1" type="symbol" size="1">
+            <digest>
+                Default input format
+            </digest>
+            <description>
+                The input format is used to determine the value sent to this object when the value alone is not enough. For example, a simple number could represent milliseconds, hertz, ticks, seconds, etc. This attribute is used to disambiguate such cases.
+            </description>
+            <attributelist>
+                <attribute name="basic" get="1" set="1" type="int" size="1" value="1" />
+                <attribute name="enumvals" get="1" set="1" type="atom" size="7">
+                    <enumlist>
+                        <enum name="ticks">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="ms">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="bars.beats.units">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="samples">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="hz">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="notevalues">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="hh:mm:ss">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                    </enumlist>
+                </attribute>
+                <attribute name="label" get="1" set="1" type="symbol" size="1" value="Input Format" />
+                <attribute name="style" get="1" set="1" type="symbol" size="1" value="enum" />
+            </attributelist>
+        </attribute>
+
+        <attribute name="listen" get="1" set="1" type="int" size="1">
+            <digest>
+                Listen to Tempo Changes
+            </digest>
+            <description>
+                Toggles the output of new values for the current input to the translation when the transport tempo changes. The default is 1 (on).
+            </description>
+            <attributelist>
+                <attribute name="basic" get="1" set="1" type="int" size="1" value="1" />
+                <attribute name="label" get="1" set="1" type="symbol" size="1" value="Listen to Tempo Changes" />
+                <attribute name="style" get="1" set="1" type="symbol" size="1" value="onoff" />
+            </attributelist>
+        </attribute>
+
+        <attribute name="mode" get="1" set="1" type="symbol" size="1">
+            <digest>
+                Mode
+            </digest>
+            <description>
+                Sets the mode for time values. The <o>translate</o> object can output time values in either <i>position</i> relative to the system start value of 1.1.0 or <i>interval</i>, where a value of 1.1.0 would indicate one bar, one beat, and no units (2400 ticks at 4/4 in the default resolution).
+                <br />
+                Note: this attribute may not apply, depending on the type of unit conversion.
+            </description>
+            <attributelist>
+                <attribute name="basic" get="1" set="1" type="int" size="1" value="1" />
+                <attribute name="enumvals" get="1" set="1" type="atom" size="2">
+                    <enumlist>
+                        <enum name="interval">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="position">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                    </enumlist>
+                </attribute>
+                <attribute name="label" get="1" set="1" type="symbol" size="1" value="Mode" />
+                <attribute name="style" get="1" set="1" type="symbol" size="1" value="enum" />
+            </attributelist>
+        </attribute>
+
+        <attribute name="out" get="0" set="1" type="symbol" size="1">
+            <digest>
+                Output time format
+            </digest>
+            <description>
+                Time format to use for output
+            </description>
+            <attributelist>
+                <attribute name="basic" get="1" set="1" type="int" size="1" value="1" />
+                <attribute name="enumvals" get="1" set="1" type="atom" size="7">
+                    <enumlist>
+                        <enum name="ticks">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="ms">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="bars.beats.units">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="samples">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="hz">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="notevalues">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                        <enum name="hh:mm:ss">
+                            <digest>
+                                TEXT_HERE
+                            </digest>
+                            <description>
+                                TEXT_HERE
+                            </description>
+                        </enum>
+                    </enumlist>
+                </attribute>
+                <attribute name="label" get="1" set="1" type="symbol" size="1" value="Input Format" />
+                <attribute name="style" get="1" set="1" type="symbol" size="1" value="enum" />
+            </attributelist>
+        </attribute>
+
+        <attribute name="transport" get="1" set="1" type="symbol" size="1">
+            <digest>
+                Transport Name
+            </digest>
+            <description>
+                The name of a <o>transport</o> object with which to associate. By default, the master transport is used.
+            </description>
+            <attributelist>
+                <attribute name="basic" get="1" set="1" type="int" size="1" value="1" />
+                <attribute name="label" get="1" set="1" type="symbol" size="1" value="Transport Name" />
+            </attributelist>
+        </attribute>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="int">
+            <arglist>
+                <arg name="time" type="int" optional="0" />
+            </arglist>
+            <digest>
+                Convert and cause output
+            </digest>
+            <description>
+                The time value is converted from the current default input type to the current default output type.
+            </description>
+        </method>
+        <method name="float">
+            <arglist>
+                <arg name="time" type="float" optional="0" />
+            </arglist>
+            <digest>
+                Convert and cause output
+            </digest>
+            <description>
+                The time value is converted from the current default input type to the current default output type.
+            </description>
+        </method>
+        <method name="list">
+            <arglist>
+                <arg name="value" type="list" optional="0" />
+            </arglist>
+            <digest>
+                Convert and cause output
+            </digest>
+            <description>
+                The time value is converted from the input type specified in the list to the current default output type.
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+        <seealso name="translate" />
+        <seealso name="dot.timing.debounce" />
+        <seealso name="dot.timing.metro" />
+        <seealso name="dot.timing.pipe" />
+        <seealso name="dot.timing.speedlim" />
+        <seealso name="dot.timing.squeuedlim" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

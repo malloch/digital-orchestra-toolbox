@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.vector.scale" module="dot" kind="patcher">
+	<digest>
+		Output a list of samples in a user-specified time window
+	</digest>
+	<description>
+		Output a list of samples in a user-specified time window.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.2</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="INPUT_TYPE">
+			<digest>
+                samples to gather into window
+			</digest>
+			<description>
+                samples to gather into window
+			</description>
+		</inlet>
+        <inlet id="1" type="INPUT_TYPE">
+            <digest>
+                window size
+            </digest>
+            <description>
+                window size
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="list">
+			<digest>
+                time-windowed list
+			</digest>
+			<description>
+                time-windowed list
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+        <attribute name="onadd" get="0" set="1" type="int" size="1">
+            <digest>
+                Whether to output list when a new sample is added.
+            </digest>
+            <description>
+                Whether to output list when a new sample is added.
+            </description>
+        </attribute>
+
+        <attribute name="onremove" get="0" set="1" type="int" size="1">
+            <digest>
+                Whether to output list when an expired sample is removed.
+            </digest>
+            <description>
+                Whether to output list when an expired sample is removed.
+            </description>
+        </attribute>
+
+        <attribute name="maxsamples" get="0" set="1" type="int" size="1">
+            <digest>
+                Maximum list size.
+            </digest>
+            <description>
+                Maximum list size.
+            </description>
+        </attribute>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="int">
+            <arglist>
+                <arg name="value" type="int" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Frequency
+            </description>
+        </method>
+        <method name="float">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Phase
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+        <seealso name="dot.aggregate.timed" />
+        <seealso name="dot.autoscale.timed" />
+        <seealso name="dot.denoise.timed" />
+        <seealso name="dot.deviation.timed" />
+        <seealso name="dot.extrema.timed" />
+        <seealso name="dot.mean.timed" />
+        <seealso name="dot.median.timed" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+</c74object>
