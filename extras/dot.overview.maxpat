@@ -530,7 +530,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 122.0, 135.0, 585.0, 636.0 ],
+						"rect" : [ 0.0, 26.0, 585.0, 636.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5843,7 +5843,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 585.0, 636.0 ],
+						"rect" : [ 122.0, 135.0, 585.0, 636.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5872,6 +5872,39 @@
 						"subpatcher_template" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontface" : 3,
+									"fontsize" : 24.0,
+									"id" : "obj-14",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 0.0, 6.0, 585.0, 33.0 ],
+									"style" : "",
+									"text" : "List Processing",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"varname" : "autohelp_top_title[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.745098, 0.0, 0.0, 1.0 ],
+									"id" : "obj-18",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 0.0, 0.0, 585.0, 45.0 ],
+									"proportion" : 0.39,
+									"rounded" : 0,
+									"style" : "",
+									"varname" : "autohelp_top_panel[2]"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontface" : 3,
 									"fontsize" : 24.0,
@@ -5910,7 +5943,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 510.0, 298.0, 20.0 ],
+									"patching_rect" : [ 0.0, 480.0, 298.0, 20.0 ],
 									"style" : "",
 									"text" : "Interpolates/extrapolates between four lists:"
 								}
@@ -5922,7 +5955,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 480.0, 298.0, 20.0 ],
+									"patching_rect" : [ 0.0, 450.0, 298.0, 20.0 ],
 									"style" : "",
 									"text" : "Interpolates/extrapolates between two lists:"
 								}
@@ -5934,7 +5967,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 450.0, 298.0, 20.0 ],
+									"patching_rect" : [ 0.0, 420.0, 298.0, 20.0 ],
 									"style" : "",
 									"text" : "Finds distance between a scalar and a list:"
 								}
@@ -5947,7 +5980,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.0, 510.0, 132.0, 22.0 ],
+									"patching_rect" : [ 315.0, 480.0, 132.0, 22.0 ],
 									"style" : "",
 									"text" : "dot.vector.interpolate.4"
 								}
@@ -5960,7 +5993,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.0, 480.0, 132.0, 22.0 ],
+									"patching_rect" : [ 315.0, 450.0, 132.0, 22.0 ],
 									"style" : "",
 									"text" : "dot.vector.interpolate.2"
 								}
@@ -5973,7 +6006,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.0, 450.0, 111.0, 22.0 ],
+									"patching_rect" : [ 315.0, 420.0, 111.0, 22.0 ],
 									"style" : "",
 									"text" : "dot.vector.distance"
 								}
@@ -6013,19 +6046,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.0, 390.0, 94.0, 22.0 ],
-									"style" : "",
-									"text" : "dot.vector.scale"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -6043,21 +6063,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 420.0, 302.0, 20.0 ],
+									"patching_rect" : [ 0.0, 390.0, 302.0, 20.0 ],
 									"style" : "",
 									"text" : "Normalizes a list or stream of ints or floats:"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-12",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 390.0, 298.0, 20.0 ],
-									"style" : "",
-									"text" : "Just like the scale object, but for vectors:"
 								}
 
 							}
@@ -6080,7 +6088,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.0, 420.0, 118.0, 22.0 ],
+									"patching_rect" : [ 315.0, 390.0, 118.0, 22.0 ],
 									"style" : "",
 									"text" : "dot.vector.normalize"
 								}
@@ -6152,7 +6160,7 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 300.0, 45.0, 4.0, 591.0 ],
+									"patching_rect" : [ 300.0, 0.0, 4.0, 636.0 ],
 									"proportion" : 0.39,
 									"rounded" : 0,
 									"style" : ""
@@ -6207,22 +6215,6 @@
 									"patching_rect" : [ 315.0, 90.0, 65.0, 22.0 ],
 									"style" : "",
 									"text" : "dot.list.nth"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 3,
-									"fontsize" : 24.0,
-									"id" : "obj-14",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 6.0, 585.0, 33.0 ],
-									"style" : "",
-									"text" : "List Processing",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"varname" : "autohelp_top_title[1]"
 								}
 
 							}
@@ -6290,24 +6282,6 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"angle" : 270.0,
-									"background" : 1,
-									"bgcolor" : [ 0.745098, 0.0, 0.0, 1.0 ],
-									"id" : "obj-18",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 585.0, 45.0 ],
-									"proportion" : 0.39,
-									"rounded" : 0,
-									"style" : "",
-									"varname" : "autohelp_top_panel[2]"
-								}
-
-							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -6354,14 +6328,6 @@
 									"destination" : [ "obj-3", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"hidden" : 1,
-									"source" : [ "obj-5", 0 ]
 								}
 
 							}
