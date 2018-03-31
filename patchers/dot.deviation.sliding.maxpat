@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -52,6 +52,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -59,7 +60,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 120.0, 124.0, 22.0 ],
 					"style" : "",
-					"text" : "zl stream #1"
+					"text" : "dot.window.sliding"
 				}
 
 			}
@@ -547,7 +548,13 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "dot.window.sliding.maxpat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 

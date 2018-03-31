@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 439.0, 79.0, 510.0, 445.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 428.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,27 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 90.0, 327.0, 85.0, 22.0 ],
+					"style" : "",
+					"text" : "dot.aggregate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 345.0, 117.0, 22.0 ],
+					"patching_rect" : [ 90.0, 351.0, 117.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.aggregate.timed"
 				}
@@ -61,7 +76,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Calculates aggregate of a list or a windowed stream.",
+					"text" : "Calculates aggregate of a windowed stream.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -92,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 435.0, 59.0, 22.0 ],
+					"patching_rect" : [ 90.0, 435.0, 59.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -108,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 405.0, 86.0, 22.0 ],
+					"patching_rect" : [ 90.0, 405.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend help"
 				}
@@ -123,7 +138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 375.0, 116.0, 22.0 ],
+					"patching_rect" : [ 90.0, 375.0, 116.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.aggregate.leaky"
 				}
@@ -137,7 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 375.0, 64.0, 20.0 ],
+					"patching_rect" : [ 30.0, 351.0, 64.0, 20.0 ],
 					"style" : "",
 					"text" : "see also:"
 				}
@@ -243,8 +258,8 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
 					"patching_rect" : [ 45.0, 180.0, 199.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.aggregate.sliding 10"
@@ -265,7 +280,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 299.0, 285.0, 211.0, 145.0 ],
+					"patching_rect" : [ 299.0, 255.0, 211.0, 145.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -300,6 +315,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -359,6 +382,18 @@
 			}
 , 			{
 				"name" : "dot.aggregate.sliding.maxpat",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.window.sliding.maxpat",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.float.sanitize.maxpat",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

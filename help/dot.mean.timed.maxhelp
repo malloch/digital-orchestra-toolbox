@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 537.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 516.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,22 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 75.0, 417.0, 61.0, 22.0 ],
+					"presentation_rect" : [ 75.0, 447.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "dot.mean"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-31",
@@ -187,7 +203,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -450,7 +466,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 420.0, 279.0, 20.0 ],
+					"patching_rect" : [ 15.0, 345.0, 279.0, 20.0 ],
 					"style" : "",
 					"text" : "Argument specifies window size in milliseconds."
 				}
@@ -496,7 +512,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 495.0, 125.0, 22.0 ],
+					"patching_rect" : [ 75.0, 465.0, 125.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.mean.exponential"
 				}
@@ -512,7 +528,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 555.0, 59.0, 22.0 ],
+					"patching_rect" : [ 75.0, 525.0, 59.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -528,7 +544,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 525.0, 86.0, 22.0 ],
+					"patching_rect" : [ 75.0, 495.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend help"
 				}
@@ -543,7 +559,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 465.0, 98.0, 22.0 ],
+					"patching_rect" : [ 75.0, 441.0, 98.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.mean.sliding"
 				}
@@ -557,7 +573,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 480.0, 64.0, 20.0 ],
+					"patching_rect" : [ 15.0, 441.0, 64.0, 20.0 ],
 					"style" : "",
 					"text" : "see also:"
 				}
@@ -577,7 +593,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 299.0, 375.0, 211.0, 145.0 ],
+					"patching_rect" : [ 299.0, 345.0, 211.0, 145.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -602,6 +618,14 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"hidden" : 1,

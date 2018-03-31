@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 864.0, 221.0, 510.0, 437.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 437.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -89,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 315.0, 71.0, 20.0 ],
+					"patching_rect" : [ 30.0, 405.0, 71.0, 20.0 ],
 					"style" : "",
 					"text" : "See also:"
 				}
@@ -104,7 +104,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 315.0, 39.0, 22.0 ],
+					"patching_rect" : [ 105.0, 405.0, 39.0, 22.0 ],
 					"style" : "",
 					"text" : "swap"
 				}
@@ -120,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 345.0, 81.0, 22.0 ],
+					"patching_rect" : [ 105.0, 435.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend help"
 				}
@@ -136,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 375.0, 53.0, 22.0 ],
+					"patching_rect" : [ 105.0, 465.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
