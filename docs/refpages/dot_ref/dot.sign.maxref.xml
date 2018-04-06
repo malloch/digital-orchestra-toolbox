@@ -2,12 +2,12 @@
 
 <?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
 
-<c74object name="dot.bound" module="dot" kind="patcher">
+<c74object name="dot.sign" module="dot" kind="patcher">
 	<digest>
-		mute/clamp/wrap/fold numbers
+		Output the sign of the input
 	</digest>
 	<description>
-		Mute, clamp, wrap, or fold a stream of numbers at a predefined min and/or max.
+		Output the sign of the input.
 	</description>
 
 	<!--METADATA-->
@@ -22,18 +22,19 @@
 	<inletlist>
 		<inlet id="0" type="int/float">
 			<digest>
-                input to constrain
+                Number to process
 			</digest>
 			<description>
+                Number to process
 			</description>
 		</inlet>
 	</inletlist>
 
 	<!--OUTLETS-->
 	<outletlist>
-		<outlet id="0" type="float">
+		<outlet id="0" type="int">
 			<digest>
-                bound output
+                1 if positive, -1 if negative, 0 otherwise
 			</digest>
 			<description>
 			</description>
@@ -42,47 +43,28 @@
 
     <!--ATTRIBUTES-->
     <attributelist>
-        <attribute name="min" get="0" set="1" type="list" size="1">
-            <digest>
-                min
-            </digest>
-            <description>
-                Action to take if input is less than minimum.
-            </description>
-        </attribute>
-
-        <attribute name="max" get="0" set="1" type="list" size="1">
-            <digest>
-                max
-            </digest>
-            <description>
-                Action to take if input is greater than maximum.
-            </description>
-        </attribute>
     </attributelist>
 
     <!--MESSAGES-->
     <methodlist>
-        <method name="min">
+        <method name="int">
             <arglist>
-                <arg name="action" type="symbol" optional="0" />
-                <arg name="value" type="int/float" optional="1" />
+                <arg name="value" type="int" optional="0" />
             </arglist>
             <digest>
             </digest>
             <description>
-                minimum
+                integer
             </description>
         </method>
-        <method name="max">
+        <method name="float">
             <arglist>
-                <arg name="action" type="symbol" optional="0" />
-                <arg name="value" type="int/float" optional="1" />
+                <arg name="value" type="float" optional="0" />
             </arglist>
             <digest>
             </digest>
             <description>
-                maximum
+                float
             </description>
         </method>
     </methodlist>
