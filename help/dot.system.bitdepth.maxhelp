@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -86,7 +86,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.system.bitDepth",
+					"text" : "dot.system.bitdepth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -136,9 +136,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 180.0, 117.0, 22.0 ],
+					"patching_rect" : [ 90.0, 180.0, 115.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.system.bitDepth"
+					"text" : "dot.system.bitdepth"
 				}
 
 			}

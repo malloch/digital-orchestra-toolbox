@@ -39,6 +39,48 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubbleside" : 3,
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 275.0, 90.0, 93.0, 24.0 ],
+					"presentation_rect" : [ 245.0, 83.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "set value"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-23",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 370.0, 90.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 180.0, 90.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "reset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
 					"bubbleside" : 2,
 					"id" : "obj-22",
 					"linecount" : 3,
@@ -46,7 +88,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 429.5, 69.0, 75.0, 66.0 ],
-					"presentation_rect" : [ 276.0, 78.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "number of samples in average"
 				}
@@ -61,7 +102,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 439.0, 135.0, 56.0, 22.0 ],
-					"presentation_rect" : [ 437.0, 167.0, 0.0, 0.0 ],
 					"style" : "",
 					"triscale" : 0.9
 				}
@@ -77,7 +117,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.0, 417.0, 98.0, 22.0 ],
-					"presentation_rect" : [ 77.0, 417.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "dot.mean.sliding"
 				}
@@ -93,7 +132,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 180.0, 310.0, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "Windowed average",
+					"text" : "Average",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -600,9 +639,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}

@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 669.0, 167.0, 510.0, 412.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 412.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.list.matchNth",
+					"text" : "dot.list.matchnth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -169,7 +169,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 195.0, 165.0, 214.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.list.matchNth /foo 2"
+					"text" : "dot.list.matchnth /foo 2"
 				}
 
 			}

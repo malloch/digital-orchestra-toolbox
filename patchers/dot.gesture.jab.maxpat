@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -200,9 +200,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 210.0, 345.0, 74.0, 22.0 ],
+					"patching_rect" : [ 240.0, 345.0, 102.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.extrema"
+					"text" : "dot.extrema.local"
 				}
 
 			}
@@ -216,9 +216,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 135.0, 345.0, 74.0, 22.0 ],
+					"patching_rect" : [ 135.0, 345.0, 102.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.extrema"
+					"text" : "dot.extrema.local"
 				}
 
 			}
@@ -232,7 +232,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 135.0, 315.0, 94.0, 22.0 ],
+					"patching_rect" : [ 135.0, 315.0, 124.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.split 0."
 				}
@@ -452,7 +452,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 274.5, 377.0, 144.5, 377.0 ],
+					"midpoints" : [ 332.5, 377.0, 144.5, 377.0 ],
 					"source" : [ "obj-60", 1 ]
 				}
 
@@ -460,6 +460,18 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.median.sliding.maxpat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.window.sliding.maxpat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.float.sanitize.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -477,7 +489,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.extrema.maxpat",
+				"name" : "dot.extrema.local.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -490,12 +502,6 @@
 			}
 , 			{
 				"name" : "dot.sign.maxpat",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.float.sanitize.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

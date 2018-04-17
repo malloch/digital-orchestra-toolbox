@@ -5,6 +5,7 @@
 <refpage name='dot.aggregate.sliding.maxref.xml'/>
 <refpage name='dot.aggregate.timed.maxref.xml'/>
 <refpage name='dot.am.demodulate.asynchronous~.maxref.xml'/>
+<refpage name='dot.autoscale.maxref.xml'/>
 <refpage name='dot.autoscale.exponential.maxref.xml'/>
 <refpage name='dot.autoscale.sliding.maxref.xml'/>
 <refpage name='dot.autoscale.timed.maxref.xml'/>
@@ -13,7 +14,7 @@
 <refpage name='dot.bound.maxref.xml'/>
 <refpage name='dot.bytetobits.maxref.xml'/>
 <refpage name='dot.change.maxref.xml'/>
-<refpage name='dot.coll.query.maxref.xml'/>
+<refpage name='dot.coll.maxref.xml'/>
 <refpage name='dot.constrain.maxref.xml'/>
 <refpage name='dot.correlation.exponential.maxref.xml'/>
 <refpage name='dot.correlation.sliding.maxref.xml'/>
@@ -29,8 +30,10 @@
 <refpage name='dot.envelope.exponential.maxref.xml'/>
 <refpage name='dot.expression.maxref.xml'/>
 <refpage name='dot.extrema.maxref.xml'/>
+<refpage name='dot.extrema.local.maxref.xml'/>
 <refpage name='dot.extrema.sliding.maxref.xml'/>
 <refpage name='dot.extrema.timed.maxref.xml'/>
+<refpage name='dot.float.maxref.xml'/>
 <refpage name='dot.float.e.maxref.xml'/>
 <refpage name='dot.float.inf.maxref.xml'/>
 <refpage name='dot.float.nan.maxref.xml'/>
@@ -52,6 +55,7 @@
 <refpage name='dot.log.play.maxref.xml'/>
 <refpage name='dot.log.record.maxref.xml'/>
 <refpage name='dot.maximum.maxref.xml'/>
+<refpage name='dot.mean.maxref.xml'/>
 <refpage name='dot.mean.exponential.maxref.xml'/>
 <refpage name='dot.mean.sliding.maxref.xml'/>
 <refpage name='dot.mean.timed.maxref.xml'/>
