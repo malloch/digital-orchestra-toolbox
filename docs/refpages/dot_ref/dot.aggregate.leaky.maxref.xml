@@ -169,6 +169,8 @@
 	<!--SEEALSO-->
 	<seealsolist>
 		<seealso name="dot.aggregate" />
+        <seealso name="dot.aggregate.sliding" />
+        <seealso name="dot.aggregate.timed" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->

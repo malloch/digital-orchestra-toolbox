@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 439.0, 79.0, 510.0, 445.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 445.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Interprets a list of bytes as a twos complement integer.",
+					"text" : "Interprets a list of bytes as a two's complement integer.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -138,9 +138,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 180.0, 163.0, 22.0 ],
+					"patching_rect" : [ 45.0, 180.0, 160.0, 22.0 ],
 					"style" : "",
-					"text" : "dot.integer.twosComplement"
+					"text" : "dot.integer.twoscomplement"
 				}
 
 			}

@@ -4,10 +4,10 @@
 
 <c74object name="dot.aggregate" module="dot" kind="patcher">
 	<digest>
-		Aggregate of a list or a windowed stream
+		Aggregate of a stream of numbers
 	</digest>
 	<description>
-		Calculates aggregate of a list or a windowed stream.
+		Calculates aggregate of a stream of numbers.
 	</description>
 
 	<!--METADATA-->
@@ -22,14 +22,21 @@
 	<inletlist>
 		<inlet id="0" type="INLET_TYPE">
 			<digest>
-                int or float to add
+                int, float, or list to add and cause output
 			</digest>
 			<description>
 			</description>
 		</inlet>
         <inlet id="1" type="INLET_TYPE">
             <digest>
-                window size in samples
+                int, float, or list to add without causing output
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="1" type="INLET_TYPE">
+            <digest>
+                int or float to set internal value
             </digest>
             <description>
             </description>
@@ -49,11 +56,11 @@
 
 	<!--ARGUMENTS-->
 	<objarglist>
-        <objarg name="Window size" type="int" optional="1">
+        <objarg name="Initial value" type="float" optional="1">
             <digest>
             </digest>
             <description>
-                Window size in samples
+                Initial value.
             </description>
         </objarg>
 	</objarglist>
@@ -66,7 +73,7 @@
 			<digest>
 			</digest>
 			<description>
-				List to aggregate.
+				Add to aggregate.
 			</description>
 		</method>
 		<method name="int">
@@ -92,6 +99,8 @@
 	<!--SEEALSO-->
 	<seealsolist>
 		<seealso name="dot.aggregate.leaky" />
+        <seealso name="dot.aggregate.sliding" />
+        <seealso name="dot.aggregate.timed" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->
