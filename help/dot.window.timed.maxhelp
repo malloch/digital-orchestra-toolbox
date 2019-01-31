@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 255.0, 225.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "toggle",
@@ -89,7 +102,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 225.0, 205.0, 135.0 ],
 					"setminmax" : [ 0.0, 128.0 ],
-					"size" : 2,
+					"size" : 4,
 					"style" : ""
 				}
 
@@ -104,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 231.0, 135.0, 85.0, 22.0 ],
+					"patching_rect" : [ 255.0, 135.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 500"
 				}
@@ -118,7 +131,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 231.0, 165.0, 50.0, 22.0 ],
+					"patching_rect" : [ 255.0, 165.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -196,7 +209,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 195.0, 205.0, 22.0 ],
+					"patching_rect" : [ 45.0, 195.0, 229.0, 22.0 ],
 					"style" : "",
 					"text" : "dot.window.timed 500"
 				}
@@ -222,6 +235,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-10", 0 ]

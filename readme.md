@@ -8,6 +8,12 @@ Currently, the DOT includes more than 120 tools, and unlike many packages availa
 
 Joseph Malloch, Stephen Sinclair, and Marlon Schumacher.
 
+## Attribution
+
+To cite the Digital Orchestra Toolbox, please use the following:
+
+Joseph Malloch, Marlon Schumacher, Stephen Sinclair, and Marcelo M. Wanderley (2018). The Digital Orchestra Toolbox for Max. In *Proceedings of the International Conference on New Interfaces for Musical Expression (NIME)*. Blacksburg, VA, USA.
+
 ## Acknowledgements
 
 Thanks to the [Input Devices and Music Interaction Laboratory (IDMIL)](http://idmil.org/home) at McGill University, Montreal for supporting development of this toolbox. Parts of the toobox were developed as part of the [CIRMMT/McGill Digital Orchestra Project](http://idmil.org/projects/digital_orchestra), funded by the Fonds de Recherche Société et culture of the Quebec government, and the project [Compositional Applications of Auditory Scene Synthesis in Concert Spaces via Gestural Control](http://idmil.org/projects/spatialization) funded by the NSERC/Canada Council for the Arts New Media Initiative.

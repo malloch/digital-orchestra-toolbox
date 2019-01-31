@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -246,7 +246,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
 					"style" : "",
-					"text" : "Proportional-Intergral-Derivative controller.",
+					"text" : "Proportional-Integral-Derivative controller.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -311,7 +311,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}

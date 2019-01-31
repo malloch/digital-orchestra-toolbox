@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -142,9 +142,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 360.0, 252.0, 33.0 ],
+					"patching_rect" : [ 30.0, 360.0, 266.0, 33.0 ],
 					"style" : "",
-					"text" : "Second and thrid outlets output input minimum and maximum used for rescaling."
+					"text" : "Second and third outlets output the minimum and maximum used for rescaling."
 				}
 
 			}
@@ -193,7 +193,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -587,6 +587,12 @@
 			}
 , 			{
 				"name" : "dot.float.inf.maxpat",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.maximum.maxpat",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

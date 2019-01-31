@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 801.0, 224.0, 445.0, 441.0 ],
+		"rect" : [ 801.0, 224.0, 445.0, 439.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -449,6 +449,12 @@
 			}
 , 			{
 				"name" : "dot.float.inf.maxpat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.maximum.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

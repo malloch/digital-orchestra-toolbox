@@ -257,14 +257,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 68.0, 30.0, 142.0, 49.0 ],
+					"patching_rect" : [ 68.0, 30.0, 124.0, 35.0 ],
 					"style" : "",
-					"text" : "patcherargs 0.1 @min 0 @max 1 @mult 2 @weight 0.1"
+					"text" : "patcherargs @min 0 @max 1 @mult 2"
 				}
 
 			}
@@ -344,7 +344,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 200.5, 91.5, 39.5, 91.5 ],
+					"midpoints" : [ 182.5, 91.5, 39.5, 91.5 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
