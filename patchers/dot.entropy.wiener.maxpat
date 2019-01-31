@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 674.0, 330.0, 397.0, 431.0 ],
+		"rect" : [ 90.0, 353.0, 329.0, 323.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,54 +38,14 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-18",
-					"index" : 0,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 375.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 216.0, 375.0, 0.0, 0.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-3",
-					"index" : 0,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 375.0, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 270.0, 105.0, 29.5, 22.0 ],
-					"style" : "",
-					"text" : "i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 270.0, 60.0, 103.0, 22.0 ],
+					"patching_rect" : [ 270.0, 135.0, 39.0, 22.0 ],
 					"style" : "",
-					"text" : "route windowsize"
+					"text" : "zl len"
 				}
 
 			}
@@ -96,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 290.0, 165.0, 47.0 ],
+					"patching_rect" : [ 135.0, 21.5, 165.0, 47.0 ],
 					"style" : "",
 					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2019\nwww.idmil.org/software/dot"
 				}
@@ -107,11 +67,11 @@
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 180.0, 139.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 30.0, 75.0, 259.0, 22.0 ],
 					"style" : "",
-					"text" : "t l l"
+					"text" : "t l l l"
 				}
 
 			}
@@ -123,7 +83,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 375.0, 30.0, 30.0 ],
+					"patching_rect" : [ 30.0, 270.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -135,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 30.0, 345.0, 139.0, 22.0 ],
+					"patching_rect" : [ 30.0, 240.0, 139.0, 22.0 ],
 					"style" : "",
 					"text" : "/ 1."
 				}
@@ -148,7 +108,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 150.0, 285.0, 34.0, 22.0 ],
+					"patching_rect" : [ 150.0, 180.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "/ 64."
 				}
@@ -161,7 +121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 150.0, 240.0, 45.0, 22.0 ],
+					"patching_rect" : [ 150.0, 135.0, 45.0, 22.0 ],
 					"style" : "",
 					"text" : "zl sum"
 				}
@@ -174,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 315.0, 81.0, 22.0 ],
+					"patching_rect" : [ 30.0, 210.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "expr exp($f1)"
 				}
@@ -187,7 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 30.0, 285.0, 34.0, 22.0 ],
+					"patching_rect" : [ 30.0, 180.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "/ 64."
 				}
@@ -200,7 +160,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 240.0, 45.0, 22.0 ],
+					"patching_rect" : [ 30.0, 135.0, 45.0, 22.0 ],
 					"style" : "",
 					"text" : "zl sum"
 				}
@@ -213,52 +173,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 210.0, 77.0, 22.0 ],
+					"patching_rect" : [ 30.0, 105.0, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "vexpr ln($f1)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 120.0, 30.0, 169.0, 22.0 ],
-					"style" : "",
-					"text" : "patcherargs @windowsize 64"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-4",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "jit_matrix" ],
-					"patching_rect" : [ 30.0, 150.0, 139.0, 22.0 ],
-					"style" : "",
-					"text" : "dot.powerspectrum 64"
 				}
 
 			}
@@ -278,20 +195,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"source" : [ "obj-10", 0 ]
@@ -315,16 +218,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"order" : 1,
 					"source" : [ "obj-14", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"order" : 0,
-					"source" : [ "obj-14", 1 ]
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-14", 2 ]
 				}
 
 			}
@@ -337,24 +238,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 279.5, 138.0, 159.5, 138.0 ],
-					"order" : 1,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 279.5, 273.0, 174.5, 273.0 ],
+					"midpoints" : [ 279.5, 168.0, 174.5, 168.0 ],
 					"order" : 0,
 					"source" : [ "obj-17", 0 ]
 				}
@@ -363,39 +248,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 279.5, 273.0, 54.5, 273.0 ],
-					"order" : 2,
+					"midpoints" : [ 279.5, 168.0, 54.5, 168.0 ],
+					"order" : 1,
 					"source" : [ "obj-17", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 84.5, 90.0, 279.5, 90.0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-5", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 129.5, 90.0, 279.5, 90.0 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -428,21 +290,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "dot.powerspectrum.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.window.sliding.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
