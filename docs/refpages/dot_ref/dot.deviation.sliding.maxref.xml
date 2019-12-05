@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.deviation.sliding" module="dot" kind="patcher">
+	<digest>
+		Calculates the Standard Deviation of a windowed stream of numbers.
+	</digest>
+	<description>
+		Calculates the Standard Deviation of a windowed stream of numbers.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.1</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="float">
+			<digest>
+                datastream to process
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="int">
+            <digest>
+                window size in samples
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="float">
+			<digest>
+                processed datastream
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+        <attribute name="Bessel" get="0" set="1" type="int" size="1">
+            <digest>
+                Bessel's correction
+            </digest>
+            <description>
+                Set to 1 (default) to calculate "sample standard deviation", or
+                0 to calculate "standard deviation of a sample".
+            </description>
+        </attribute>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

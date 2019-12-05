@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.mean.exponential" module="dot" kind="patcher">
+	<digest>
+		Exponential Moving Average.
+	</digest>
+	<description>
+		Exponential Moving Average.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.1</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="float">
+			<digest>
+                datastream to process
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="float">
+            <digest>
+                weight of current sample
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="float">
+			<digest>
+                processed datastrea,
+			</digest>
+			<description>
+			</description>
+		</outlet>
+        <outlet id="1" type="float">
+            <digest>
+                residual value
+            </digest>
+            <description>
+            </description>
+        </outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+        <attribute name="weight" get="0" set="1" type="float" size="1">
+            <digest>
+                weight of current sample
+            </digest>
+            <description>
+                weight of current sample
+            </description>
+        </attribute>
+
+        <attribute name="decay" get="0" set="1" type="float" size="1">
+            <digest>
+                decay rate
+            </digest>
+            <description>
+                decay rate
+            </description>
+        </attribute>
+
+        <attribute name="halflife" get="0" set="1" type="float" size="1">
+            <digest>
+                Halflife
+            </digest>
+            <description>
+                Halflife
+            </description>
+        </attribute>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="weight">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+                weight of current sample
+            </digest>
+            <description>
+                weight of current sample
+            </description>
+        </method>
+        <method name="decay">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+                decay rate
+            </digest>
+            <description>
+                decay rate
+            </description>
+        </method>
+        <method name="halflife">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+                halflife
+            </digest>
+            <description>
+                halflife
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.interpolate.4~" module="dot" kind="patcher">
+	<digest>
+		Spectral interpolation of 4 signals via magnitude and phase vector.
+	</digest>
+	<description>
+		Spectral interpolation of 4 signals via magnitude and phase vector.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Marlon Schumacher</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.1</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="list">
+			<digest>
+                2D magnitude interpolation coefficient
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="list">
+            <digest>
+                2D phase interpolation coefficient
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="2" type="signal">
+            <digest>
+                audio input 1
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="3" type="signal">
+            <digest>
+                audio input 2
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="4" type="signal">
+            <digest>
+                audio input 3
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="5" type="signal">
+            <digest>
+                audio input 4
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+                output
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.autoscale.timed" module="dot" kind="patcher">
+	<digest>
+		Automatic rescaling
+	</digest>
+	<description>
+		Automatically rescale an incoming stream using exponential mean and deviation.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.1</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="int/float">
+			<digest>
+                stream of values to rescale
+			</digest>
+			<description>
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="float">
+			<digest>
+                rescaled value
+			</digest>
+			<description>
+			</description>
+		</outlet>
+        <outlet id="1" type="list">
+            <digest>
+                input range used for rescaling
+            </digest>
+            <description>
+            </description>
+        </outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+        <attribute name="weight" get="0" set="1" type="float" size="1">
+            <digest>
+                Weight
+            </digest>
+            <description>
+                Weight of current sample when calculating mean and deviation
+            </description>
+        </attribute>
+
+        <attribute name="min" get="0" set="1" type="float" size="1">
+            <digest>
+                min
+            </digest>
+            <description>
+                Output minimum used for rescaling
+            </description>
+        </attribute>
+
+        <attribute name="max" get="0" set="1" type="float" size="1">
+            <digest>
+                Max
+            </digest>
+            <description>
+                Output maximum used for rescaling
+            </description>
+        </attribute>
+
+        <attribute name="mult" get="0" set="1" type="float" size="1">
+            <digest>
+                Multiplier
+            </digest>
+            <description>
+                Multiplier applied to rescaling range
+            </description>
+        </attribute>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="weight">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Weight of current sample when calculating mean and deviation
+            </description>
+        </method>
+        <method name="min">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Output minimum used for rescaling
+            </description>
+        </method>
+        <method name="max">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Output maximum used for rescaling
+            </description>
+        </method>
+        <method name="mult">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Multiplier applied to rescaling range
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+        <seealso name="dot.mean.exponential" />
+        <seealso name="dot.deviation.exponential" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

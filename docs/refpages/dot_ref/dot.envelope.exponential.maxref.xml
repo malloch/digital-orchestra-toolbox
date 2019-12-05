@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.envelope.exponential" module="dot" kind="patcher">
+	<digest>
+		Envelope follower using Exponential Moving Averages.
+	</digest>
+	<description>
+		Envelope follower using Exponential Moving Averages.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.1</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="float">
+			<digest>
+                datastream to process
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="float">
+            <digest>
+                weight for increasing samples
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="2" type="float">
+            <digest>
+                weight for decreasing samples
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="float">
+			<digest>
+                processed datastream
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+        <attribute name="signed" get="0" set="1" type="int" size="1">
+            <digest>
+                set whether envelope follower should be signed
+            </digest>
+            <description>
+                set whether envelope follower should be signed
+            </description>
+        </attribute>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

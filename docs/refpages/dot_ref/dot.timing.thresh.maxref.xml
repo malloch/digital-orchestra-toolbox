@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.timing.thresh" module="dot" kind="patcher">
+	<digest>
+		A little hack to allow thresh to work with symbols.
+	</digest>
+	<description>
+		A little hack to allow thresh to work with symbols.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.1</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+        <metadata name="tag">time</metadata>
+        <metadata name="tag">Timing</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="int/float/list/sym">
+			<digest>
+                datastream to process
+			</digest>
+			<description>
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="list">
+			<digest>
+                list of items received within timing threshold
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+        <seealso name="thresh" />
+        <seealso name="dot.timing.debounce" />
+        <seealso name="dot.timing.metro" />
+        <seealso name="dot.timing.pipe" />
+        <seealso name="dot.timing.speedlim" />
+        <seealso name="dot.timing.squeuedlim" />
+        <seealso name="dot.timing.translate" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

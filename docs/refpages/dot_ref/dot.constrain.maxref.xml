@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.constrain" module="dot" kind="patcher">
+	<digest>
+		Retrieve indexes of coll data entries
+	</digest>
+	<description>
+		Retrieve indexes of coll data entries that match the query.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.1</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="INPUT_TYPE">
+			<digest>
+                query
+			</digest>
+			<description>
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="int">
+			<digest>
+                indexes of matching records
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="name" type="int" optional="1">
+            <digest>
+            </digest>
+            <description>
+            name of receive object attached to coll
+            </description>
+        </objarg>
+    </objarglist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="symbol">
+            <arglist>
+                <arg name="value" type="int" optional="1" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Search for symbol in coll data with optional column index
+            </description>
+        </method>
+        <method name="int">
+            <arglist>
+                <arg name="value" type="int" optional="1" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Search for int in coll data with optional column index
+            </description>
+        </method>
+        <method name="float">
+            <arglist>
+                <arg name="value" type="float" optional="1" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Search for float in coll data with optional column index
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

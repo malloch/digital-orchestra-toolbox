@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.spherical.tocartesian" module="dot" kind="patcher">
+	<digest>
+		Converts spherical coordinates to Cartesian representation.
+	</digest>
+	<description>
+		Converts spherical coordinates to Cartesian representation.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.1</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="float">
+			<digest>
+                magnitude
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="float">
+            <digest>
+                angle0
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="2" type="float">
+            <digest>
+                angle1
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="float">
+			<digest>
+                x
+			</digest>
+			<description>
+			</description>
+		</outlet>
+        <outlet id="1" type="float">
+            <digest>
+                y
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="2" type="float">
+            <digest>
+                z
+            </digest>
+            <description>
+            </description>
+        </outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

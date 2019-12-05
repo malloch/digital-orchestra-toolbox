@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.timing.debounce" module="dot" kind="patcher">
+	<digest>
+		Filter multiple messages
+	</digest>
+	<description>
+		Filter multiple messages.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.1</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+        <metadata name="tag">time</metadata>
+        <metadata name="tag">Timing</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="anything">
+			<digest>
+                Anything
+			</digest>
+			<description>
+                Anything
+			</description>
+		</inlet>
+        <inlet id="1" type="anything">
+            <digest>
+                Delay in milliseconds
+            </digest>
+            <description>
+                Delay in milliseconds before allowing another message.
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="anything">
+			<digest>
+                debounced output
+			</digest>
+			<description>
+                debounced output
+			</description>
+		</outlet>
+	</outletlist>
+
+    <objarglist>
+        <objarg name="Delay time" type="int/float" optional="1">
+            <digest>
+            </digest>
+            <description>
+                Delay in milliseconds before allowing another message.
+            </description>
+        </objarg>
+    </objarglist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="anything">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Messages to be debounced
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+        <seealso name="dot.timing.metro" />
+        <seealso name="dot.timing.pipe" />
+        <seealso name="dot.timing.speedlim" />
+        <seealso name="dot.timing.squeuedlim" />
+        <seealso name="dot.timing.thresh" />
+        <seealso name="dot.timing.translate" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+</c74object>
+

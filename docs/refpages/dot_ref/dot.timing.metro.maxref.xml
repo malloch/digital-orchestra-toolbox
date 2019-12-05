@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.timing.metro" module="dot" kind="patcher">
+	<digest>
+		Output a bang message at irregular intervals
+	</digest>
+	<description>
+		Like the "metro" object but outputs randomly within a range
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.1</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+        <metadata name="tag">time</metadata>
+        <metadata name="tag">Timing</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="int">
+			<digest>
+                Start/stop the metronome
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="1" type="int/float">
+            <digest>
+                Set the time interval low limit
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="1" type="int/float">
+            <digest>
+                Set the time interval high limit
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+                output
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+        <attribute name="freq" get="0" set="1" type="float" size="1">
+            <digest>
+                Frequency
+            </digest>
+            <description>
+                Frequency
+            </description>
+        </attribute>
+
+        <attribute name="phase" get="0" set="1" type="float" size="1">
+            <digest>
+                Phase
+            </digest>
+            <description>
+                Phase
+            </description>
+        </attribute>
+
+        <attribute name="bandwidth" get="0" set="1" type="float" size="1">
+            <digest>
+                Bandwidth
+            </digest>
+            <description>
+                Bandwidth
+            </description>
+        </attribute>
+
+<!--        <attribute name="calibrate" get="0" set="1" type="float" size="1">-->
+<!--            <digest>-->
+<!--                Calibrate-->
+<!--            </digest>-->
+<!--            <description>-->
+<!--                Calibrate-->
+<!--            </description>-->
+<!--        </attribute>-->
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="freq">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Frequency
+            </description>
+        </method>
+        <method name="phase">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Phase
+            </description>
+        </method>
+        <method name="bandwidth">
+            <arglist>
+                <arg name="value" type="float" optional="0" />
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Bandwidth
+            </description>
+        </method>
+<!--        <method name="calibrate">-->
+<!--            <arglist>-->
+<!--            </arglist>-->
+<!--            <digest>-->
+<!--            </digest>-->
+<!--            <description>-->
+<!--                Calibrate-->
+<!--            </description>-->
+<!--        </method>-->
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+        <seealso name="metro" />
+        <seealso name="dot.timing.debounce" />
+        <seealso name="dot.timing.pipe" />
+        <seealso name="dot.timing.speedlim" />
+        <seealso name="dot.timing.squeuedlim" />
+        <seealso name="dot.timing.thresh" />
+        <seealso name="dot.timing.translate" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

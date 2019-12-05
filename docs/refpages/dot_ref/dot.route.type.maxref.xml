@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.route.type" module="dot" kind="patcher">
+	<digest>
+		Route input according to data type.
+	</digest>
+	<description>
+		Route input according to data type.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Marlon Schumacher</metadata>
+		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="version">1.1</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="bang/int/float/signal/list/jit">
+			<digest>
+                input
+			</digest>
+			<description>
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="signal">
+			<digest>
+                signal
+			</digest>
+			<description>
+			</description>
+		</outlet>
+        <outlet id="1" type="bang">
+            <digest>
+                bang
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="2" type="int">
+            <digest>
+                int
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="3" type="float">
+            <digest>
+                float
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="4" type="list">
+            <digest>
+                list
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="5" type="sym">
+            <digest>
+                symbol
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="6" type="list">
+            <digest>
+                vector
+            </digest>
+            <description>
+            </description>
+        </outlet>
+        <outlet id="7" type="jit">
+            <digest>
+                jitter
+            </digest>
+            <description>
+            </description>
+        </outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+
