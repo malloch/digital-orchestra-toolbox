@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 403.0 ],
+		"rect" : [ 818.0, 117.0, 510.0, 403.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -278,12 +278,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 595.0, 330.0, 582.0, 324.0 ],
+						"rect" : [ 381.0, 458.0, 582.0, 324.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -319,9 +319,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 135.0, 84.0, 22.0 ],
+									"patching_rect" : [ 210.0, 135.0, 77.0, 22.0 ],
 									"style" : "",
-									"text" : "vexpr $f1-128"
+									"text" : "vexpr $f1-64"
 								}
 
 							}

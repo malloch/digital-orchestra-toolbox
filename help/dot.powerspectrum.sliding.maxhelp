@@ -356,7 +356,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 360.0, 405.0, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "SONOGRAM"
+					"text" : "SPECTROGRAM"
 				}
 
 			}
@@ -410,7 +410,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 195.0, 405.0, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "SPECTROGRAM"
+					"text" : "SPECTRUM"
 				}
 
 			}

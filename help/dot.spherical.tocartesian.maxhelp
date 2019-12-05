@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 423.0 ],
+		"rect" : [ 805.0, 81.0, 510.0, 423.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -381,9 +381,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 135.0, 84.0, 20.0 ],
+									"patching_rect" : [ 210.0, 135.0, 77.0, 22.0 ],
 									"style" : "",
-									"text" : "vexpr $f1-128"
+									"text" : "vexpr $f1-64"
 								}
 
 							}
@@ -396,7 +396,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 120.0, 105.0, 80.0, 20.0 ],
+									"patching_rect" : [ 120.0, 105.0, 80.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend set"
 								}
@@ -424,7 +424,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.0, 105.0, 80.0, 20.0 ],
+									"patching_rect" : [ 31.0, 105.0, 80.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend set"
 								}
@@ -439,7 +439,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 105.0, 79.0, 20.0 ],
+									"patching_rect" : [ 210.0, 105.0, 79.0, 22.0 ],
 									"style" : "",
 									"text" : "pak 0. 0. 0."
 								}

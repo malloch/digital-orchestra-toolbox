@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 97.0, 131.0, 1125.0, 649.0 ],
+		"rect" : [ 100.0, 100.0, 1125.0, 649.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -80,7 +80,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 1125.0, 33.0 ],
 					"style" : "",
-					"text" : "dot.entropy.wiener",
+					"text" : "dot.entropy.wiener.sliding",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -184,7 +184,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 751.0, 435.0, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "SONOGRAM"
+					"text" : "SPECTROGRAM"
 				}
 
 			}
@@ -238,7 +238,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 600.0, 435.0, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "SPECTROGRAM"
+					"text" : "SPECTRUM"
 				}
 
 			}
