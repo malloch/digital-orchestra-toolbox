@@ -329,7 +329,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 135.0, 298.0, 20.0 ],
-									"presentation_rect" : [ 1.0, 135.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Just a little bpatcher for displaying streaming data"
 								}
@@ -2216,7 +2215,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 585.0, 636.0 ],
+						"rect" : [ 727.0, 105.0, 585.0, 636.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3640,7 +3639,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 141.0, 150.0, 202.0, 22.0 ],
+									"patching_rect" : [ 141.0, 150.0, 287.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -4927,7 +4926,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 727.0, 105.0, 585.0, 636.0 ],
+						"rect" : [ 0.0, 26.0, 585.0, 636.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
