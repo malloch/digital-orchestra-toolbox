@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 11,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 100.0, 100.0, 510.0, 347.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
@@ -47,7 +49,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 60.0, 150.0, 124.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.window.sliding 64"
 				}
 
@@ -62,13 +63,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 5,
-							"architecture" : "x86",
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 11,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "box",
 						"rect" : [ 498.0, 171.0, 149.0, 280.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -96,6 +98,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -106,7 +109,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 30.0, 195.0, 42.0, 22.0 ],
-									"style" : "",
 									"text" : "* 0.01"
 								}
 
@@ -119,9 +121,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 30.0, 165.0, 43.0, 22.0 ],
-									"style" : "",
 									"text" : "line 0."
 								}
 
@@ -136,7 +137,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 135.0, 74.0, 22.0 ],
-									"style" : "",
 									"text" : "append 200"
 								}
 
@@ -151,7 +151,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 30.0, 75.0, 65.0, 22.0 ],
-									"style" : "",
 									"text" : "metro 200"
 								}
 
@@ -166,7 +165,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 30.0, 105.0, 81.0, 22.0 ],
-									"style" : "",
 									"text" : "drunk 101 10"
 								}
 
@@ -180,8 +178,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -193,8 +190,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 225.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 30.0, 225.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -249,11 +245,9 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
 						"tags" : ""
 					}
 ,
-					"style" : "",
 					"text" : "p random_data"
 				}
 
@@ -269,11 +263,11 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "dot.vis.vector.maxpat",
+					"name" : "dot.vector.stream.vis.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 60.0, 180.0, 150.0, 150.0 ],
 					"viewvisibility" : 1
 				}
@@ -287,7 +281,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 86.0, 90.0, 150.0, 24.0 ],
-					"style" : "",
 					"text" : "click to start streaming"
 				}
 
@@ -300,8 +293,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 60.0, 90.0, 24.0, 24.0 ],
-					"style" : ""
+					"patching_rect" : [ 60.0, 90.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -314,7 +306,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
-					"style" : "",
 					"text" : "Just a little bpatcher for displaying streaming vector data",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -329,7 +320,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
-					"style" : "",
 					"text" : "dot.vis.vector",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -368,7 +358,6 @@
 					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
-					"style" : "",
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -403,7 +392,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.vis.vector.maxpat",
+				"name" : "dot.vector.stream.vis.maxpat",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

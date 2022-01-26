@@ -3097,49 +3097,42 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.float.sanitize.maxpat",
-				"bootpath" : "~/Documents/Projects/Mappers/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.constrain.maxpat",
-				"bootpath" : "~/Documents/Projects/Mappers/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.inf.maxpat",
-				"bootpath" : "~/Documents/Projects/Mappers/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.timing.speedlim.maxpat",
-				"bootpath" : "~/Documents/Projects/Mappers/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.timing.translate.maxpat",
-				"bootpath" : "~/Documents/Projects/Mappers/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.reg.maxpat",
-				"bootpath" : "~/Documents/Projects/Mappers/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.split.maxpat",
-				"bootpath" : "~/Documents/Projects/Mappers/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

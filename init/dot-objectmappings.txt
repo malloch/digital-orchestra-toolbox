@@ -61,6 +61,7 @@ max objectfile dot.timedsmooth dot.mean.timed;
 max objectfile dot.typecheck dot.route.type;
 max objectfile dot.unwrap dot.polar.shortestpath;
 max objectfile dot.vector.scale scale;
+max objectfile dot.vis.vector dot.vector.stream.vis;
 max objectfile dot.vscale scale;
 max objectfile dot.windowedextrema dot.extrema.sliding;
 max objectfile dot.wrap dot.polar.shortestpath;

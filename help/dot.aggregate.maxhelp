@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 11,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 445.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 224.0, -781.0, 510.0, 445.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -46,23 +48,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 345.0, 122.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.aggregate.sliding"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-16",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 315.0, 149.0, 22.0 ],
-					"style" : "",
-					"text" : "dot.aggregate.exponential"
 				}
 
 			}
@@ -76,7 +62,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 375.0, 117.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.aggregate.timed"
 				}
 
@@ -90,7 +75,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
-					"style" : "",
 					"text" : "Calculates aggregate of a stream.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -105,7 +89,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
-					"style" : "",
 					"text" : "dot.aggregate",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -123,7 +106,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 465.0, 59.0, 22.0 ],
-					"style" : "",
 					"text" : "pcontrol"
 				}
 
@@ -139,7 +121,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 435.0, 86.0, 22.0 ],
-					"style" : "",
 					"text" : "prepend help"
 				}
 
@@ -154,7 +135,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 405.0, 116.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.aggregate.leaky"
 				}
 
@@ -168,7 +148,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 360.0, 64.0, 20.0 ],
-					"style" : "",
 					"text" : "see also:"
 				}
 
@@ -183,8 +162,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 225.0, 105.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 225.0, 105.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -198,7 +176,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 225.0, 300.0, 60.0 ],
-					"style" : "",
 					"text" : "Argument (optional): starting value\nLeft inlet: int/float to add and output; bang to output\nCenter inlet: int/float to add\nRight inlet: set internal value"
 				}
 
@@ -213,7 +190,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 105.0, 47.0, 22.0 ],
-					"style" : "",
 					"text" : "1 2 3 4"
 				}
 
@@ -229,8 +205,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 105.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 105.0, 105.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -245,8 +220,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 180.0, 100.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 45.0, 180.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -260,8 +234,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 105.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 45.0, 105.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -276,7 +249,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 45.0, 150.0, 199.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.aggregate"
 				}
 
@@ -313,7 +285,6 @@
 					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
-					"style" : "",
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -330,14 +301,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 2 ],
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
