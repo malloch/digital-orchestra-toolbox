@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 428.0, 168.0, 807.0, 533.0 ],
+		"rect" : [ 248.0, 282.0, 807.0, 533.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 105.0, 60.0, 102.0, 22.0 ],
+					"text" : "loadmess 1 0 0 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "newobj",
@@ -109,8 +121,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -288,8 +300,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.0, 90.0, 102.0, 22.0 ],
-					"text" : "loadmess 1 0 0 0"
+					"patching_rect" : [ 105.0, 90.0, 54.0, 22.0 ],
+					"text" : "deferlow"
 				}
 
 			}
@@ -304,8 +316,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -486,8 +498,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -882,7 +894,8 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 465.0, 330.0, 150.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 35.0, 105.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 35.0, 105.0 ],
+					"sync" : 1
 				}
 
 			}
@@ -896,7 +909,8 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 630.0, 330.0, 150.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 0.0, 105.0, 105.0 ]
+					"presentation_rect" : [ 35.0, 0.0, 105.0, 105.0 ],
+					"sync" : 1
 				}
 
 			}
@@ -918,7 +932,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 9,
 					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 495.0, 409.0, 22.0 ],
 					"text" : "jit.gl.mesh #0-dot-ctx @color_mode vertex @scale 0.5 0.5 0.5 @antialias 1"
 				}
@@ -1058,7 +1072,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 118.5, 123.0, 39.5, 123.0 ],
+					"midpoints" : [ 114.5, 123.0, 39.5, 123.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -1095,6 +1109,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -1224,12 +1245,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.quaternion.jit.rotate.maxpat",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "dot.quaternion.jit.conjugate.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1242,6 +1257,18 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "dot.quaternion.jit.rotate.maxpat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.reg.maxpat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dot.timing.speedlim.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1249,12 +1276,6 @@
 			}
 , 			{
 				"name" : "dot.timing.translate.maxpat",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.reg.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
