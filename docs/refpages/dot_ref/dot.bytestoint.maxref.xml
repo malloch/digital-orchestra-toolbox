@@ -2,7 +2,7 @@
 
 <?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
 
-<c74object name="dot.integer.twoscomplement" module="dot" kind="patcher">
+<c74object name="dot.bytestoint" module="dot" kind="patcher">
 	<digest>
 		Interprets a list of bytes as a two's complement integer.
 	</digest>
@@ -13,7 +13,7 @@
 	<!--METADATA-->
 	<metadatalist>
 		<metadata name="author">Joseph Malloch</metadata>
-		<metadata name="copyright">© 2006 - 2018 IDMIL</metadata>
+		<metadata name="copyright">© 2006 - 2022 IDMIL</metadata>
 		<metadata name="version">1.1</metadata>
         <metadata name="tag">Digital Orchestral Toolbox</metadata>
 	</metadatalist>
@@ -22,7 +22,7 @@
 	<inletlist>
 		<inlet id="0" type="int/list">
 			<digest>
-                list or stream of bytes
+                list of bytes
 			</digest>
 			<description>
 			</description>

@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
+			"major" : 8,
 			"minor" : 3,
-			"revision" : 5,
-			"architecture" : "x86",
+			"revision" : 1,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 445.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 56.0, 79.0, 510.0, 445.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +37,37 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 270.0, 135.0, 52.0, 22.0 ],
+					"text" : "127 255"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 165.0, 135.0, 99.0, 22.0 ],
+					"presentation_linecount" : 4,
+					"text" : "255 255 255 255"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "number",
@@ -44,8 +75,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 210.0, 90.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 45.0, 210.0, 90.0, 22.0 ]
 				}
 
 			}
@@ -58,7 +88,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 484.0, 22.0 ],
-					"style" : "",
 					"text" : "Interprets a list of bytes as a two's complement integer.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -73,25 +102,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
-					"style" : "",
-					"text" : "dot.integer.twosComplement",
+					"text" : "dot.bytestoint",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-12",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 225.0, 135.0, 50.0, 22.0 ],
-					"style" : ""
 				}
 
 			}
@@ -104,25 +117,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 135.0, 47.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 105.0, 135.0, 47.0, 22.0 ],
 					"text" : "1 2 3 4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"format" : 6,
-					"id" : "obj-7",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 135.0, 50.0, 22.0 ],
-					"style" : ""
 				}
 
 			}
@@ -136,8 +132,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 135.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 45.0, 135.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -150,10 +145,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 180.0, 160.0, 22.0 ],
-					"style" : "",
-					"text" : "dot.integer.twoscomplement"
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 45.0, 180.0, 80.0, 22.0 ],
+					"text" : "dot.bytestoint"
 				}
 
 			}
@@ -166,6 +160,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-64",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "dot.logo.maxpat",
 					"numinlets" : 0,
@@ -189,7 +184,6 @@
 					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
-					"style" : "",
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -205,6 +199,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 174.5, 168.0, 54.5, 168.0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -212,29 +214,31 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 114.5, 167.0, 54.5, 167.0 ],
-					"source" : [ "obj-7", 0 ]
+					"midpoints" : [ 279.5, 168.0, 54.5, 168.0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 174.5, 167.0, 54.5, 167.0 ],
+					"midpoints" : [ 114.5, 167.0, 54.5, 167.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.logo.maxpat",
-				"patcherrelativepath" : ".",
+				"name" : "dot.bytestoint.maxpat",
+				"bootpath" : "~/Documents/Projects/Mappers/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.integer.twoscomplement.maxpat",
-				"patcherrelativepath" : "../patchers",
+				"name" : "dot.logo.maxpat",
+				"bootpath" : "~/Documents/Projects/Mappers/Digital Orchestra Toolbox/help",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
