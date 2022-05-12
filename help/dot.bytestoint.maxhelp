@@ -230,14 +230,12 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.bytestoint.maxpat",
-				"bootpath" : "~/Documents/Projects/Mappers/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Projects/Mappers/Digital Orchestra Toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
