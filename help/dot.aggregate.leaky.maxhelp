@@ -524,12 +524,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.timing.squeuedlim.maxpat",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "dot.timing.translate.maxpat",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
