@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 745.0, 400.0, 243.0, 356.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 790.0, 191.0, 243.0, 356.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -36,7 +37,28 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-3",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 11.0, 142.0, 83.0, 53.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 74.0, 41.0, 107.0, 53.0 ],
+					"text" : "2006\n•\n2026",
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Arial",
@@ -50,7 +72,6 @@
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 11.0, 74.0, 99.0, 67.0 ],
-					"style" : "",
 					"text" : "Digital Orchestra Toolbox"
 				}
 
@@ -72,7 +93,6 @@
 					"proportion" : 0.39,
 					"rounded" : 104,
 					"shape" : 1,
-					"style" : "",
 					"varname" : "autohelp_top_panel[14]"
 				}
 
@@ -94,7 +114,6 @@
 					"proportion" : 0.39,
 					"rounded" : 104,
 					"shape" : 1,
-					"style" : "",
 					"varname" : "autohelp_top_panel[15]"
 				}
 
@@ -116,7 +135,6 @@
 					"proportion" : 0.39,
 					"rounded" : 104,
 					"shape" : 1,
-					"style" : "",
 					"varname" : "autohelp_top_panel[16]"
 				}
 
