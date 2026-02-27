@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.entropy.wiener" module="dot" kind="patcher">
+	<digest>
+        Calculate the Wiener Entropy (Spectral Flatness) from a power spectrum
+	</digest>
+	<description>
+        Calculate the Wiener Entropy (Spectral Flatness) from a power spectrum
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2026</metadata>
+		<metadata name="version">1.3</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="list">
+			<digest>
+                power spectrum to analyse
+			</digest>
+			<description>
+                power spectrum to analyse
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="float">
+			<digest>
+                Wiener entropy (spectral flatness)
+			</digest>
+			<description>
+                Wiener entropy (spectral flatness)
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+
