@@ -2,22 +2,23 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 5,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 208.0, 96.0, 713.0, 709.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 134.0, 172.0, 713.0, 709.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-39",
@@ -44,7 +46,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 405.0, 105.0, 34.0, 22.0 ],
-					"style" : "",
 					"text" : "t 1 b"
 				}
 
@@ -57,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 420.0, 165.0, 24.0, 22.0 ],
-					"style" : "",
 					"text" : "t 0"
 				}
 
@@ -70,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 420.0, 135.0, 56.0, 22.0 ],
-					"style" : "",
 					"text" : "delay 60"
 				}
 
@@ -83,7 +82,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 420.0, 210.0, 65.0, 22.0 ],
-					"style" : "",
 					"text" : "qmetro 60"
 				}
 
@@ -97,8 +95,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 135.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 330.0, 135.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -110,7 +107,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 30.0, 225.0, 114.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.op @op * @val 1"
 				}
 
@@ -123,7 +119,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 165.0, 225.0, 29.5, 22.0 ],
-					"style" : "",
 					"text" : "- 1"
 				}
 
@@ -136,7 +131,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 255.0, 123.0, 22.0 ],
-					"style" : "",
 					"text" : "prepend dstdimend 0"
 				}
 
@@ -149,7 +143,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 255.0, 101.0, 22.0 ],
-					"style" : "",
 					"text" : "prepend dim 320"
 				}
 
@@ -163,8 +156,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 105.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 240.0, 105.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -176,7 +168,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 30.0, 255.0, 130.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.dimmap @invert 0 1"
 				}
 
@@ -189,8 +180,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 630.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 630.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -202,7 +192,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 420.0, 450.0, 163.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.matrix #0-dot.spectrogram"
 				}
 
@@ -215,7 +204,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 30.0, 75.0, 394.0, 22.0 ],
-					"style" : "",
 					"text" : "t f 0"
 				}
 
@@ -228,7 +216,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 420.0, 270.0, 163.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.matrix #0-dot.spectrogram"
 				}
 
@@ -244,7 +231,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "jit_matrix" ],
 					"patching_rect" : [ 30.0, 155.0, 167.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.powerspectrum.sliding 64"
 				}
 
@@ -257,7 +243,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 420.0, 405.0, 79.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.convolve"
 				}
 
@@ -270,7 +255,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 480.0, 330.0, 130.0, 22.0 ],
-					"style" : "",
 					"text" : "setcell 0 1 val 1., bang"
 				}
 
@@ -283,7 +267,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 480.0, 300.0, 60.0, 22.0 ],
-					"style" : "",
 					"text" : "loadbang"
 				}
 
@@ -296,7 +279,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 480.0, 360.0, 125.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.matrix 1 float32 3 3"
 				}
 
@@ -310,7 +292,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 30.0, 300.0, 295.0, 35.0 ],
-					"style" : "",
 					"text" : "jit.matrix #0-dot.spectrogram 1 float32 320 64 @usedstdim 1 @dstdimstart 0 0 @dstdimend 0 63"
 				}
 
@@ -324,8 +305,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -335,10 +315,11 @@
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 30.0, 360.0, 295.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 295.0, 265.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 295.0, 265.0 ],
+					"sync" : 1
 				}
 
 			}
@@ -349,9 +330,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.5, 510.0, 165.0, 47.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2019\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 345.5, 510.0, 284.5, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2019\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}

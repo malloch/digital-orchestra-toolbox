@@ -2,22 +2,23 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 807.0, 79.0, 356.0, 348.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 134.0, 172.0, 469.0, 348.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -45,9 +47,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 255.0, 197.0, 60.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch & Stephen Sinclair\nIDMIL 2009\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 150.0, 255.0, 284.0, 60.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch & Stephen Sinclair\nIDMIL 2009\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}
@@ -61,7 +62,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ " " ],
 					"patching_rect" : [ 30.0, 135.0, 29.0, 22.0 ],
-					"style" : "",
 					"text" : "t \" \""
 				}
 
@@ -76,7 +76,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 30.0, 105.0, 56.0, 22.0 ],
-					"style" : "",
 					"text" : "sel bang"
 				}
 
@@ -91,7 +90,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 90.0, 225.0, 80.0, 22.0 ],
-					"style" : "",
 					"text" : "sprintf %s%s"
 				}
 
@@ -106,7 +104,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 90.0, 195.0, 39.0, 22.0 ],
-					"style" : "",
 					"text" : "zl rev"
 				}
 
@@ -119,8 +116,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 285.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 90.0, 285.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -134,7 +130,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "zlclear" ],
 					"patching_rect" : [ 90.0, 105.0, 58.0, 22.0 ],
-					"style" : "",
 					"text" : "t l zlclear"
 				}
 
@@ -149,7 +144,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 90.0, 255.0, 49.0, 22.0 ],
-					"style" : "",
 					"text" : "zl join"
 				}
 
@@ -164,7 +158,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 180.0, 75.0, 74.0, 22.0 ],
-					"style" : "",
 					"text" : "patcherargs"
 				}
 
@@ -179,7 +172,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 90.0, 165.0, 79.0, 22.0 ],
-					"style" : "",
 					"text" : "zl join"
 				}
 
@@ -194,7 +186,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 90.0, 135.0, 49.0, 22.0 ],
-					"style" : "",
 					"text" : "zl nth 1"
 				}
 
@@ -209,7 +200,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 75.0, 79.0, 22.0 ],
-					"style" : "",
 					"text" : "route set"
 				}
 
@@ -223,8 +213,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 30.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 150.0, 30.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -237,8 +226,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 30.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 30.0, 25.0, 25.0 ]
 				}
 
 			}

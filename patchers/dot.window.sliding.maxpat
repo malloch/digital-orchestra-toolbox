@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 5,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 651.0, 139.0, 466.0, 329.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 651.0, 139.0, 466.0, 384.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -44,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 75.0, 38.0, 22.0 ],
-					"style" : "",
 					"text" : "defer"
 				}
 
@@ -57,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "zlclear" ],
 					"patching_rect" : [ 240.0, 150.0, 52.0, 22.0 ],
-					"style" : "",
 					"text" : "t zlclear"
 				}
 
@@ -70,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.0, 150.0, 111.0, 22.0 ],
-					"style" : "",
 					"text" : "prepend zlmaxsize"
 				}
 
@@ -83,7 +82,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 120.0, 195.0, 289.0, 22.0 ],
-					"style" : "",
 					"text" : "zl join"
 				}
 
@@ -96,7 +94,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 390.0, 150.0, 20.0, 22.0 ],
-					"style" : "",
 					"text" : "t l"
 				}
 
@@ -109,8 +106,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 270.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 165.0, 270.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -124,7 +120,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 165.0, 240.0, 39.0, 22.0 ],
-					"style" : "",
 					"text" : "zl len"
 				}
 
@@ -137,7 +132,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 120.0, 105.0, 199.0, 22.0 ],
-					"style" : "",
 					"text" : "route windowsize done reset"
 				}
 
@@ -150,7 +144,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 30.0, 74.0, 22.0 ],
-					"style" : "",
 					"text" : "patcherargs"
 				}
 
@@ -164,9 +157,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 255.0, 164.0, 47.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2018\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 30.0, 315.0, 285.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2018\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}
@@ -179,8 +171,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 120.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -193,8 +184,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 165.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -206,8 +196,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 270.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 120.0, 270.0, 30.0, 30.0 ]
 				}
 
 			}

@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 585.0, 706.0 ],
+						"rect" : [ 166.0, 126.0, 585.0, 706.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -117,8 +117,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 409.0, 510.0, 161.0, 80.625978090766822 ],
-									"pic" : "/Users/malloch/Documents/Labs/GEM/logos/inkscape/GEM_Logo_row_colour.png"
+									"patching_rect" : [ 409.0, 510.0, 161.0, 80.625978090766822 ]
 								}
 
 							}
@@ -254,7 +253,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 166.0, 126.0, 585.0, 706.0 ],
+						"rect" : [ 0.0, 26.0, 585.0, 706.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6524,22 +6523,13 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "GEM_Logo_row_colour.png",
-				"bootpath" : "~/Documents/Labs/GEM/logos/inkscape",
-				"patcherrelativepath" : "../../../Labs/GEM/logos/inkscape",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "dot.helplink.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/help",
 				"patcherrelativepath" : "../help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/help",
 				"patcherrelativepath" : "../help",
 				"type" : "JSON",
 				"implicit" : 1

@@ -3615,105 +3615,90 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.autoscale.exponential.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.biquad.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.constrain.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.deviation.exponential.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.inf.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.sanitize.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.maximum.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.mean.exponential.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.powerspectrum.sliding.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.stream.vis.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.timing.metro.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.timing.translate.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.vector.stream.vis.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.window.sliding.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

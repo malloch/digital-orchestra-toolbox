@@ -2,22 +2,23 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 378.0, 94.0, 735.0, 437.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 134.0, 172.0, 735.0, 437.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -46,7 +48,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 69.0, 267.0, 69.0, 22.0 ],
-					"style" : "",
 					"text" : "* 1.570796"
 				}
 
@@ -61,7 +62,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 15.0, 267.0, 32.5, 22.0 ],
-					"style" : "",
 					"text" : "* 1."
 				}
 
@@ -76,7 +76,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 315.0, 59.0, 22.0 ],
-					"style" : "",
 					"text" : "pack f f 0"
 				}
 
@@ -91,7 +90,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 240.0, 123.0, 22.0 ],
-					"style" : "",
 					"text" : "expr 2*atan2($f2\\,$f1)"
 				}
 
@@ -106,7 +104,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 210.0, 195.0, 126.0, 22.0 ],
-					"style" : "",
 					"text" : "if $f1>0 then 1 else -1"
 				}
 
@@ -121,7 +118,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "float" ],
 					"patching_rect" : [ 195.0, 165.0, 34.0, 22.0 ],
-					"style" : "",
 					"text" : "t 1 f"
 				}
 
@@ -136,7 +132,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"patching_rect" : [ 135.0, 60.0, 46.0, 22.0 ],
-					"style" : "",
 					"text" : "t l l 2"
 				}
 
@@ -151,7 +146,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 135.0, 195.0, 49.0, 22.0 ],
-					"style" : "",
 					"text" : "gate 2"
 				}
 
@@ -166,7 +160,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 135.0, 127.0, 22.0 ],
-					"style" : "",
 					"text" : "if $f1 > 0.499 then $f1"
 				}
 
@@ -181,7 +174,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 105.0, 120.0, 22.0 ],
-					"style" : "",
 					"text" : "expr $f2*$f3+$f1*$f4"
 				}
 
@@ -196,7 +188,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 315.0, 379.0, 22.0 ],
-					"style" : "",
 					"text" : "pack f f f"
 				}
 
@@ -212,7 +203,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 525.0, 240.0, 167.0, 49.0 ],
-					"style" : "",
 					"text" : "expr atan2(2*($f1*$f4+$f2*$f3)\\, 1-2*(pow($f3\\,2)+pow($f4\\,2)))"
 				}
 
@@ -227,7 +217,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 240.0, 167.0, 22.0 ],
-					"style" : "",
 					"text" : "expr asin(2*($f1*$f3-$f2*$f4))"
 				}
 
@@ -243,7 +232,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 240.0, 165.0, 49.0 ],
-					"style" : "",
 					"text" : "expr atan2(2*($f1*$f2+$f3*$f4)\\, 1-2*(pow($f2\\,2)+pow($f3\\,2)))"
 				}
 
@@ -257,9 +245,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 394.0, 349.0, 170.0, 47.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2014\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 394.0, 349.0, 286.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2014\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}
@@ -271,8 +258,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 360.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 165.0, 360.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -285,8 +271,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 15.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 135.0, 15.0, 25.0, 25.0 ]
 				}
 
 			}

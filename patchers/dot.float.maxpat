@@ -2,22 +2,23 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 768.0, 149.0, 424.0, 329.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-4",
@@ -44,7 +46,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 255.0, 30.0, 74.0, 22.0 ],
-					"style" : "",
 					"text" : "patcherargs"
 				}
 
@@ -56,9 +57,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 255.0, 165.0, 47.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2018\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 90.0, 255.0, 285.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2018\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}
@@ -72,13 +72,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x86",
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 5,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "box",
 						"rect" : [ 84.0, 129.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -106,6 +107,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-65",
@@ -114,7 +116,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 480.0, 255.0, 61.0, 22.0 ],
-									"style" : "",
 									"text" : "2.718282"
 								}
 
@@ -127,7 +128,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 390.0, 285.0, 29.5, 22.0 ],
-									"style" : "",
 									"text" : "* 2."
 								}
 
@@ -141,7 +141,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 390.0, 255.0, 66.0, 22.0 ],
-									"style" : "",
 									"text" : "dot.float.pi"
 								}
 
@@ -155,7 +154,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 300.0, 255.0, 66.0, 22.0 ],
-									"style" : "",
 									"text" : "dot.float.pi"
 								}
 
@@ -168,7 +166,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "" ],
 									"patching_rect" : [ 60.0, 180.0, 34.0, 22.0 ],
-									"style" : "",
 									"text" : "t -1 l"
 								}
 
@@ -181,7 +178,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 60.0, 150.0, 64.0, 22.0 ],
-									"style" : "",
 									"text" : "route -"
 								}
 
@@ -194,7 +190,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "" ],
 									"patching_rect" : [ 105.0, 180.0, 34.0, 22.0 ],
-									"style" : "",
 									"text" : "t 1 l"
 								}
 
@@ -207,7 +202,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 30.0, 120.0, 139.0, 22.0 ],
-									"style" : "",
 									"text" : "regexp (-?)(\\\\w*)"
 								}
 
@@ -220,7 +214,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 60.0, 330.0, 79.0, 22.0 ],
-									"style" : "",
 									"text" : "* 1."
 								}
 
@@ -234,7 +227,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 120.0, 255.0, 69.0, 22.0 ],
-									"style" : "",
 									"text" : "dot.float.inf"
 								}
 
@@ -248,7 +240,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 210.0, 255.0, 77.0, 22.0 ],
-									"style" : "",
 									"text" : "dot.float.nan"
 								}
 
@@ -261,7 +252,6 @@
 									"numoutlets" : 6,
 									"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
 									"patching_rect" : [ 120.0, 225.0, 469.0, 22.0 ],
-									"style" : "",
 									"text" : "sel inf nan pi tau e"
 								}
 
@@ -275,7 +265,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 30.0, 90.0, 102.0, 22.0 ],
-									"style" : "",
 									"text" : "dot.string.tolower"
 								}
 
@@ -289,8 +278,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -302,8 +290,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 412.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 60.0, 412.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -468,11 +455,9 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
 						"tags" : ""
 					}
 ,
-					"style" : "",
 					"text" : "p special_values"
 				}
 
@@ -485,7 +470,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 165.0, 120.0, 30.0, 22.0 ],
-					"style" : "",
 					"text" : "t b l"
 				}
 
@@ -498,7 +482,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.0, 120.0, 84.0, 22.0 ],
-					"style" : "",
 					"text" : "prepend send"
 				}
 
@@ -511,7 +494,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 30.0, 240.0, 29.5, 22.0 ],
-					"style" : "",
 					"text" : "f"
 				}
 
@@ -524,7 +506,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 210.0, 165.0, 109.0, 22.0 ],
-					"style" : "",
 					"text" : "route int float list"
 				}
 
@@ -537,7 +518,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 30.0, 75.0, 154.0, 22.0 ],
-					"style" : "",
 					"text" : "route bang send set"
 				}
 
@@ -551,8 +531,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 210.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -564,8 +543,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 270.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 270.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -578,8 +556,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -707,26 +684,26 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.string.tolower.maxpat",
-				"patcherrelativepath" : "../patchers",
+				"name" : "dot.float.inf.maxpat",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.nan.maxpat",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.float.inf.maxpat",
-				"patcherrelativepath" : "../patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.pi.maxpat",
-				"patcherrelativepath" : "../patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.string.tolower.maxpat",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -2,22 +2,23 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 79.0, 105.0, 636.0, 593.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-26",
@@ -43,9 +45,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 435.0, 170.0, 47.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2007\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 45.0, 435.0, 289.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2007\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}
@@ -59,7 +60,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
 					"patching_rect" : [ 405.0, 420.0, 49.0, 22.0 ],
-					"style" : "",
 					"text" : "t b f"
 				}
 
@@ -74,7 +74,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 405.0, 465.0, 29.0, 22.0 ],
-					"style" : "",
 					"text" : "i"
 				}
 
@@ -89,7 +88,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 405.0, 495.0, 49.0, 22.0 ],
-					"style" : "",
 					"text" : "pack i f"
 				}
 
@@ -104,7 +102,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 435.0, 285.0, 49.0, 22.0 ],
-					"style" : "",
 					"text" : "t f f"
 				}
 
@@ -119,7 +116,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 465.0, 420.0, 34.0, 22.0 ],
-					"style" : "",
 					"text" : "+ 1"
 				}
 
@@ -134,7 +130,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 465.0, 315.0, 46.0, 22.0 ],
-					"style" : "",
 					"text" : "abs 0."
 				}
 
@@ -147,8 +142,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 525.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 405.0, 525.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -162,7 +156,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "start", "bang", "float", "clear" ],
 					"patching_rect" : [ 30.0, 75.0, 519.0, 22.0 ],
-					"style" : "",
 					"text" : "t b start b f clear"
 				}
 
@@ -177,7 +170,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 225.0, 64.0, 22.0 ],
-					"style" : "",
 					"text" : "sort -1 2"
 				}
 
@@ -191,7 +183,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 345.0, 225.0, 79.0, 22.0 ],
-					"style" : "",
 					"text" : "print \"• error\""
 				}
 
@@ -207,7 +198,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 180.0, 115.0, 35.0 ],
-					"style" : "",
 					"text" : "dot.vector.distance: bad arguments"
 				}
 
@@ -222,7 +212,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 270.0, 180.0, 74.0, 22.0 ],
-					"style" : "",
 					"text" : "set sort -1 2"
 				}
 
@@ -237,7 +226,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 180.0, 70.0, 22.0 ],
-					"style" : "",
 					"text" : "set sort 1 2"
 				}
 
@@ -252,7 +240,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 195.0, 120.0, 81.0, 22.0 ],
-					"style" : "",
 					"text" : "patcherargs -"
 				}
 
@@ -267,7 +254,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
 					"patching_rect" : [ 195.0, 150.0, 169.0, 22.0 ],
-					"style" : "",
 					"text" : "sel + -"
 				}
 
@@ -282,7 +268,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 405.0, 345.0, 79.0, 22.0 ],
-					"style" : "",
 					"text" : "pack i f f"
 				}
 
@@ -299,10 +284,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 405.0, 390.0, 200.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0
+						"embed" : 0,
+						"precision" : 6
 					}
 ,
-					"style" : "",
 					"text" : "coll"
 				}
 
@@ -317,7 +302,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "float" ],
 					"patching_rect" : [ 465.0, 210.0, 68.0, 22.0 ],
-					"style" : "",
 					"text" : "unpack i f"
 				}
 
@@ -332,7 +316,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 435.0, 255.0, 37.0, 22.0 ],
-					"style" : "",
 					"text" : "!- 0."
 				}
 
@@ -347,7 +330,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
 					"patching_rect" : [ 465.0, 180.0, 67.0, 22.0 ],
-					"style" : "",
 					"text" : "listfunnel"
 				}
 
@@ -362,7 +344,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
 					"patching_rect" : [ 405.0, 105.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "t b f"
 				}
 
@@ -377,7 +358,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 465.0, 150.0, 49.0, 22.0 ],
-					"style" : "",
 					"text" : "zl reg"
 				}
 
@@ -391,8 +371,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 105.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 495.0, 105.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -405,8 +384,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 30.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 30.0, 25.0, 25.0 ]
 				}
 
 			}

@@ -1092,7 +1092,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.biquad.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

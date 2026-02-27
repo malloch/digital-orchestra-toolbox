@@ -2,22 +2,23 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 358.0, 111.0, 687.0, 544.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-26",
@@ -43,9 +45,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 480.0, 165.0, 47.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nMarlon Schumacher / IDMIL\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 375.0, 480.0, 285.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nMarlon Schumacher / IDMIL\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}
@@ -58,7 +59,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 135.0, 120.0, 110.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.route.signal~"
 				}
 
@@ -72,8 +72,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 645.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -85,7 +84,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 135.0, 195.0, 33.0, 22.0 ],
-					"style" : "",
 					"text" : "i"
 				}
 
@@ -99,7 +97,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 135.0, 150.0, 93.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.fromsignal~"
 				}
 
@@ -112,7 +109,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 30.0, 240.0, 39.0, 22.0 ],
-					"style" : "",
 					"text" : "*~ 10"
 				}
 
@@ -124,7 +120,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 255.0, 420.0, 83.0, 22.0 ],
-					"style" : "",
 					"text" : "s #0.audio-off"
 				}
 
@@ -137,7 +132,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 255.0, 390.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "sel 0"
 				}
 
@@ -150,7 +144,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "float", "int", "int" ],
 					"patching_rect" : [ 255.0, 360.0, 63.0, 22.0 ],
-					"style" : "",
 					"text" : "dspstate~"
 				}
 
@@ -164,7 +157,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 75.0, 100.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.route.signal~"
 				}
 
@@ -177,7 +169,6 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 255.0, 120.0, 199.0, 22.0 ],
-					"style" : "",
 					"text" : "route done average gain low high"
 				}
 
@@ -190,7 +181,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 255.0, 75.0, 218.0, 22.0 ],
-					"style" : "",
 					"text" : "patcherargs @average 1000 @gain 10"
 				}
 
@@ -203,7 +193,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 60.0, 450.0, 24.0, 22.0 ],
-					"style" : "",
 					"text" : "t 0"
 				}
 
@@ -216,7 +205,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 30.0, 450.0, 24.0, 22.0 ],
-					"style" : "",
 					"text" : "t 1"
 				}
 
@@ -229,8 +217,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 495.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 105.0, 495.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -243,8 +230,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 556.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 556.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -257,8 +243,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 600.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 600.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -271,8 +256,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 135.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -284,8 +268,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 495.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 495.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -298,8 +281,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -311,7 +293,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 30.0, 420.0, 49.0, 22.0 ],
-					"style" : "",
 					"text" : "edge~"
 				}
 
@@ -323,7 +304,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 178.5, 338.0, 69.0, 20.0 ],
-					"style" : "",
 					"text" : "high (set)"
 				}
 
@@ -336,7 +316,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 30.0, 360.0, 158.0, 22.0 ],
-					"style" : "",
 					"text" : "thresh~ #1 #2"
 				}
 
@@ -348,7 +327,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.5, 338.0, 67.5, 20.0 ],
-					"style" : "",
 					"text" : "low (reset)"
 				}
 
@@ -360,7 +338,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 42.0, 338.0, 60.0, 20.0 ],
-					"style" : "",
 					"text" : "input"
 				}
 
@@ -372,7 +349,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.0, 495.0, 156.0, 20.0 ],
-					"style" : "",
 					"text" : "signal output (either 0 or 1)"
 				}
 
@@ -385,7 +361,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 30.0, 285.0, 121.0, 22.0 ],
-					"style" : "",
 					"text" : "average~ 44100 rms"
 				}
 
@@ -400,7 +375,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 435.0, 150.0, 120.0, 35.0 ],
-					"style" : "",
 					"text" : "print \"dot.schmitt~ doesn't understand:\""
 				}
 
@@ -574,7 +548,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
-					"midpoints" : [ 336.5, 226.623962, 59.5, 226.623962 ],
+					"midpoints" : [ 336.5, 226.623962000000006, 59.5, 226.623962000000006 ],
 					"source" : [ "obj-90", 2 ]
 				}
 
@@ -582,7 +556,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 300.5, 181.123962, 144.5, 181.123962 ],
+					"midpoints" : [ 300.5, 181.123962000000006, 144.5, 181.123962000000006 ],
 					"source" : [ "obj-90", 1 ]
 				}
 
@@ -590,7 +564,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 2 ],
-					"midpoints" : [ 408.5, 331.123962, 178.5, 331.123962 ],
+					"midpoints" : [ 408.5, 331.123962000000006, 178.5, 331.123962000000006 ],
 					"source" : [ "obj-90", 4 ]
 				}
 
@@ -598,7 +572,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
-					"midpoints" : [ 372.5, 316.123962, 109.0, 316.123962 ],
+					"midpoints" : [ 372.5, 316.123962000000006, 109.0, 316.123962000000006 ],
 					"source" : [ "obj-90", 3 ]
 				}
 
@@ -612,13 +586,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.route.signal~.maxpat",
+				"name" : "dot.fromsignal~.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.fromsignal~.maxpat",
+				"name" : "dot.route.signal~.maxpat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

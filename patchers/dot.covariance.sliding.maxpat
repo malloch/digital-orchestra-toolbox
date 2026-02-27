@@ -10,15 +10,15 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 811.0, 180.0, 482.0, 469.0 ],
+		"rect" : [ 811.0, 180.0, 644.0, 469.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -152,9 +152,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 388.0, 170.0, 47.0 ],
-					"presentation_linecount" : 3,
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch\n2009-2025"
+					"patching_rect" : [ 285.0, 388.0, 287.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2009-2025\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}

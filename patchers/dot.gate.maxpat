@@ -2,22 +2,23 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 776.0, 216.0, 308.0, 383.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 776.0, 216.0, 343.0, 383.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -46,7 +48,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 150.0, 15.0, 94.0, 22.0 ],
-					"style" : "",
 					"text" : "patcherargs 0.5"
 				}
 
@@ -61,7 +62,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 75.0, 135.0, 32.5, 22.0 ],
-					"style" : "",
 					"text" : "+ 1"
 				}
 
@@ -75,9 +75,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.5, 242.5, 155.5, 47.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2008 www.idmil.org/software/dot"
+					"patching_rect" : [ 30.0, 330.0, 288.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2008\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}
@@ -90,8 +89,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 15.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 120.0, 15.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -103,9 +101,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 150.0, 75.0, 46.0, 22.0 ],
-					"style" : "",
 					"text" : "line 0."
 				}
 
@@ -120,7 +117,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 75.0, 210.0, 32.5, 22.0 ],
-					"style" : "",
 					"text" : "+ 1"
 				}
 
@@ -133,8 +129,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 285.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 60.0, 285.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -148,7 +143,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 150.0, 135.0, 42.0, 22.0 ],
-					"style" : "",
 					"text" : "* 100."
 				}
 
@@ -163,7 +157,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 255.0, 49.0, 22.0 ],
-					"style" : "",
 					"text" : "gate 2"
 				}
 
@@ -178,7 +171,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 75.0, 180.0, 93.5, 22.0 ],
-					"style" : "",
 					"text" : ">"
 				}
 
@@ -193,7 +185,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 60.0, 75.0, 33.5, 22.0 ],
-					"style" : "",
 					"text" : "t l b"
 				}
 
@@ -206,9 +197,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.0, 105.0, 75.0, 22.0 ],
-					"style" : "",
 					"text" : "random 100"
 				}
 
@@ -222,8 +212,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 15.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 60.0, 15.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -235,8 +224,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 285.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 285.0, 25.0, 25.0 ]
 				}
 
 			}

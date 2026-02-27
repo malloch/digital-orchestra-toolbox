@@ -2,22 +2,23 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 557.0, 120.0, 659.0, 328.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"color" : [ 0.745098, 0.0, 0.0, 1.0 ],
@@ -45,7 +47,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 360.0, 60.0, 143.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.quaternion.normalize"
 				}
 
@@ -60,7 +61,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 360.0, 30.0, 114.0, 22.0 ],
-					"style" : "",
 					"text" : "patcherargs 1 0 0 0"
 				}
 
@@ -74,9 +74,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 461.0, 255.0, 170.0, 47.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2009\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 285.0, 255.0, 285.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2009\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}
@@ -90,7 +89,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "float", "float", "float" ],
 					"patching_rect" : [ 240.0, 105.0, 76.0, 22.0 ],
-					"style" : "",
 					"text" : "unpack f f f f"
 				}
 
@@ -105,7 +103,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "float", "float", "float" ],
 					"patching_rect" : [ 330.0, 105.0, 76.0, 22.0 ],
-					"style" : "",
 					"text" : "unpack f f f f"
 				}
 
@@ -118,8 +115,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 270.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 270.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -133,7 +129,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 225.0, 469.0, 22.0 ],
-					"style" : "",
 					"text" : "pack f f f f"
 				}
 
@@ -148,7 +143,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 30.0, 150.0, 60.0 ],
-					"style" : "",
 					"text" : "a*e - b*f - c*g - d*h\r+ i (b*e + a*f + c*h- d*g)\r+ j (a*g - b*h+ c*e + d*f)\r+ k (a*h + b*g - c*f + d*e)"
 				}
 
@@ -164,7 +158,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 480.0, 180.0, 136.0, 35.0 ],
-					"style" : "",
 					"text" : "expr $f1*$f8 + $f2*$f7 - $f3*$f6 + $f4*$f5"
 				}
 
@@ -180,7 +173,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 330.0, 180.0, 135.0, 35.0 ],
-					"style" : "",
 					"text" : "expr $f1*$f7 - $f2*$f8+ $f3*$f5 + $f4*$f6"
 				}
 
@@ -196,7 +188,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 180.0, 180.0, 139.0, 35.0 ],
-					"style" : "",
 					"text" : "expr $f2*$f5 + $f1*$f6 + $f3*$f8 - $f4*$f7"
 				}
 
@@ -212,7 +203,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 180.0, 135.0, 35.0 ],
-					"style" : "",
 					"text" : "expr $f1*$f5 - $f2*$f6 - $f3*$f7 - $f4*$f8"
 				}
 
@@ -226,8 +216,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 30.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 330.0, 30.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -240,8 +229,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 30.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 240.0, 30.0, 25.0, 25.0 ]
 				}
 
 			}

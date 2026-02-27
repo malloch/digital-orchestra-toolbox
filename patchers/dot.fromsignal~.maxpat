@@ -2,22 +2,23 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 217.0, 79.0, 251.0, 368.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 134.0, 172.0, 326.0, 368.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
@@ -44,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 90.0, 56.0, 22.0 ],
-					"style" : "",
 					"text" : "offset $1"
 				}
 
@@ -57,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 165.0, 60.0, 29.5, 22.0 ],
-					"style" : "",
 					"text" : "- 1"
 				}
 
@@ -70,7 +70,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "float", "int", "int" ],
 					"patching_rect" : [ 135.0, 30.0, 64.0, 22.0 ],
-					"style" : "",
 					"text" : "dspstate~"
 				}
 
@@ -82,9 +81,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 31.0, 300.0, 194.0, 47.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nMarlon Schumacher / IDMIL 2009\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 16.0, 300.0, 286.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nMarlon Schumacher / IDMIL 2009\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}
@@ -96,8 +94,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 255.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 90.0, 255.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -108,8 +105,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 30.0, 180.0, 24.0, 24.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 30.0, 180.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -121,7 +118,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 30.0, 150.0, 44.0, 22.0 ],
-					"style" : "",
 					"text" : "edge~"
 				}
 
@@ -134,7 +130,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 30.0, 120.0, 38.0, 22.0 ],
-					"style" : "",
 					"text" : "!=~ 0"
 				}
 
@@ -147,7 +142,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 30.0, 90.0, 57.0, 22.0 ],
-					"style" : "",
 					"text" : "change~"
 				}
 
@@ -160,7 +154,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 90.0, 225.0, 66.0, 22.0 ],
-					"style" : "",
 					"text" : "snapshot~"
 				}
 
@@ -174,8 +167,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 90.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}

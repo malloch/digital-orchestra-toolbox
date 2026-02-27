@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 770.0, 230.0, 434.0, 312.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 770.0, 230.0, 434.0, 377.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "(int) Window size",
@@ -46,8 +48,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 30.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 120.0, 30.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -61,7 +62,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 180.0, 120.0, 33.5, 22.0 ],
-					"style" : "",
 					"text" : "t l l"
 				}
 
@@ -76,7 +76,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 45.0, 150.0, 94.0, 22.0 ],
-					"style" : "",
 					"text" : "zl stream #1"
 				}
 
@@ -90,9 +89,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 240.0, 174.0, 47.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2010\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 30.0, 300.0, 285.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch / IDMIL 2010\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}
@@ -106,7 +104,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 30.0, 120.0, 33.5, 22.0 ],
-					"style" : "",
 					"text" : "t f f"
 				}
 
@@ -121,7 +118,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 30.0, 75.0, 244.0, 22.0 ],
-					"style" : "",
 					"text" : "route int float list"
 				}
 
@@ -136,7 +132,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 195.0, 195.0, 76.0, 22.0 ],
-					"style" : "",
 					"text" : "maximum 0."
 				}
 
@@ -150,8 +145,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 255.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 255.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -165,7 +159,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 225.0, 184.0, 22.0 ],
-					"style" : "",
 					"text" : "vexpr $f1 / $f2 @scalarmode 1"
 				}
 
@@ -180,8 +173,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 30.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 30.0, 25.0, 25.0 ]
 				}
 
 			}

@@ -751,42 +751,36 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.biquad.highpass.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.biquad.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.logo.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/help",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.stream.vis.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.timing.metro.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.timing.translate.maxpat",
-				"bootpath" : "~/Documents/Software2/digital-orchestra-toolbox/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

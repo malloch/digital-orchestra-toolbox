@@ -3,22 +3,22 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 655.0, 79.0, 792.0, 625.0 ],
+		"rect" : [ 134.0, 172.0, 792.0, 625.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -81,8 +81,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 433.0, 165.0, 47.0 ],
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2018-2022\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 165.0, 433.0, 293.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2018-2022\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}

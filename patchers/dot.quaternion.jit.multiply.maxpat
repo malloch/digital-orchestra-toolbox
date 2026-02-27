@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 721.0, 289.0, 680.0, 376.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 721.0, 289.0, 680.0, 409.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
@@ -44,7 +46,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 135.0, 60.0, 68.0, 22.0 ],
-					"style" : "",
 					"text" : "route done"
 				}
 
@@ -57,7 +58,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 75.0, 30.0, 79.0, 22.0 ],
-					"style" : "",
 					"text" : "patcherargs"
 				}
 
@@ -70,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 60.0, 108.0, 22.0 ],
-					"style" : "",
 					"text" : "fillplane 0 1., bang"
 				}
 
@@ -83,7 +82,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 345.0, 30.0, 60.0, 22.0 ],
-					"style" : "",
 					"text" : "loadbang"
 				}
 
@@ -96,7 +94,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 300.0, 105.0, 55.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.matrix"
 				}
 
@@ -109,7 +106,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 30.0, 105.0, 55.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.matrix"
 				}
 
@@ -122,7 +118,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
 					"patching_rect" : [ 330.0, 270.0, 61.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.unpack"
 				}
 
@@ -135,7 +130,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
 					"patching_rect" : [ 180.0, 270.0, 61.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.unpack"
 				}
 
@@ -148,7 +142,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
 					"patching_rect" : [ 480.0, 270.0, 61.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.unpack"
 				}
 
@@ -161,7 +154,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
 					"patching_rect" : [ 30.0, 270.0, 61.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.unpack"
 				}
 
@@ -175,9 +167,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 30.0, 165.0, 47.0 ],
-					"style" : "",
-					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2012-2018\nwww.idmil.org/software/dot"
+					"patching_rect" : [ 90.0, 330.0, 285.0, 47.0 ],
+					"text" : "Digital Orchestra Toolbox\nJoseph Malloch 2012-2018\nhttps://github.com/malloch/digital-orchestra-toolbox"
 				}
 
 			}
@@ -189,8 +180,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 330.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 330.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -204,7 +194,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 30.0, 300.0, 468.5, 22.0 ],
-					"style" : "",
 					"text" : "jit.pack 4"
 				}
 
@@ -219,7 +208,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 480.0, 86.0, 150.0, 60.0 ],
-					"style" : "",
 					"text" : "a*e - b*f - c*g - d*h\r+ i (b*e + a*f + c*h- d*g)\r+ j (a*g - b*h+ c*e + d*f)\r+ k (a*h + b*g - c*f + d*e)"
 				}
 
@@ -235,7 +223,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 480.0, 195.0, 149.0, 62.0 ],
-					"style" : "",
 					"text" : "jit.expr @expr in[0].p[0]*in[1].p[3]+in[0].p[1]*in[1].p[2]-in[0].p[2]*in[1].p[1]+in[0].p[3]*in[1].p[0]"
 				}
 
@@ -251,7 +238,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 330.0, 195.0, 149.0, 62.0 ],
-					"style" : "",
 					"text" : "jit.expr @expr in[0].p[0]*in[1].p[2]-in[0].p[1]*in[1].p[3]+in[0].p[2]*in[1].p[0]+in[0].p[3]*in[1].p[1]"
 				}
 
@@ -267,7 +253,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 180.0, 195.0, 146.0, 62.0 ],
-					"style" : "",
 					"text" : "jit.expr @expr in[0].p[1]*in[1].p[0]+in[0].p[0]*in[1].p[1]+in[0].p[2]*in[1].p[3]-in[0].p[3]*in[1].p[2]"
 				}
 
@@ -283,7 +268,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 30.0, 195.0, 143.0, 62.0 ],
-					"style" : "",
 					"text" : "jit.expr @expr in[0].p[0]*in[1].p[0]-in[0].p[1]*in[1].p[1]-in[0].p[2]*in[1].p[2]-in[0].p[3]*in[1].p[3]"
 				}
 
@@ -297,8 +281,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 300.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -311,8 +294,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
