@@ -1688,7 +1688,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 1125.0, 33.0 ],
-					"text" : "dot.entropy.wiener.sliding",
+					"text" : "dot.entropy.wiener",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
