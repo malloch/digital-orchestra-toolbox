@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 510.0, 365.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 40.0, 220.0, 510.0, 365.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-12",
@@ -43,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 225.0, 180.0, 24.0, 24.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 225.0, 180.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -57,7 +59,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 32.0, 510.0, 22.0 ],
-					"style" : "",
 					"text" : "Limits the speed of messages like speedlim, but queued like zl queue.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -72,7 +73,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 510.0, 33.0 ],
-					"style" : "",
 					"text" : "dot.timing.squeuedlim",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -89,8 +89,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 345.0, 180.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 345.0, 180.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -104,8 +103,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 105.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 45.0, 105.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -118,6 +116,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-64",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "dot.logo.maxpat",
 					"numinlets" : 0,
@@ -138,8 +137,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 255.0, 233.0, 33.0 ],
-					"style" : "",
-					"text" : "Optional second argument sets maximum buffer size (default is 1000000 items)"
+					"text" : "Optional second argument sets maximum buffer size (default is 1000 items)"
 				}
 
 			}
@@ -153,7 +151,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 255.0, 105.0, 105.0, 22.0 ],
-					"style" : "",
 					"text" : "or something else"
 				}
 
@@ -168,7 +165,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 180.0, 105.0, 67.0, 22.0 ],
-					"style" : "",
 					"text" : "or this one"
 				}
 
@@ -183,7 +179,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 105.0, 69.0, 22.0 ],
-					"style" : "",
 					"text" : "try this one"
 				}
 
@@ -197,7 +192,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 105.0, 210.0, 154.0, 22.0 ],
-					"style" : "",
 					"text" : "print dot.timing.squeuedlim"
 				}
 
@@ -211,9 +205,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "" ],
+					"outlettype" : [ "bang", "bang", "int" ],
 					"patching_rect" : [ 105.0, 150.0, 259.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.timing.squeuedlim 100"
 				}
 
@@ -228,7 +221,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 375.0, 150.0, 130.0, 33.0 ],
-					"style" : "",
 					"text" : "Argument specifies delay time in ms"
 				}
 
@@ -246,7 +238,6 @@
 					"patching_rect" : [ 0.0, 0.0, 510.0, 60.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
-					"style" : "",
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -303,6 +294,18 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "dot.logo.maxpat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.route.type.maxpat",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dot.timing.squeuedlim.maxpat",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -311,12 +314,6 @@
 , 			{
 				"name" : "dot.timing.translate.maxpat",
 				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.logo.maxpat",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

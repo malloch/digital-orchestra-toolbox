@@ -4709,10 +4709,6 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "mxj.mxo",
-				"type" : "iLaX"
-			}
  ],
 		"autosave" : 0
 	}
