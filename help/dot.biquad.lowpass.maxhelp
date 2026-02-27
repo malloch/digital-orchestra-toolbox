@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 414.0, 100.0, 510.0, 534.0 ],
+		"rect" : [ 100.0, 100.0, 510.0, 534.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -578,7 +578,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 165.0, 91.0, 22.0 ],
+					"patching_rect" : [ 15.0, 165.0, 150.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -586,7 +586,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p random_data"
+					"text" : "p random_data_at_500Hz"
 				}
 
 			}
