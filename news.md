@@ -1,5 +1,16 @@
 # DOT News
 
+Version 1.4
+-----------
+
+We are pleased to announce the release of version 1.3 of the Digital Orchestra Toolbox — a collection of Max/MSP objects that we have found useful in creating gesture processing patches for digital musical instruments. Each patch is accompanied by a help patch to demonstrate its use.
+
+Since the tools are provided as Max abstractions rather than external objects, there should be no issues with cross-platform use. Additionally, anyone can open the abstraction patches to see how it functions.
+
+2026 marks the 20th anniversary of the toolbox, which has now grown to include almost 150 tools.
+
+This version contains bugfixes for the `dot.biquad` help patcher.
+
 Version 1.3
 -----------
 
