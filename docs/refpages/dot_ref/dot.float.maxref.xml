@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="dot.float" module="dot" kind="patcher">
+	<digest>
+        Like the float object with some special powers.
+	</digest>
+	<description>
+        Like the float object with some special powers.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Joseph Malloch</metadata>
+		<metadata name="copyright">© 2006 - 2026</metadata>
+		<metadata name="version">1.3</metadata>
+        <metadata name="tag">Digital Orchestral Toolbox</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="bang">
+			<digest>
+                trigger output
+			</digest>
+			<description>
+			</description>
+		</inlet>
+        <inlet id="0" type="int/float">
+            <digest>
+                set value and trigger output
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="0" type="symbol">
+            <digest>
+                set value and trigger output
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="1" type="int/float">
+            <digest>
+                set value
+            </digest>
+            <description>
+            </description>
+        </inlet>
+        <inlet id="1" type="symbol">
+            <digest>
+                set value
+            </digest>
+            <description>
+            </description>
+        </inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="float">
+			<digest>
+                output
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+    <!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="Value" type="int/float/symbol" optional="1">
+            <digest>
+            </digest>
+            <description>
+                Internal value to store
+            </description>
+        </objarg>
+    </objarglist>
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+    </attributelist>
+
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="bang">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Trigger output
+            </description>
+        </method>
+        <method name="pi">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Set value to pi (~3.141593)
+            </description>
+        </method>
+        <method name="-pi">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Set value to -pi (~-3.141593)
+            </description>
+        </method>
+        <method name="tau">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Set value to tau (~6.283185)
+            </description>
+        </method>
+        <method name="-tau">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Set value to -tau (~-6.283185)
+            </description>
+        </method>
+        <method name="e">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Set value to e (~2.718282)
+            </description>
+        </method>
+        <method name="-e">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Set value to -e (~-2.718282)
+            </description>
+        </method>
+        <method name="inf">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Set value to inf
+            </description>
+        </method>
+        <method name="-inf">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Set value to -inf
+            </description>
+        </method>
+        <method name="nan">
+            <arglist>
+            </arglist>
+            <digest>
+            </digest>
+            <description>
+                Set value to not-a-number (NAN)
+            </description>
+        </method>
+    </methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+        <seealso name="dot.float.pi" />
+        <seealso name="dot.float.e" />
+        <seealso name="dot.float.inf" />
+        <seealso name="dot.float.nan" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+
