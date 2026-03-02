@@ -93,6 +93,9 @@
 
 	<!--SEEALSO-->
 	<seealsolist>
+        <seealso name="dot.extrema.local" />
+        <seealso name="dot.extrema.sliding" />
+        <seealso name="dot.extrema.timed" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->

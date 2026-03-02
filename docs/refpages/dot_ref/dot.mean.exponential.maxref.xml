@@ -123,6 +123,9 @@
 
 	<!--SEEALSO-->
 	<seealsolist>
+        <seealso name="dot.mean" />
+        <seealso name="dot.mean.sliding" />
+        <seealso name="dot.mean.timed" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->

@@ -64,6 +64,9 @@
 
 	<!--SEEALSO-->
 	<seealsolist>
+        <seealso name="dot.mean" />
+        <seealso name="dot.mean.exponential" />
+        <seealso name="dot.mean.sliding" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->

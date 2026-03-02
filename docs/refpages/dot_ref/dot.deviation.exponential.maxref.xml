@@ -57,6 +57,8 @@
 
 	<!--SEEALSO-->
 	<seealsolist>
+        <seealso name="dot.deviation.sliding" />
+        <seealso name="dot.deviation.timed" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->

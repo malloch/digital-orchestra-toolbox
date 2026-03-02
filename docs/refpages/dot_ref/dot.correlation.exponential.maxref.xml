@@ -64,6 +64,7 @@
 
 	<!--SEEALSO-->
 	<seealsolist>
+        <seealso name="dot.correlation.sliding" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->

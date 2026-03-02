@@ -57,6 +57,7 @@
 
 	<!--SEEALSO-->
 	<seealsolist>
+        <seealso name="dot.denoise.sliding" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->

@@ -50,6 +50,12 @@
 
 	<!--SEEALSO-->
 	<seealsolist>
+        <seealso name="dot.osc.address.append" />
+        <seealso name="dot.osc.address.expand" />
+        <seealso name="dot.osc.address.prepend" />
+        <seealso name="dot.osc.alias" />
+        <seealso name="dot.osc.route" />
+        <seealso name="dot.osc.unalias" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->

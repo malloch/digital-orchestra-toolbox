@@ -71,6 +71,9 @@
 
 	<!--SEEALSO-->
 	<seealsolist>
+        <seealso name="dot.extrema" />
+        <seealso name="dot.extrema.local" />
+        <seealso name="dot.extrema.timed" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->

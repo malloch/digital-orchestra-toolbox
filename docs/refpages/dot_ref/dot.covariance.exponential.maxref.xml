@@ -64,6 +64,7 @@
 
 	<!--SEEALSO-->
 	<seealsolist>
+        <seealso name="dot.covariance.sliding" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->

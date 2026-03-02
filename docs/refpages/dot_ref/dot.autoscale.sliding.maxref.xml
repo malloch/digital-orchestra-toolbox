@@ -131,8 +131,9 @@
 
 	<!--SEEALSO-->
 	<seealsolist>
-        <seealso name="dot.mean.exponential" />
-        <seealso name="dot.deviation.exponential" />
+        <seealso name="dot.autoscale" />
+        <seealso name="dot.autoscale.exponential" />
+        <seealso name="dot.deviation.timed" />
 	</seealsolist>
 
 	<!--MENU ITEMS-->
